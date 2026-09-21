@@ -9,13 +9,13 @@ import json
 import httpx
 import streamlit as st
 
-WORKDIR_CMD = "ai_engineer/stages"  # path from repo root
+WORKDIR_CMD = "ai_engineer"  # path from repo root
 
 STAGES = [
     {
         "num": 1,
         "title": "Bare /ask",
-        "serve": "uvicorn serve_stage1:app --port 8000 --reload",
+        "serve": "uvicorn stages.serve_stage1:app --port 8000 --reload",
         "look_for": "Plain `answer` string and real `tokens_used`.",
         "dummy_question": "What is Retrieval-Augmented Generation in one sentence?",
         "fields": [],
@@ -23,7 +23,7 @@ STAGES = [
     {
         "num": 2,
         "title": "Structured output",
-        "serve": "uvicorn serve_stage2:app --port 8000 --reload",
+        "serve": "uvicorn stages.serve_stage2:app --port 8000 --reload",
         "look_for": "`answer` is an object with `confidence` and `sources_needed`.",
         "dummy_question": "Explain what an embedding is in one sentence.",
         "fields": [],
@@ -31,7 +31,7 @@ STAGES = [
     {
         "num": 3,
         "title": "Guardrail + retry",
-        "serve": "uvicorn serve_stage3:app --port 8000 --reload",
+        "serve": "uvicorn stages.serve_stage3:app --port 8000 --reload",
         "look_for": "Normal question works; `force_bad` triggers retry then succeeds.",
         "dummy_question": "What is a vector database?",
         "dummy_force_bad": True,
@@ -40,7 +40,7 @@ STAGES = [
     {
         "num": 4,
         "title": "Model selectable",
-        "serve": "uvicorn serve_stage4:app --port 8000 --reload",
+        "serve": "uvicorn stages.serve_stage4:app --port 8000 --reload",
         "look_for": "`model` and `latency_ms` in the response; swap models live.",
         "dummy_question": "What is chunking in RAG?",
         "dummy_model": "gpt-4o-mini",
@@ -49,7 +49,7 @@ STAGES = [
     {
         "num": 5,
         "title": "Cost readout",
-        "serve": "uvicorn serve_stage5:app --port 8000 --reload",
+        "serve": "uvicorn stages.serve_stage5:app --port 8000 --reload",
         "look_for": "`cost_usd` closes the loop — same prompt, different model, different cost.",
         "dummy_question": "What is Retrieval-Augmented Generation in one sentence?",
         "dummy_model": "gpt-4o",

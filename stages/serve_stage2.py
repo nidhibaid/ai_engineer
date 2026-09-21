@@ -1,6 +1,6 @@
 """Stage 2 server — structured output turns the chatbot into a component.
 
-Run: uvicorn serve_stage2:app --port 8000 --reload
+Run: uvicorn stages.serve_stage2:app --port 8000 --reload
 """
 
 from pathlib import Path
@@ -10,7 +10,7 @@ from fastapi import FastAPI
 from openai import OpenAI
 from pydantic import BaseModel, Field
 
-load_dotenv(Path(__file__).resolve().parent / ".env")
+load_dotenv(Path(__file__).resolve().parent.parent / ".env")
 
 app = FastAPI()
 client = OpenAI()

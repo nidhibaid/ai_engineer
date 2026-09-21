@@ -1,6 +1,6 @@
 """Stage 4 server — selectable model and latency readout.
 
-Run: uvicorn serve_stage4:app --port 8000 --reload
+Run: uvicorn stages.serve_stage4:app --port 8000 --reload
 """
 
 import time
@@ -11,7 +11,7 @@ from fastapi import FastAPI, HTTPException
 from openai import OpenAI
 from pydantic import BaseModel, Field, ValidationError
 
-load_dotenv(Path(__file__).resolve().parent / ".env")
+load_dotenv(Path(__file__).resolve().parent.parent / ".env")
 
 app = FastAPI()
 client = OpenAI()

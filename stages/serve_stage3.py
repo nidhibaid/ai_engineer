@@ -1,6 +1,6 @@
 """Stage 3 server — validation guardrail with one retry and force_bad demo knob.
 
-Run: uvicorn serve_stage3:app --port 8000 --reload
+Run: uvicorn stages.serve_stage3:app --port 8000 --reload
 """
 
 from pathlib import Path
@@ -10,7 +10,7 @@ from fastapi import FastAPI, HTTPException
 from openai import OpenAI
 from pydantic import BaseModel, Field, ValidationError
 
-load_dotenv(Path(__file__).resolve().parent / ".env")
+load_dotenv(Path(__file__).resolve().parent.parent / ".env")
 
 app = FastAPI()
 client = OpenAI()

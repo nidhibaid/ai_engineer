@@ -1,6 +1,6 @@
 """Stage 1 server — bare /ask with typed I/O and real token usage.
 
-Run: uvicorn serve_stage1:app --port 8000 --reload
+Run: uvicorn stages.serve_stage1:app --port 8000 --reload
 """
 
 from pathlib import Path
@@ -10,7 +10,7 @@ from fastapi import FastAPI
 from openai import OpenAI
 from pydantic import BaseModel
 
-load_dotenv(Path(__file__).resolve().parent / ".env")
+load_dotenv(Path(__file__).resolve().parent.parent / ".env")
 
 app = FastAPI()
 client = OpenAI()

@@ -9,7 +9,7 @@ from pathlib import Path
 
 import httpx
 
-WORKDIR = Path(__file__).resolve().parent
+WORKDIR = Path(__file__).resolve().parent.parent
 QUESTION = "What is Retrieval-Augmented Generation in one sentence?"
 
 
@@ -123,11 +123,11 @@ def test_stage5(base: str) -> bool:
 
 
 TESTS = [
-    ("serve_stage1", test_stage1),
-    ("serve_stage2", test_stage2),
-    ("serve_stage3", test_stage3),
-    ("serve_stage4", test_stage4),
-    ("serve_stage5", test_stage5),
+    ("stages.serve_stage1", test_stage1),
+    ("stages.serve_stage2", test_stage2),
+    ("stages.serve_stage3", test_stage3),
+    ("stages.serve_stage4", test_stage4),
+    ("stages.serve_stage5", test_stage5),
 ]
 
 
