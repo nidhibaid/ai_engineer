@@ -3,3 +3,9 @@ httpx
 openai
 python-dotenv
 streamlit
+langchain>=0.3.30
+langchain-core>=0.3.86
+langchain-openai>=0.3.35
+langchain-text-splitters>=0.3.11
+pinecone>=7.3.0
+requests>=2.32.5
