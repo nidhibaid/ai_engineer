@@ -4,8 +4,17 @@ version = "0.1.0"
 description = "Add your description here"
 readme = "README.md"
 requires-python = ">=3.9"
-dependencies = ["fastapi",
-"httpx",
-"openai",
-"python-dotenv",
-"streamlit"]
+dependencies = [
+    "fastapi",
+    "httpx",
+    "ipykernel>=6.31.0",
+    "langchain>=0.3.30",
+    "langchain-core>=0.3.86",
+    "langchain-openai>=0.3.35",
+    "langchain-text-splitters>=0.3.11",
+    "openai",
+    "pinecone>=7.3.0",
+    "python-dotenv",
+    "requests>=2.32.5",
+    "streamlit",
+]
