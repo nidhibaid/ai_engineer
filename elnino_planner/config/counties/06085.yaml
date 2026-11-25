@@ -1,0 +1,33 @@
+# Santa Clara County pack. Source of truth: docs/scope/02_mvp_spec.md section 5.
+county_fips: "06085"
+name: Santa Clara County
+boundary_file: null            # GeoJSON from Census TIGER: obtain in WP-1
+cities: []                     # city boundaries: obtain in WP-1
+tide_stations:
+  - {id: "9414523", name: Redwood City, role: primary}
+  - {id: "9414290", name: San Francisco, role: flood_threshold_reference}
+creek_gauge_bbox:             # approximate county extent; confirm against the verified NWPS query in WP-2
+  xmin: -122.20
+  ymin: 36.89
+  xmax: -121.21
+  ymax: 37.49
+creek_gauge_allowlist: [GSJC1, GUDC1, CMIC1, CYEC1, CYTC1, CYYC1, CHJC1, BYSC1, CAAC1, ALVC1]
+utilities:
+  - {name: PG&E, phone: "(800) 743-5000", url: null, verified: false}
+alert_system:
+  name: AlertSCC
+  url: https://oem.santaclaracounty.gov/sign-emergency-alerts
+  verified: false
+contacts:                       # from rag_ingestion/emergency_helplines.txt; confirm before launch
+  - {name: Emergency (911), phone: "911", verified: true}
+  - {name: County Office of Emergency Management, phone: "(408) 808-7800", verified: false}
+  - {name: 211 Bay Area, phone: "211", verified: false}
+  - {name: PG&E outages and safety, phone: "(800) 743-5000", verified: false}
+flood_zone_lookup_url: https://www.valleywater.org/floodzone
+corpus_manifest: rag_ingestion/sources.jsonl
+retrieval_scopes: [city, county, utility, state, federal]
+unverified:
+  - boundary_file
+  - cities
+  - creek_gauge_bbox (approximate)
+  - utilities / contacts phone numbers and URLs
