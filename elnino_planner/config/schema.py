@@ -9,6 +9,17 @@ class TideStation(BaseModel):
     id: str
     name: str
     role: str  # "primary" or "flood_threshold_reference"
+    lat: float
+    lon: float
+
+
+class CreekGauge(BaseModel):
+    """A NWPS gauge from the starting set. Live status is checked by get_creek_status (WP-2)."""
+    model_config = ConfigDict(extra="forbid")
+    id: str          # NWPS lid
+    name: str
+    lat: float
+    lon: float
 
 
 class BBox(BaseModel):
@@ -32,11 +43,14 @@ class CountyPack(BaseModel):
     model_config = ConfigDict(extra="forbid")
     county_fips: str = Field(pattern=r"^\d{5}$")
     name: str
-    boundary_file: str | None = None       # GeoJSON; to obtain in WP-1
-    cities: list[str] = []                  # boundaries to obtain in WP-1
+    state_name: str                         # as geocoders spell it, e.g. for filtering place names
+    state_code: str                         # jurisdiction code used in the corpus
+    # GeoJSON files, relative to the counties/ directory. Built by scripts/build_county_boundaries.py.
+    boundary_file: str
+    cities_file: str
     tide_stations: list[TideStation]
     creek_gauge_bbox: BBox
-    creek_gauge_allowlist: list[str] = []
+    creek_gauges: list[CreekGauge] = []
     utilities: list[Contact] = []
     alert_system: Contact
     contacts: list[Contact]

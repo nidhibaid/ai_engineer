@@ -23,7 +23,7 @@ def main() -> int:
         print(f"  FAIL {exc}")
         return 1
     print(f"  OK   {pack.name} ({pack.county_fips}); {len(pack.tide_stations)} tide stations, "
-          f"{len(pack.creek_gauge_allowlist)} allow-listed gauges")
+          f"{len(pack.creek_gauges)} creek gauges")
     for item in pack.unverified:
         print(f"  TODO unverified: {item}")
     return 0

@@ -1,17 +1,29 @@
 # Santa Clara County pack. Source of truth: docs/scope/02_mvp_spec.md section 5.
 county_fips: "06085"
 name: Santa Clara County
-boundary_file: null            # GeoJSON from Census TIGER: obtain in WP-1
-cities: []                     # city boundaries: obtain in WP-1
+state_name: California
+state_code: CA
+boundary_file: 06085/boundary.geojson   # Census TIGERweb, built by scripts/build_county_boundaries.py
+cities_file: 06085/cities.geojson       # incorporated places inside the county, same source
 tide_stations:
-  - {id: "9414523", name: Redwood City, role: primary}
-  - {id: "9414290", name: San Francisco, role: flood_threshold_reference}
+  - {id: "9414523", name: Redwood City, role: primary, lat: 37.5068, lon: -122.2119}
+  - {id: "9414290", name: San Francisco, role: flood_threshold_reference, lat: 37.8063, lon: -122.4659}
 creek_gauge_bbox:             # approximate county extent; confirm against the verified NWPS query in WP-2
   xmin: -122.20
   ymin: 36.89
   xmax: -121.21
   ymax: 37.49
-creek_gauge_allowlist: [GSJC1, GUDC1, CMIC1, CYEC1, CYTC1, CYYC1, CHJC1, BYSC1, CAAC1, ALVC1]
+creek_gauges:                   # starting set (brief section 6); coordinates from the NWPS gauge list, 2026-11-25
+  - {id: GSJC1, name: Guadalupe River above Hwy 101 at San Jose, lat: 37.3738, lon: -121.9330}
+  - {id: GUDC1, name: Guadalupe River above Almaden Expressway, lat: 37.2808, lon: -121.8802}
+  - {id: CMIC1, name: Coyote Creek above Hwy 237 at Milpitas, lat: 37.4222, lon: -121.9275}
+  - {id: CYEC1, name: Coyote Creek at Edenvale, lat: 37.2709, lon: -121.7977}
+  - {id: CYTC1, name: Coyote Creek at Madrone, lat: 37.1683, lon: -121.6497}
+  - {id: CYYC1, name: Coyote Creek at E William Street, lat: 37.3369, lon: -121.8683}
+  - {id: CHJC1, name: San Francisquito Creek at Pope-Chaucer, lat: 37.4564, lon: -122.1536}
+  - {id: BYSC1, name: Berryessa Creek at Calaveras Road, lat: 37.4331, lon: -121.8927}
+  - {id: CAAC1, name: Calabazas Creek at Wilcox School, lat: 37.3653, lon: -121.9871}
+  - {id: ALVC1, name: Alviso Slough, lat: 37.4367, lon: -121.9910}
 utilities:
   - {name: PG&E, phone: "(800) 743-5000", url: null, verified: false}
 alert_system:                   # URL moved from /sign-emergency-alerts (checked 2026-11-25)
@@ -36,8 +48,6 @@ resource_links:                 # link-outs for fast-changing info; not in the c
 corpus_manifest: rag_ingestion/sources.jsonl
 retrieval_scopes: [city, county, utility, state, federal]
 unverified:
-  - boundary_file
-  - cities
   - creek_gauge_bbox (approximate)
   - utilities, 211 and PG&E phone numbers and URLs
   - PG&E outage map URL (linked from county OEM pages, not opened directly)
