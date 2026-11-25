@@ -1,0 +1,504 @@
+{
+ "source": "Open-Meteo Historical Weather API (ERA5, models=era5), daily precipitation_sum, local days",
+ "base_period": "Nov-Mar, winters 1990-91 to 2019-20",
+ "wet_day_mm": 1.0,
+ "grid_deg": 0.25,
+ "built_at": "2026-11-25T13:01:58+00:00",
+ "attribution": "Weather data by Open-Meteo.com (CC BY 4.0), ERA5 from Copernicus/ECMWF",
+ "cells": [
+  {
+   "lat": 37.0,
+   "lon": -122.0,
+   "wet_p95_mm": 39.5,
+   "wet_p99_mm": 62.5,
+   "three_day_p99_mm": 94.9,
+   "mean_daily_mm_by_month": {
+    "11": 2.21,
+    "12": 4.3,
+    "1": 4.64,
+    "2": 5.1,
+    "3": 3.19
+   },
+   "season_total_normal_mm": 586.5,
+   "heavy_days_normal": 2.2,
+   "analogs": {
+    "1982-83": {
+     "total_mm": 1037.7,
+     "pct_of_normal": 177,
+     "heavy_days": 7
+    },
+    "1997-98": {
+     "total_mm": 1062.5,
+     "pct_of_normal": 181,
+     "heavy_days": 6
+    },
+    "2015-16": {
+     "total_mm": 626.3,
+     "pct_of_normal": 107,
+     "heavy_days": 2
+    },
+    "2023-24": {
+     "total_mm": 713.5,
+     "pct_of_normal": 122,
+     "heavy_days": 1
+    }
+   }
+  },
+  {
+   "lat": 37.0,
+   "lon": -121.75,
+   "wet_p95_mm": 32.7,
+   "wet_p99_mm": 49.8,
+   "three_day_p99_mm": 76.1,
+   "mean_daily_mm_by_month": {
+    "11": 1.51,
+    "12": 3.07,
+    "1": 3.42,
+    "2": 3.79,
+    "3": 2.49
+   },
+   "season_total_normal_mm": 431.1,
+   "heavy_days_normal": 2.0,
+   "analogs": {
+    "1982-83": {
+     "total_mm": 785.1,
+     "pct_of_normal": 182,
+     "heavy_days": 5
+    },
+    "1997-98": {
+     "total_mm": 795.7,
+     "pct_of_normal": 185,
+     "heavy_days": 6
+    },
+    "2015-16": {
+     "total_mm": 472.7,
+     "pct_of_normal": 110,
+     "heavy_days": 1
+    },
+    "2023-24": {
+     "total_mm": 535.7,
+     "pct_of_normal": 124,
+     "heavy_days": 1
+    }
+   }
+  },
+  {
+   "lat": 37.0,
+   "lon": -121.5,
+   "wet_p95_mm": 28.2,
+   "wet_p99_mm": 41.8,
+   "three_day_p99_mm": 62.2,
+   "mean_daily_mm_by_month": {
+    "11": 1.19,
+    "12": 2.43,
+    "1": 2.82,
+    "2": 3.04,
+    "3": 2.08
+   },
+   "season_total_normal_mm": 348.6,
+   "heavy_days_normal": 1.9,
+   "analogs": {
+    "1982-83": {
+     "total_mm": 656.9,
+     "pct_of_normal": 188,
+     "heavy_days": 4
+    },
+    "1997-98": {
+     "total_mm": 657.0,
+     "pct_of_normal": 188,
+     "heavy_days": 6
+    },
+    "2015-16": {
+     "total_mm": 377.6,
+     "pct_of_normal": 108,
+     "heavy_days": 2
+    },
+    "2023-24": {
+     "total_mm": 430.7,
+     "pct_of_normal": 124,
+     "heavy_days": 2
+    }
+   }
+  },
+  {
+   "lat": 37.0,
+   "lon": -121.25,
+   "wet_p95_mm": 24.9,
+   "wet_p99_mm": 36.7,
+   "three_day_p99_mm": 51.2,
+   "mean_daily_mm_by_month": {
+    "11": 1.01,
+    "12": 2.01,
+    "1": 2.42,
+    "2": 2.55,
+    "3": 1.83
+   },
+   "season_total_normal_mm": 296.3,
+   "heavy_days_normal": 1.8,
+   "analogs": {
+    "1982-83": {
+     "total_mm": 569.1,
+     "pct_of_normal": 192,
+     "heavy_days": 3
+    },
+    "1997-98": {
+     "total_mm": 579.4,
+     "pct_of_normal": 196,
+     "heavy_days": 6
+    },
+    "2015-16": {
+     "total_mm": 314.8,
+     "pct_of_normal": 106,
+     "heavy_days": 3
+    },
+    "2023-24": {
+     "total_mm": 370.2,
+     "pct_of_normal": 125,
+     "heavy_days": 2
+    }
+   }
+  },
+  {
+   "lat": 37.25,
+   "lon": -122.25,
+   "wet_p95_mm": 31.2,
+   "wet_p99_mm": 48.3,
+   "three_day_p99_mm": 79.8,
+   "mean_daily_mm_by_month": {
+    "11": 1.93,
+    "12": 3.49,
+    "1": 3.7,
+    "2": 4.35,
+    "3": 2.92
+   },
+   "season_total_normal_mm": 494.1,
+   "heavy_days_normal": 2.2,
+   "analogs": {
+    "1982-83": {
+     "total_mm": 923.0,
+     "pct_of_normal": 187,
+     "heavy_days": 7
+    },
+    "1997-98": {
+     "total_mm": 957.2,
+     "pct_of_normal": 194,
+     "heavy_days": 7
+    },
+    "2015-16": {
+     "total_mm": 541.3,
+     "pct_of_normal": 110,
+     "heavy_days": 2
+    },
+    "2023-24": {
+     "total_mm": 623.2,
+     "pct_of_normal": 126,
+     "heavy_days": 1
+    }
+   }
+  },
+  {
+   "lat": 37.25,
+   "lon": -122.0,
+   "wet_p95_mm": 39.9,
+   "wet_p99_mm": 58.3,
+   "three_day_p99_mm": 92.8,
+   "mean_daily_mm_by_month": {
+    "11": 2.04,
+    "12": 3.82,
+    "1": 4.17,
+    "2": 4.77,
+    "3": 3.24
+   },
+   "season_total_normal_mm": 544.1,
+   "heavy_days_normal": 2.2,
+   "analogs": {
+    "1982-83": {
+     "total_mm": 1001.2,
+     "pct_of_normal": 184,
+     "heavy_days": 5
+    },
+    "1997-98": {
+     "total_mm": 1020.3,
+     "pct_of_normal": 188,
+     "heavy_days": 7
+    },
+    "2015-16": {
+     "total_mm": 582.9,
+     "pct_of_normal": 107,
+     "heavy_days": 1
+    },
+    "2023-24": {
+     "total_mm": 703.8,
+     "pct_of_normal": 129,
+     "heavy_days": 2
+    }
+   }
+  },
+  {
+   "lat": 37.25,
+   "lon": -121.75,
+   "wet_p95_mm": 35.9,
+   "wet_p99_mm": 54.8,
+   "three_day_p99_mm": 83.5,
+   "mean_daily_mm_by_month": {
+    "11": 1.6,
+    "12": 3.21,
+    "1": 3.65,
+    "2": 4.0,
+    "3": 2.74
+   },
+   "season_total_normal_mm": 458.6,
+   "heavy_days_normal": 2.1,
+   "analogs": {
+    "1982-83": {
+     "total_mm": 879.5,
+     "pct_of_normal": 192,
+     "heavy_days": 4
+    },
+    "1997-98": {
+     "total_mm": 827.0,
+     "pct_of_normal": 180,
+     "heavy_days": 5
+    },
+    "2015-16": {
+     "total_mm": 507.4,
+     "pct_of_normal": 111,
+     "heavy_days": 1
+    },
+    "2023-24": {
+     "total_mm": 578.0,
+     "pct_of_normal": 126,
+     "heavy_days": 1
+    }
+   }
+  },
+  {
+   "lat": 37.25,
+   "lon": -121.5,
+   "wet_p95_mm": 30.3,
+   "wet_p99_mm": 45.9,
+   "three_day_p99_mm": 69.0,
+   "mean_daily_mm_by_month": {
+    "11": 1.28,
+    "12": 2.58,
+    "1": 3.05,
+    "2": 3.28,
+    "3": 2.25
+   },
+   "season_total_normal_mm": 375.2,
+   "heavy_days_normal": 2.0,
+   "analogs": {
+    "1982-83": {
+     "total_mm": 733.0,
+     "pct_of_normal": 195,
+     "heavy_days": 4
+    },
+    "1997-98": {
+     "total_mm": 692.7,
+     "pct_of_normal": 185,
+     "heavy_days": 5
+    },
+    "2015-16": {
+     "total_mm": 412.9,
+     "pct_of_normal": 110,
+     "heavy_days": 1
+    },
+    "2023-24": {
+     "total_mm": 465.1,
+     "pct_of_normal": 124,
+     "heavy_days": 1
+    }
+   }
+  },
+  {
+   "lat": 37.25,
+   "lon": -121.25,
+   "wet_p95_mm": 26.5,
+   "wet_p99_mm": 37.3,
+   "three_day_p99_mm": 55.3,
+   "mean_daily_mm_by_month": {
+    "11": 1.08,
+    "12": 2.1,
+    "1": 2.57,
+    "2": 2.7,
+    "3": 1.86
+   },
+   "season_total_normal_mm": 311.4,
+   "heavy_days_normal": 1.8,
+   "analogs": {
+    "1982-83": {
+     "total_mm": 598.7,
+     "pct_of_normal": 192,
+     "heavy_days": 4
+    },
+    "1997-98": {
+     "total_mm": 605.1,
+     "pct_of_normal": 194,
+     "heavy_days": 4
+    },
+    "2015-16": {
+     "total_mm": 334.3,
+     "pct_of_normal": 107,
+     "heavy_days": 2
+    },
+    "2023-24": {
+     "total_mm": 377.5,
+     "pct_of_normal": 121,
+     "heavy_days": 1
+    }
+   }
+  },
+  {
+   "lat": 37.5,
+   "lon": -122.25,
+   "wet_p95_mm": 28.2,
+   "wet_p99_mm": 41.6,
+   "three_day_p99_mm": 67.1,
+   "mean_daily_mm_by_month": {
+    "11": 1.68,
+    "12": 3.02,
+    "1": 3.21,
+    "2": 3.78,
+    "3": 2.63
+   },
+   "season_total_normal_mm": 431.9,
+   "heavy_days_normal": 2.2,
+   "analogs": {
+    "1982-83": {
+     "total_mm": 830.3,
+     "pct_of_normal": 192,
+     "heavy_days": 6
+    },
+    "1997-98": {
+     "total_mm": 863.1,
+     "pct_of_normal": 200,
+     "heavy_days": 9
+    },
+    "2015-16": {
+     "total_mm": 482.2,
+     "pct_of_normal": 112,
+     "heavy_days": 1
+    },
+    "2023-24": {
+     "total_mm": 533.1,
+     "pct_of_normal": 123,
+     "heavy_days": 1
+    }
+   }
+  },
+  {
+   "lat": 37.5,
+   "lon": -122.0,
+   "wet_p95_mm": 27.2,
+   "wet_p99_mm": 41.7,
+   "three_day_p99_mm": 63.7,
+   "mean_daily_mm_by_month": {
+    "11": 1.42,
+    "12": 2.68,
+    "1": 2.94,
+    "2": 3.4,
+    "3": 2.41
+   },
+   "season_total_normal_mm": 387.9,
+   "heavy_days_normal": 2.1,
+   "analogs": {
+    "1982-83": {
+     "total_mm": 733.4,
+     "pct_of_normal": 189,
+     "heavy_days": 5
+    },
+    "1997-98": {
+     "total_mm": 730.0,
+     "pct_of_normal": 188,
+     "heavy_days": 7
+    },
+    "2015-16": {
+     "total_mm": 430.5,
+     "pct_of_normal": 111,
+     "heavy_days": 2
+    },
+    "2023-24": {
+     "total_mm": 511.2,
+     "pct_of_normal": 132,
+     "heavy_days": 1
+    }
+   }
+  },
+  {
+   "lat": 37.5,
+   "lon": -121.75,
+   "wet_p95_mm": 25.8,
+   "wet_p99_mm": 39.3,
+   "three_day_p99_mm": 61.1,
+   "mean_daily_mm_by_month": {
+    "11": 1.38,
+    "12": 2.64,
+    "1": 2.94,
+    "2": 3.27,
+    "3": 2.39
+   },
+   "season_total_normal_mm": 381.1,
+   "heavy_days_normal": 2.2,
+   "analogs": {
+    "1982-83": {
+     "total_mm": 728.3,
+     "pct_of_normal": 191,
+     "heavy_days": 7
+    },
+    "1997-98": {
+     "total_mm": 724.2,
+     "pct_of_normal": 190,
+     "heavy_days": 6
+    },
+    "2015-16": {
+     "total_mm": 434.2,
+     "pct_of_normal": 114,
+     "heavy_days": 3
+    },
+    "2023-24": {
+     "total_mm": 491.4,
+     "pct_of_normal": 129,
+     "heavy_days": 1
+    }
+   }
+  },
+  {
+   "lat": 37.5,
+   "lon": -121.5,
+   "wet_p95_mm": 24.4,
+   "wet_p99_mm": 35.3,
+   "three_day_p99_mm": 55.3,
+   "mean_daily_mm_by_month": {
+    "11": 1.31,
+    "12": 2.41,
+    "1": 2.78,
+    "2": 3.05,
+    "3": 2.27
+   },
+   "season_total_normal_mm": 356.7,
+   "heavy_days_normal": 2.2,
+   "analogs": {
+    "1982-83": {
+     "total_mm": 675.3,
+     "pct_of_normal": 189,
+     "heavy_days": 5
+    },
+    "1997-98": {
+     "total_mm": 663.2,
+     "pct_of_normal": 186,
+     "heavy_days": 6
+    },
+    "2015-16": {
+     "total_mm": 405.3,
+     "pct_of_normal": 114,
+     "heavy_days": 3
+    },
+    "2023-24": {
+     "total_mm": 458.8,
+     "pct_of_normal": 129,
+     "heavy_days": 1
+    }
+   }
+  }
+ ]
+}
