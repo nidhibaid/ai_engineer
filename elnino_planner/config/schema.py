@@ -45,6 +45,7 @@ class CountyPack(BaseModel):
     name: str
     state_name: str                         # as geocoders spell it, e.g. for filtering place names
     state_code: str                         # jurisdiction code used in the corpus
+    timezone: str                           # IANA name; daily weather values are local days
     # GeoJSON files, relative to the counties/ directory. Built by scripts/build_county_boundaries.py.
     boundary_file: str
     cities_file: str

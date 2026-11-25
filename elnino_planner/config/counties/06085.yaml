@@ -3,6 +3,7 @@ county_fips: "06085"
 name: Santa Clara County
 state_name: California
 state_code: CA
+timezone: America/Los_Angeles
 boundary_file: 06085/boundary.geojson   # Census TIGERweb, built by scripts/build_county_boundaries.py
 cities_file: 06085/cities.geojson       # incorporated places inside the county, same source
 tide_stations:
