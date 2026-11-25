@@ -1,0 +1,342 @@
+{
+ "archive": {
+  "alviso": {
+   "event_days": {
+    "2022-12-31": [
+     "very_heavy_rain_day",
+     "prolonged_rain"
+    ],
+    "2023-01-09": [
+     "heavy_rain_day",
+     "strong_wind"
+    ]
+   },
+   "season_flag_days": 13,
+   "season_rain_flag_days": 8,
+   "coyote_2017_02_21": [
+    "prolonged_rain"
+   ],
+   "dry_week_flags": []
+  },
+  "downtown_san_jose": {
+   "event_days": {
+    "2022-12-31": [
+     "very_heavy_rain_day",
+     "strong_wind"
+    ],
+    "2023-01-09": [
+     "heavy_rain_day",
+     "damaging_wind"
+    ]
+   },
+   "season_flag_days": 18,
+   "season_rain_flag_days": 8,
+   "coyote_2017_02_21": [
+    "prolonged_rain"
+   ],
+   "dry_week_flags": []
+  },
+  "palo_alto": {
+   "event_days": {
+    "2022-12-31": [
+     "very_heavy_rain_day",
+     "prolonged_rain"
+    ],
+    "2023-01-09": [
+     "strong_wind"
+    ]
+   },
+   "season_flag_days": 18,
+   "season_rain_flag_days": 8,
+   "coyote_2017_02_21": [
+    "prolonged_rain"
+   ],
+   "dry_week_flags": []
+  },
+  "mountain_view_baylands": {
+   "event_days": {
+    "2022-12-31": [
+     "very_heavy_rain_day",
+     "prolonged_rain"
+    ],
+    "2023-01-09": [
+     "heavy_rain_day",
+     "strong_wind"
+    ]
+   },
+   "season_flag_days": 13,
+   "season_rain_flag_days": 8,
+   "coyote_2017_02_21": [
+    "prolonged_rain"
+   ],
+   "dry_week_flags": []
+  },
+  "morgan_hill": {
+   "event_days": {
+    "2022-12-31": [
+     "very_heavy_rain_day"
+    ],
+    "2023-01-09": [
+     "heavy_rain_day",
+     "strong_wind"
+    ]
+   },
+   "season_flag_days": 12,
+   "season_rain_flag_days": 6,
+   "coyote_2017_02_21": [
+    "prolonged_rain"
+   ],
+   "dry_week_flags": []
+  },
+  "san_martin": {
+   "event_days": {
+    "2022-12-31": [
+     "heavy_rain_day"
+    ],
+    "2023-01-09": [
+     "heavy_rain_day",
+     "strong_wind"
+    ]
+   },
+   "season_flag_days": 10,
+   "season_rain_flag_days": 8,
+   "coyote_2017_02_21": [],
+   "dry_week_flags": []
+  },
+  "gilroy": {
+   "event_days": {
+    "2022-12-31": [
+     "heavy_rain_day"
+    ],
+    "2023-01-09": [
+     "heavy_rain_day",
+     "strong_wind"
+    ]
+   },
+   "season_flag_days": 10,
+   "season_rain_flag_days": 8,
+   "coyote_2017_02_21": [],
+   "dry_week_flags": []
+  }
+ },
+ "forecast": {
+  "ar_2022_12_31": {
+   "alviso": {},
+   "downtown_san_jose": {},
+   "palo_alto": {},
+   "mountain_view_baylands": {},
+   "morgan_hill": {},
+   "san_martin": {},
+   "gilroy": {}
+  },
+  "ar_2023_01_09": {
+   "alviso": {},
+   "downtown_san_jose": {},
+   "palo_alto": {},
+   "mountain_view_baylands": {},
+   "morgan_hill": {},
+   "san_martin": {},
+   "gilroy": {}
+  },
+  "storm_2024_02_04": {
+   "alviso": {
+    "1": [
+     "heavy_rain_day",
+     "damaging_wind"
+    ],
+    "2": [
+     "very_heavy_rain_day",
+     "strong_wind",
+     "prolonged_rain"
+    ],
+    "3": [
+     "heavy_rain_day",
+     "strong_wind"
+    ],
+    "4": [],
+    "5": [
+     "very_heavy_rain_day",
+     "damaging_wind"
+    ],
+    "6": [
+     "strong_wind"
+    ],
+    "7": []
+   },
+   "downtown_san_jose": {
+    "1": [
+     "strong_wind"
+    ],
+    "2": [
+     "very_heavy_rain_day",
+     "strong_wind"
+    ],
+    "3": [
+     "strong_wind"
+    ],
+    "4": [],
+    "5": [
+     "heavy_rain_day",
+     "damaging_wind"
+    ],
+    "6": [
+     "strong_wind"
+    ],
+    "7": []
+   },
+   "palo_alto": {
+    "1": [
+     "heavy_rain_day",
+     "strong_wind",
+     "prolonged_rain"
+    ],
+    "2": [
+     "very_heavy_rain_day",
+     "strong_wind",
+     "prolonged_rain"
+    ],
+    "3": [
+     "heavy_rain_day",
+     "strong_wind"
+    ],
+    "4": [],
+    "5": [
+     "very_heavy_rain_day",
+     "strong_wind",
+     "prolonged_rain"
+    ],
+    "6": [
+     "strong_wind"
+    ],
+    "7": []
+   },
+   "mountain_view_baylands": {
+    "1": [
+     "very_heavy_rain_day",
+     "damaging_wind",
+     "prolonged_rain"
+    ],
+    "2": [
+     "very_heavy_rain_day",
+     "strong_wind",
+     "prolonged_rain"
+    ],
+    "3": [
+     "heavy_rain_day",
+     "strong_wind"
+    ],
+    "4": [],
+    "5": [
+     "very_heavy_rain_day",
+     "damaging_wind",
+     "prolonged_rain"
+    ],
+    "6": [
+     "strong_wind"
+    ],
+    "7": []
+   },
+   "morgan_hill": {
+    "1": [
+     "heavy_rain_day",
+     "strong_wind"
+    ],
+    "2": [
+     "very_heavy_rain_day",
+     "strong_wind"
+    ],
+    "3": [
+     "strong_wind"
+    ],
+    "4": [
+     "heavy_rain_day"
+    ],
+    "5": [
+     "heavy_rain_day",
+     "damaging_wind"
+    ],
+    "6": [
+     "strong_wind"
+    ],
+    "7": []
+   },
+   "san_martin": {
+    "1": [
+     "heavy_rain_day",
+     "strong_wind"
+    ],
+    "2": [
+     "very_heavy_rain_day",
+     "strong_wind",
+     "prolonged_rain"
+    ],
+    "3": [
+     "heavy_rain_day",
+     "strong_wind"
+    ],
+    "4": [
+     "very_heavy_rain_day"
+    ],
+    "5": [
+     "heavy_rain_day",
+     "strong_wind"
+    ],
+    "6": [],
+    "7": []
+   },
+   "gilroy": {
+    "1": [
+     "heavy_rain_day",
+     "strong_wind"
+    ],
+    "2": [
+     "heavy_rain_day",
+     "strong_wind"
+    ],
+    "3": [
+     "very_heavy_rain_day",
+     "strong_wind"
+    ],
+    "4": [
+     "heavy_rain_day"
+    ],
+    "5": [
+     "heavy_rain_day",
+     "strong_wind"
+    ],
+    "6": [],
+    "7": []
+   }
+  }
+ },
+ "points": {
+  "alviso": [
+   37.43,
+   -121.97
+  ],
+  "downtown_san_jose": [
+   37.34,
+   -121.89
+  ],
+  "palo_alto": [
+   37.44,
+   -122.14
+  ],
+  "mountain_view_baylands": [
+   37.43,
+   -122.08
+  ],
+  "morgan_hill": [
+   37.13,
+   -121.65
+  ],
+  "san_martin": [
+   37.09,
+   -121.61
+  ],
+  "gilroy": [
+   37.01,
+   -121.57
+  ]
+ }
+}
