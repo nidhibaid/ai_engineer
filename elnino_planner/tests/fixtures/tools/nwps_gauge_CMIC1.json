@@ -1,0 +1,176 @@
+{
+  "lid": "CMIC1",
+  "usgsId": "11172175",
+  "reachId": "17695611",
+  "name": "Coyote Creek above Hwy 237 at Milpitas",
+  "description": "",
+  "rfc": {
+    "abbreviation": "CNRFC",
+    "name": "California Nevada River Forecast Center"
+  },
+  "wfo": {
+    "abbreviation": "MTR",
+    "name": "Monterey"
+  },
+  "state": {
+    "abbreviation": "CA",
+    "name": "California"
+  },
+  "county": "Santa Clara",
+  "timeZone": "PST8PDT",
+  "latitude": 37.4221617,
+  "longitude": -121.9274577,
+  "pedts": {
+    "observed": "HGIRG",
+    "forecast": "HGIFZ"
+  },
+  "status": {
+    "observed": {
+      "primary": 5.14,
+      "primaryUnit": "ft",
+      "secondary": 0.013,
+      "secondaryUnit": "kcfs",
+      "floodCategory": "no_flooding",
+      "validTime": "2026-11-25T11:00:00Z"
+    },
+    "forecast": {
+      "primary": 5.45,
+      "primaryUnit": "ft",
+      "secondary": 0.028,
+      "secondaryUnit": "kcfs",
+      "floodCategory": "no_flooding",
+      "validTime": "2026-11-25T21:00:00Z"
+    }
+  },
+  "flood": {
+    "stageUnits": "ft",
+    "flowUnits": "cfs",
+    "categories": {
+      "major": {
+        "stage": -9999,
+        "flow": -9999
+      },
+      "moderate": {
+        "stage": 18,
+        "flow": 7290
+      },
+      "minor": {
+        "stage": 15.5,
+        "flow": 3357
+      },
+      "action": {
+        "stage": 14.5,
+        "flow": 2370
+      }
+    },
+    "lro": null,
+    "crests": {
+      "historic": [
+        {
+          "occurredTime": "2017-02-01T00:00:00Z",
+          "stage": 17.77,
+          "flow": 0,
+          "preliminary": "R",
+          "olddatum": false
+        }
+      ],
+      "recent": [
+        {
+          "occurredTime": "2017-02-01T00:00:00Z",
+          "stage": 17.77,
+          "flow": 0,
+          "preliminary": "R",
+          "olddatum": false
+        }
+      ]
+    },
+    "lowWaters": {
+      "historic": []
+    },
+    "impacts": [
+      {
+        "stage": 18,
+        "statement": "Moderate Flooding: Watson Park inundated. Banks are overtopped at Charcot Ave with flooding along Paragon Drive. Higher flows may result in overland flows northwest of Watson Park and northeast of Charcot Ave toward Montague Expressway."
+      },
+      {
+        "stage": 15.5,
+        "statement": "Minor Flooding: Watson Park begins to flood."
+      },
+      {
+        "stage": 14.5,
+        "statement": "Action Stage."
+      }
+    ]
+  },
+  "images": {
+    "probability": {
+      "weekint": {
+        "stage": "",
+        "flow": "",
+        "volume": ""
+      },
+      "entperiod": {
+        "stage": "",
+        "flow": "",
+        "volume": ""
+      },
+      "shortrange": ""
+    },
+    "hydrograph": {
+      "default": "https://water.noaa.gov/resources/hydrographs/cmic1_hg.png",
+      "floodcat": "https://water.noaa.gov/resources/hydrographs/cmic1_record.png"
+    },
+    "photos": []
+  },
+  "dataAttribution": [
+    {
+      "abbrev": "US Geological Survey",
+      "text": "USGS--Water Resources of the United States",
+      "title": "US Geological Survey",
+      "url": "https://nwis.waterdata.usgs.gov/nwis/inventory/?site_no=11172175&agency_cd=USGS"
+    },
+    {
+      "abbrev": "USGS",
+      "text": "11172175",
+      "title": "Observations courtesy of U.S. Geological Survey",
+      "url": "https://waterdata.usgs.gov/nwis/inventory/?site_no=11172175"
+    }
+  ],
+  "impactsLowWaters": [],
+  "normalThreshold": {
+    "value": 0,
+    "units": "ft"
+  },
+  "hydronotes": [],
+  "datums": {
+    "vertical": {
+      "value": []
+    },
+    "horizontal": {
+      "value": []
+    },
+    "notes": {
+      "value": []
+    }
+  },
+  "inundation": {
+    "enabled": false,
+    "url": "",
+    "zeroDatum": null,
+    "downloads": null,
+    "siteSpecificInfo": "",
+    "dataAttribution": []
+  },
+  "upstreamLid": "",
+  "downstreamLid": "",
+  "inService": {
+    "enabled": true,
+    "message": ""
+  },
+  "lowThreshold": null,
+  "forecastReliability": "Graphical forecasts are not available during times of high water, forecast crest information can be found in the local WFO web page.",
+  "TruncateObs": "-1",
+  "TruncateFcst": "-1",
+  "ObservedFloodCategory": "no_flooding",
+  "ForecastFloodCategory": "no_flooding"
+}

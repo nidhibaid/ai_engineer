@@ -1,0 +1,6484 @@
+{
+  "gauges": [
+    {
+      "lid": "ABPC1",
+      "name": "Pacheco Creek above Pacheco Reservoir",
+      "rfc": {
+        "abbreviation": "CNRFC",
+        "name": "California Nevada River Forecast Center"
+      },
+      "wfo": {
+        "abbreviation": "MTR",
+        "name": "Monterey"
+      },
+      "state": {
+        "abbreviation": "CA",
+        "name": "California"
+      },
+      "latitude": 37.0867,
+      "longitude": -121.2876,
+      "pedts": {
+        "observed": "HGIRG",
+        "forecast": ""
+      },
+      "status": {
+        "observed": {
+          "primary": -999,
+          "primaryUnit": "",
+          "secondary": -999,
+          "secondaryUnit": "",
+          "floodCategory": "obs_not_current",
+          "validTime": "0001-01-01T00:00:00Z"
+        },
+        "forecast": {
+          "primary": -999,
+          "primaryUnit": "",
+          "secondary": -999,
+          "secondaryUnit": "",
+          "floodCategory": "fcst_not_current",
+          "validTime": "0001-01-01T00:00:00Z"
+        }
+      }
+    },
+    {
+      "lid": "ACEC1",
+      "name": "Almaden-Calero Canal at Almaden Reservoir",
+      "rfc": {
+        "abbreviation": "CNRFC",
+        "name": "California Nevada River Forecast Center"
+      },
+      "wfo": {
+        "abbreviation": "MTR",
+        "name": "Monterey"
+      },
+      "state": {
+        "abbreviation": "CA",
+        "name": "California"
+      },
+      "latitude": 37.1656,
+      "longitude": -121.8281,
+      "pedts": {
+        "observed": "HGIRG",
+        "forecast": ""
+      },
+      "status": {
+        "observed": {
+          "primary": 0.15,
+          "primaryUnit": "ft",
+          "secondary": -999,
+          "secondaryUnit": "kcfs",
+          "floodCategory": "out_of_service",
+          "validTime": "2026-11-25T11:09:00Z"
+        },
+        "forecast": {
+          "primary": -999,
+          "primaryUnit": "",
+          "secondary": -999,
+          "secondaryUnit": "",
+          "floodCategory": "out_of_service",
+          "validTime": "0001-01-01T00:00:00Z"
+        }
+      }
+    },
+    {
+      "lid": "ACQC1",
+      "name": "Almaden-Calero Canal at Calero Reservoir",
+      "rfc": {
+        "abbreviation": "CNRFC",
+        "name": "California Nevada River Forecast Center"
+      },
+      "wfo": {
+        "abbreviation": "MTR",
+        "name": "Monterey"
+      },
+      "state": {
+        "abbreviation": "CA",
+        "name": "California"
+      },
+      "latitude": 37.1808,
+      "longitude": -121.7916,
+      "pedts": {
+        "observed": "HGIRG",
+        "forecast": ""
+      },
+      "status": {
+        "observed": {
+          "primary": 0.04,
+          "primaryUnit": "ft",
+          "secondary": -999,
+          "secondaryUnit": "kcfs",
+          "floodCategory": "not_defined",
+          "validTime": "2026-11-25T11:00:00Z"
+        },
+        "forecast": {
+          "primary": -999,
+          "primaryUnit": "",
+          "secondary": -999,
+          "secondaryUnit": "",
+          "floodCategory": "fcst_not_current",
+          "validTime": "0001-01-01T00:00:00Z"
+        }
+      }
+    },
+    {
+      "lid": "ACUC1",
+      "name": "Atherton Channel upstream of Caltrain",
+      "rfc": {
+        "abbreviation": "CNRFC",
+        "name": "California Nevada River Forecast Center"
+      },
+      "wfo": {
+        "abbreviation": "MTR",
+        "name": "Monterey"
+      },
+      "state": {
+        "abbreviation": "CA",
+        "name": "California"
+      },
+      "latitude": 37.4619,
+      "longitude": -122.1938,
+      "pedts": {
+        "observed": "HGIRR",
+        "forecast": ""
+      },
+      "status": {
+        "observed": {
+          "primary": 0.06,
+          "primaryUnit": "ft",
+          "secondary": -999,
+          "secondaryUnit": "kcfs",
+          "floodCategory": "not_defined",
+          "validTime": "2026-11-25T01:13:00Z"
+        },
+        "forecast": {
+          "primary": -999,
+          "primaryUnit": "",
+          "secondary": -999,
+          "secondaryUnit": "",
+          "floodCategory": "fcst_not_current",
+          "validTime": "0001-01-01T00:00:00Z"
+        }
+      }
+    },
+    {
+      "lid": "AFCC1",
+      "name": "Adobe Creek above Foothill College",
+      "rfc": {
+        "abbreviation": "CNRFC",
+        "name": "California Nevada River Forecast Center"
+      },
+      "wfo": {
+        "abbreviation": "MTR",
+        "name": "Monterey"
+      },
+      "state": {
+        "abbreviation": "CA",
+        "name": "California"
+      },
+      "latitude": 37.358,
+      "longitude": -122.128,
+      "pedts": {
+        "observed": "HGIRG",
+        "forecast": ""
+      },
+      "status": {
+        "observed": {
+          "primary": 0.84,
+          "primaryUnit": "ft",
+          "secondary": 0,
+          "secondaryUnit": "kcfs",
+          "floodCategory": "not_defined",
+          "validTime": "2026-11-25T11:15:00Z"
+        },
+        "forecast": {
+          "primary": -999,
+          "primaryUnit": "",
+          "secondary": -999,
+          "secondaryUnit": "",
+          "floodCategory": "fcst_not_current",
+          "validTime": "0001-01-01T00:00:00Z"
+        }
+      }
+    },
+    {
+      "lid": "AHOC1",
+      "name": "Arroyo Hondo near San Jose",
+      "rfc": {
+        "abbreviation": "CNRFC",
+        "name": "California Nevada River Forecast Center"
+      },
+      "wfo": {
+        "abbreviation": "MTR",
+        "name": "Monterey"
+      },
+      "state": {
+        "abbreviation": "CA",
+        "name": "California"
+      },
+      "latitude": 37.46160337,
+      "longitude": -121.769397,
+      "pedts": {
+        "observed": "HGIRG",
+        "forecast": "HGIFZ"
+      },
+      "status": {
+        "observed": {
+          "primary": 2.96,
+          "primaryUnit": "ft",
+          "secondary": 0.006,
+          "secondaryUnit": "kcfs",
+          "floodCategory": "not_defined",
+          "validTime": "2026-11-25T11:00:00Z"
+        },
+        "forecast": {
+          "primary": 2.96,
+          "primaryUnit": "ft",
+          "secondary": 0.006,
+          "secondaryUnit": "kcfs",
+          "floodCategory": "not_defined",
+          "validTime": "2026-11-29T11:00:00Z"
+        }
+      }
+    },
+    {
+      "lid": "ALKC1",
+      "name": "Alamitos Creek above Almaden Reservoir",
+      "rfc": {
+        "abbreviation": "CNRFC",
+        "name": "California Nevada River Forecast Center"
+      },
+      "wfo": {
+        "abbreviation": "MTR",
+        "name": "Monterey"
+      },
+      "state": {
+        "abbreviation": "CA",
+        "name": "California"
+      },
+      "latitude": 37.1577,
+      "longitude": -121.8436,
+      "pedts": {
+        "observed": "HGIRG",
+        "forecast": ""
+      },
+      "status": {
+        "observed": {
+          "primary": 3.01,
+          "primaryUnit": "ft",
+          "secondary": 0.003,
+          "secondaryUnit": "kcfs",
+          "floodCategory": "not_defined",
+          "validTime": "2026-11-25T11:15:00Z"
+        },
+        "forecast": {
+          "primary": -999,
+          "primaryUnit": "",
+          "secondary": -999,
+          "secondaryUnit": "",
+          "floodCategory": "fcst_not_current",
+          "validTime": "0001-01-01T00:00:00Z"
+        }
+      }
+    },
+    {
+      "lid": "ALVC1",
+      "name": "Alviso Slough",
+      "rfc": {
+        "abbreviation": "CNRFC",
+        "name": "California Nevada River Forecast Center"
+      },
+      "wfo": {
+        "abbreviation": "MTR",
+        "name": "Monterey"
+      },
+      "state": {
+        "abbreviation": "CA",
+        "name": "California"
+      },
+      "latitude": 37.4367,
+      "longitude": -121.991,
+      "pedts": {
+        "observed": "HGIRG",
+        "forecast": ""
+      },
+      "status": {
+        "observed": {
+          "primary": 6.35,
+          "primaryUnit": "ft",
+          "secondary": -999,
+          "secondaryUnit": "kcfs",
+          "floodCategory": "not_defined",
+          "validTime": "2026-11-25T11:00:00Z"
+        },
+        "forecast": {
+          "primary": -999,
+          "primaryUnit": "",
+          "secondary": -999,
+          "secondaryUnit": "",
+          "floodCategory": "fcst_not_current",
+          "validTime": "0001-01-01T00:00:00Z"
+        }
+      }
+    },
+    {
+      "lid": "AOBC1",
+      "name": "Adobe Creek at El Camino Real",
+      "rfc": {
+        "abbreviation": "CNRFC",
+        "name": "California Nevada River Forecast Center"
+      },
+      "wfo": {
+        "abbreviation": "MTR",
+        "name": "Monterey"
+      },
+      "state": {
+        "abbreviation": "CA",
+        "name": "California"
+      },
+      "latitude": 37.4224,
+      "longitude": -122.1105,
+      "pedts": {
+        "observed": "HGIRG",
+        "forecast": ""
+      },
+      "status": {
+        "observed": {
+          "primary": -999,
+          "primaryUnit": "",
+          "secondary": -999,
+          "secondaryUnit": "",
+          "floodCategory": "obs_not_current",
+          "validTime": "0001-01-01T00:00:00Z"
+        },
+        "forecast": {
+          "primary": -999,
+          "primaryUnit": "",
+          "secondary": -999,
+          "secondaryUnit": "",
+          "floodCategory": "fcst_not_current",
+          "validTime": "0001-01-01T00:00:00Z"
+        }
+      }
+    },
+    {
+      "lid": "AODC1",
+      "name": "Adobe Creek at East Meadow Drive",
+      "rfc": {
+        "abbreviation": "CNRFC",
+        "name": "California Nevada River Forecast Center"
+      },
+      "wfo": {
+        "abbreviation": "MTR",
+        "name": "Monterey"
+      },
+      "state": {
+        "abbreviation": "CA",
+        "name": "California"
+      },
+      "latitude": 37.4281,
+      "longitude": -122.1139,
+      "pedts": {
+        "observed": "HGIRR",
+        "forecast": ""
+      },
+      "status": {
+        "observed": {
+          "primary": -999,
+          "primaryUnit": "",
+          "secondary": -999,
+          "secondaryUnit": "",
+          "floodCategory": "out_of_service",
+          "validTime": "0001-01-01T00:00:00Z"
+        },
+        "forecast": {
+          "primary": -999,
+          "primaryUnit": "",
+          "secondary": -999,
+          "secondaryUnit": "",
+          "floodCategory": "out_of_service",
+          "validTime": "0001-01-01T00:00:00Z"
+        }
+      }
+    },
+    {
+      "lid": "AORC1",
+      "name": "Las Animas Creek at O'Connell Ranch",
+      "rfc": {
+        "abbreviation": "CNRFC",
+        "name": "California Nevada River Forecast Center"
+      },
+      "wfo": {
+        "abbreviation": "MTR",
+        "name": "Monterey"
+      },
+      "state": {
+        "abbreviation": "CA",
+        "name": "California"
+      },
+      "latitude": 37.205257,
+      "longitude": -121.663017,
+      "pedts": {
+        "observed": "HGIRG",
+        "forecast": ""
+      },
+      "status": {
+        "observed": {
+          "primary": 1.8,
+          "primaryUnit": "ft",
+          "secondary": -999,
+          "secondaryUnit": "kcfs",
+          "floodCategory": "not_defined",
+          "validTime": "2026-11-25T11:15:00Z"
+        },
+        "forecast": {
+          "primary": -999,
+          "primaryUnit": "",
+          "secondary": -999,
+          "secondaryUnit": "",
+          "floodCategory": "fcst_not_current",
+          "validTime": "0001-01-01T00:00:00Z"
+        }
+      }
+    },
+    {
+      "lid": "AROC1",
+      "name": "Pajaro River at Chittenden",
+      "rfc": {
+        "abbreviation": "CNRFC",
+        "name": "California Nevada River Forecast Center"
+      },
+      "wfo": {
+        "abbreviation": "MTR",
+        "name": "Monterey"
+      },
+      "state": {
+        "abbreviation": "CA",
+        "name": "California"
+      },
+      "latitude": 36.90019208531128,
+      "longitude": -121.5976777999599,
+      "pedts": {
+        "observed": "HGIRG",
+        "forecast": "HGIFE"
+      },
+      "status": {
+        "observed": {
+          "primary": 2.38,
+          "primaryUnit": "ft",
+          "secondary": 0.005,
+          "secondaryUnit": "kcfs",
+          "floodCategory": "no_flooding",
+          "validTime": "2026-11-25T10:30:00Z"
+        },
+        "forecast": {
+          "primary": 2.5,
+          "primaryUnit": "ft",
+          "secondary": 0.007,
+          "secondaryUnit": "kcfs",
+          "floodCategory": "no_flooding",
+          "validTime": "2026-11-29T09:00:00Z"
+        }
+      }
+    },
+    {
+      "lid": "ATOC1",
+      "name": "Alamitos Creek below Almaden Reservoir",
+      "rfc": {
+        "abbreviation": "CNRFC",
+        "name": "California Nevada River Forecast Center"
+      },
+      "wfo": {
+        "abbreviation": "MTR",
+        "name": "Monterey"
+      },
+      "state": {
+        "abbreviation": "CA",
+        "name": "California"
+      },
+      "latitude": 37.1686,
+      "longitude": -121.8283,
+      "pedts": {
+        "observed": "HGIRG",
+        "forecast": ""
+      },
+      "status": {
+        "observed": {
+          "primary": 2.04,
+          "primaryUnit": "ft",
+          "secondary": 0.005,
+          "secondaryUnit": "kcfs",
+          "floodCategory": "no_flooding",
+          "validTime": "2026-11-25T11:15:00Z"
+        },
+        "forecast": {
+          "primary": -999,
+          "primaryUnit": "",
+          "secondary": -999,
+          "secondaryUnit": "",
+          "floodCategory": "fcst_not_current",
+          "validTime": "0001-01-01T00:00:00Z"
+        }
+      }
+    },
+    {
+      "lid": "AUVC1",
+      "name": "Uvas Creek above Uvas Reservoir at Uvas Road",
+      "rfc": {
+        "abbreviation": "CNRFC",
+        "name": "California Nevada River Forecast Center"
+      },
+      "wfo": {
+        "abbreviation": "MTR",
+        "name": "Monterey"
+      },
+      "state": {
+        "abbreviation": "CA",
+        "name": "California"
+      },
+      "latitude": 37.1022,
+      "longitude": -121.7244,
+      "pedts": {
+        "observed": "HGIRG",
+        "forecast": ""
+      },
+      "status": {
+        "observed": {
+          "primary": 4.76,
+          "primaryUnit": "ft",
+          "secondary": 0.003,
+          "secondaryUnit": "kcfs",
+          "floodCategory": "not_defined",
+          "validTime": "2026-11-25T11:04:00Z"
+        },
+        "forecast": {
+          "primary": -999,
+          "primaryUnit": "",
+          "secondary": -999,
+          "secondaryUnit": "",
+          "floodCategory": "fcst_not_current",
+          "validTime": "0001-01-01T00:00:00Z"
+        }
+      }
+    },
+    {
+      "lid": "AXCC1",
+      "name": "Almaden - Calero Canal at Flume",
+      "rfc": {
+        "abbreviation": "CNRFC",
+        "name": "California Nevada River Forecast Center"
+      },
+      "wfo": {
+        "abbreviation": "MTR",
+        "name": "Monterey"
+      },
+      "state": {
+        "abbreviation": "CA",
+        "name": "California"
+      },
+      "latitude": 37.174232,
+      "longitude": -121.822177,
+      "pedts": {
+        "observed": "HGIRG",
+        "forecast": ""
+      },
+      "status": {
+        "observed": {
+          "primary": 0.6,
+          "primaryUnit": "ft",
+          "secondary": -999,
+          "secondaryUnit": "kcfs",
+          "floodCategory": "not_defined",
+          "validTime": "2026-11-25T11:00:00Z"
+        },
+        "forecast": {
+          "primary": -999,
+          "primaryUnit": "",
+          "secondary": -999,
+          "secondaryUnit": "",
+          "floodCategory": "fcst_not_current",
+          "validTime": "0001-01-01T00:00:00Z"
+        }
+      }
+    },
+    {
+      "lid": "BFCC1",
+      "name": "Bodfish Creek at Whitehurst Rd",
+      "rfc": {
+        "abbreviation": "CNRFC",
+        "name": "California Nevada River Forecast Center"
+      },
+      "wfo": {
+        "abbreviation": "MTR",
+        "name": "Monterey"
+      },
+      "state": {
+        "abbreviation": "CA",
+        "name": "California"
+      },
+      "latitude": 37.00416666666667,
+      "longitude": -121.66666666666667,
+      "pedts": {
+        "observed": "HGIRG",
+        "forecast": ""
+      },
+      "status": {
+        "observed": {
+          "primary": 1.15,
+          "primaryUnit": "ft",
+          "secondary": 0,
+          "secondaryUnit": "kcfs",
+          "floodCategory": "not_defined",
+          "validTime": "2026-11-25T11:08:00Z"
+        },
+        "forecast": {
+          "primary": -999,
+          "primaryUnit": "",
+          "secondary": -999,
+          "secondaryUnit": "",
+          "floodCategory": "fcst_not_current",
+          "validTime": "0001-01-01T00:00:00Z"
+        }
+      }
+    },
+    {
+      "lid": "BSVC1",
+      "name": "Llagas Creek below Lake Silveira",
+      "rfc": {
+        "abbreviation": "CNRFC",
+        "name": "California Nevada River Forecast Center"
+      },
+      "wfo": {
+        "abbreviation": "MTR",
+        "name": "Monterey"
+      },
+      "state": {
+        "abbreviation": "CA",
+        "name": "California"
+      },
+      "latitude": 37.095563,
+      "longitude": -121.62031,
+      "pedts": {
+        "observed": "HGIRG",
+        "forecast": ""
+      },
+      "status": {
+        "observed": {
+          "primary": 6.67,
+          "primaryUnit": "ft",
+          "secondary": -999,
+          "secondaryUnit": "kcfs",
+          "floodCategory": "not_defined",
+          "validTime": "2026-11-25T11:00:00Z"
+        },
+        "forecast": {
+          "primary": -999,
+          "primaryUnit": "",
+          "secondary": -999,
+          "secondaryUnit": "",
+          "floodCategory": "fcst_not_current",
+          "validTime": "0001-01-01T00:00:00Z"
+        }
+      }
+    },
+    {
+      "lid": "BTEC1",
+      "name": "San Lorenzo River (CA) at Big Trees",
+      "rfc": {
+        "abbreviation": "CNRFC",
+        "name": "California Nevada River Forecast Center"
+      },
+      "wfo": {
+        "abbreviation": "MTR",
+        "name": "Monterey"
+      },
+      "state": {
+        "abbreviation": "CA",
+        "name": "California"
+      },
+      "latitude": 37.0443931,
+      "longitude": -122.072464,
+      "pedts": {
+        "observed": "HGIRG",
+        "forecast": "HGIFE"
+      },
+      "status": {
+        "observed": {
+          "primary": 4.16,
+          "primaryUnit": "ft",
+          "secondary": 0.081,
+          "secondaryUnit": "kcfs",
+          "floodCategory": "no_flooding",
+          "validTime": "2026-11-25T11:00:00Z"
+        },
+        "forecast": {
+          "primary": 3.93,
+          "primaryUnit": "ft",
+          "secondary": 0.061,
+          "secondaryUnit": "kcfs",
+          "floodCategory": "no_flooding",
+          "validTime": "2026-11-25T16:00:00Z"
+        }
+      }
+    },
+    {
+      "lid": "BYSC1",
+      "name": "Berryessa Creek at Calaveras Road",
+      "rfc": {
+        "abbreviation": "CNRFC",
+        "name": "California Nevada River Forecast Center"
+      },
+      "wfo": {
+        "abbreviation": "MTR",
+        "name": "Monterey"
+      },
+      "state": {
+        "abbreviation": "CA",
+        "name": "California"
+      },
+      "latitude": 37.4331,
+      "longitude": -121.8927,
+      "pedts": {
+        "observed": "HGIRG",
+        "forecast": ""
+      },
+      "status": {
+        "observed": {
+          "primary": 3.97,
+          "primaryUnit": "ft",
+          "secondary": 0.102,
+          "secondaryUnit": "kcfs",
+          "floodCategory": "no_flooding",
+          "validTime": "2026-11-25T11:05:00Z"
+        },
+        "forecast": {
+          "primary": -999,
+          "primaryUnit": "",
+          "secondary": -999,
+          "secondaryUnit": "",
+          "floodCategory": "fcst_not_current",
+          "validTime": "0001-01-01T00:00:00Z"
+        }
+      }
+    },
+    {
+      "lid": "CAAC1",
+      "name": "Calabazas Creek at Wilcox School",
+      "rfc": {
+        "abbreviation": "CNRFC",
+        "name": "California Nevada River Forecast Center"
+      },
+      "wfo": {
+        "abbreviation": "MTR",
+        "name": "Monterey"
+      },
+      "state": {
+        "abbreviation": "CA",
+        "name": "California"
+      },
+      "latitude": 37.3653,
+      "longitude": -121.9871,
+      "pedts": {
+        "observed": "HGIRG",
+        "forecast": ""
+      },
+      "status": {
+        "observed": {
+          "primary": 1.14,
+          "primaryUnit": "ft",
+          "secondary": 0,
+          "secondaryUnit": "kcfs",
+          "floodCategory": "no_flooding",
+          "validTime": "2026-11-25T11:15:00Z"
+        },
+        "forecast": {
+          "primary": -999,
+          "primaryUnit": "",
+          "secondary": -999,
+          "secondaryUnit": "",
+          "floodCategory": "fcst_not_current",
+          "validTime": "0001-01-01T00:00:00Z"
+        }
+      }
+    },
+    {
+      "lid": "CADC1",
+      "name": "Calero Creek at Calero Reservoir",
+      "rfc": {
+        "abbreviation": "CNRFC",
+        "name": "California Nevada River Forecast Center"
+      },
+      "wfo": {
+        "abbreviation": "MTR",
+        "name": "Monterey"
+      },
+      "state": {
+        "abbreviation": "CA",
+        "name": "California"
+      },
+      "latitude": 37.183333333333,
+      "longitude": -121.79111111111,
+      "pedts": {
+        "observed": "HPIRG",
+        "forecast": ""
+      },
+      "status": {
+        "observed": {
+          "primary": 460.22,
+          "primaryUnit": "ft",
+          "secondary": 3.62,
+          "secondaryUnit": "kcfs",
+          "floodCategory": "not_defined",
+          "validTime": "2026-11-25T11:00:00Z"
+        },
+        "forecast": {
+          "primary": -999,
+          "primaryUnit": "",
+          "secondary": -999,
+          "secondaryUnit": "",
+          "floodCategory": "fcst_not_current",
+          "validTime": "0001-01-01T00:00:00Z"
+        }
+      }
+    },
+    {
+      "lid": "CALC1",
+      "name": "Calero Creek below Calero Dam",
+      "rfc": {
+        "abbreviation": "CNRFC",
+        "name": "California Nevada River Forecast Center"
+      },
+      "wfo": {
+        "abbreviation": "MTR",
+        "name": "Monterey"
+      },
+      "state": {
+        "abbreviation": "CA",
+        "name": "California"
+      },
+      "latitude": 37.1861,
+      "longitude": -121.7931,
+      "pedts": {
+        "observed": "HGIRG",
+        "forecast": ""
+      },
+      "status": {
+        "observed": {
+          "primary": 1.48,
+          "primaryUnit": "ft",
+          "secondary": 0.001,
+          "secondaryUnit": "kcfs",
+          "floodCategory": "no_flooding",
+          "validTime": "2026-11-25T11:15:00Z"
+        },
+        "forecast": {
+          "primary": -999,
+          "primaryUnit": "",
+          "secondary": -999,
+          "secondaryUnit": "",
+          "floodCategory": "fcst_not_current",
+          "validTime": "0001-01-01T00:00:00Z"
+        }
+      }
+    },
+    {
+      "lid": "CAOC1",
+      "name": "Canoas Creek at Almaden Expressway",
+      "rfc": {
+        "abbreviation": "CNRFC",
+        "name": "California Nevada River Forecast Center"
+      },
+      "wfo": {
+        "abbreviation": "MTR",
+        "name": "Monterey"
+      },
+      "state": {
+        "abbreviation": "CA",
+        "name": "California"
+      },
+      "latitude": 37.2885,
+      "longitude": -121.8812,
+      "pedts": {
+        "observed": "HGIRG",
+        "forecast": ""
+      },
+      "status": {
+        "observed": {
+          "primary": 1.28,
+          "primaryUnit": "ft",
+          "secondary": 0.0023,
+          "secondaryUnit": "kcfs",
+          "floodCategory": "no_flooding",
+          "validTime": "2026-11-25T11:15:00Z"
+        },
+        "forecast": {
+          "primary": -999,
+          "primaryUnit": "",
+          "secondary": -999,
+          "secondaryUnit": "",
+          "floodCategory": "fcst_not_current",
+          "validTime": "0001-01-01T00:00:00Z"
+        }
+      }
+    },
+    {
+      "lid": "CCFC1",
+      "name": "Corralitos Creek at Freedom",
+      "rfc": {
+        "abbreviation": "CNRFC",
+        "name": "California Nevada River Forecast Center"
+      },
+      "wfo": {
+        "abbreviation": "MTR",
+        "name": "Monterey"
+      },
+      "state": {
+        "abbreviation": "CA",
+        "name": "California"
+      },
+      "latitude": 36.9393968,
+      "longitude": -121.7705065,
+      "pedts": {
+        "observed": "HGIRG",
+        "forecast": ""
+      },
+      "status": {
+        "observed": {
+          "primary": 3.27,
+          "primaryUnit": "ft",
+          "secondary": 0.001,
+          "secondaryUnit": "kcfs",
+          "floodCategory": "no_flooding",
+          "validTime": "2026-11-25T11:00:00Z"
+        },
+        "forecast": {
+          "primary": -999,
+          "primaryUnit": "",
+          "secondary": -999,
+          "secondaryUnit": "",
+          "floodCategory": "fcst_not_current",
+          "validTime": "0001-01-01T00:00:00Z"
+        }
+      }
+    },
+    {
+      "lid": "CCQC1",
+      "name": "Calabazas Creek at Rainbow Creek",
+      "rfc": {
+        "abbreviation": "CNRFC",
+        "name": "California Nevada River Forecast Center"
+      },
+      "wfo": {
+        "abbreviation": "MTR",
+        "name": "Monterey"
+      },
+      "state": {
+        "abbreviation": "CA",
+        "name": "California"
+      },
+      "latitude": 37.3007,
+      "longitude": -122.0267,
+      "pedts": {
+        "observed": "HGIRG",
+        "forecast": ""
+      },
+      "status": {
+        "observed": {
+          "primary": 0.98,
+          "primaryUnit": "ft",
+          "secondary": -999,
+          "secondaryUnit": "kcfs",
+          "floodCategory": "not_defined",
+          "validTime": "2026-11-25T11:15:00Z"
+        },
+        "forecast": {
+          "primary": -999,
+          "primaryUnit": "",
+          "secondary": -999,
+          "secondaryUnit": "",
+          "floodCategory": "fcst_not_current",
+          "validTime": "0001-01-01T00:00:00Z"
+        }
+      }
+    },
+    {
+      "lid": "CFLC1",
+      "name": "Cherry Flat Reservoir  Cherry Flat Reservoir",
+      "rfc": {
+        "abbreviation": "CNRFC",
+        "name": "California Nevada River Forecast Center"
+      },
+      "wfo": {
+        "abbreviation": "MTR",
+        "name": "Monterey"
+      },
+      "state": {
+        "abbreviation": "CA",
+        "name": "California"
+      },
+      "latitude": 37.39681,
+      "longitude": -121.75796,
+      "pedts": {
+        "observed": "HPIRG",
+        "forecast": ""
+      },
+      "status": {
+        "observed": {
+          "primary": 1648.11,
+          "primaryUnit": "ft",
+          "secondary": -999,
+          "secondaryUnit": "kcfs",
+          "floodCategory": "not_defined",
+          "validTime": "2026-11-25T11:15:00Z"
+        },
+        "forecast": {
+          "primary": -999,
+          "primaryUnit": "",
+          "secondary": -999,
+          "secondaryUnit": "",
+          "floodCategory": "fcst_not_current",
+          "validTime": "0001-01-01T00:00:00Z"
+        }
+      }
+    },
+    {
+      "lid": "CHJC1",
+      "name": "San Francisquito Creek at Pope-Chaucer (SFPC)",
+      "rfc": {
+        "abbreviation": "CNRFC",
+        "name": "California Nevada River Forecast Center"
+      },
+      "wfo": {
+        "abbreviation": "MTR",
+        "name": "Monterey"
+      },
+      "state": {
+        "abbreviation": "CA",
+        "name": "California"
+      },
+      "latitude": 37.45638888888889,
+      "longitude": -122.1536111111111,
+      "pedts": {
+        "observed": "HGIRR",
+        "forecast": ""
+      },
+      "status": {
+        "observed": {
+          "primary": 0.11,
+          "primaryUnit": "ft",
+          "secondary": -999,
+          "secondaryUnit": "kcfs",
+          "floodCategory": "no_flooding",
+          "validTime": "2026-11-25T11:05:00Z"
+        },
+        "forecast": {
+          "primary": -999,
+          "primaryUnit": "",
+          "secondary": -999,
+          "secondaryUnit": "",
+          "floodCategory": "fcst_not_current",
+          "validTime": "0001-01-01T00:00:00Z"
+        }
+      }
+    },
+    {
+      "lid": "CMIC1",
+      "name": "Coyote Creek above Hwy 237 at Milpitas",
+      "rfc": {
+        "abbreviation": "CNRFC",
+        "name": "California Nevada River Forecast Center"
+      },
+      "wfo": {
+        "abbreviation": "MTR",
+        "name": "Monterey"
+      },
+      "state": {
+        "abbreviation": "CA",
+        "name": "California"
+      },
+      "latitude": 37.4221617,
+      "longitude": -121.9274577,
+      "pedts": {
+        "observed": "HGIRG",
+        "forecast": "HGIFZ"
+      },
+      "status": {
+        "observed": {
+          "primary": 5.14,
+          "primaryUnit": "ft",
+          "secondary": 0.013,
+          "secondaryUnit": "kcfs",
+          "floodCategory": "no_flooding",
+          "validTime": "2026-11-25T11:00:00Z"
+        },
+        "forecast": {
+          "primary": 5.45,
+          "primaryUnit": "ft",
+          "secondary": 0.028,
+          "secondaryUnit": "kcfs",
+          "floodCategory": "no_flooding",
+          "validTime": "2026-11-25T21:00:00Z"
+        }
+      }
+    },
+    {
+      "lid": "CQIC1",
+      "name": "Calero Creek above Calero Reservoir",
+      "rfc": {
+        "abbreviation": "CNRFC",
+        "name": "California Nevada River Forecast Center"
+      },
+      "wfo": {
+        "abbreviation": "MTR",
+        "name": "Monterey"
+      },
+      "state": {
+        "abbreviation": "CA",
+        "name": "California"
+      },
+      "latitude": 37.177032,
+      "longitude": -121.761068,
+      "pedts": {
+        "observed": "HGIRG",
+        "forecast": ""
+      },
+      "status": {
+        "observed": {
+          "primary": 4.49,
+          "primaryUnit": "ft",
+          "secondary": -999,
+          "secondaryUnit": "kcfs",
+          "floodCategory": "not_defined",
+          "validTime": "2026-11-25T11:00:00Z"
+        },
+        "forecast": {
+          "primary": -999,
+          "primaryUnit": "",
+          "secondary": -999,
+          "secondaryUnit": "",
+          "floodCategory": "fcst_not_current",
+          "validTime": "0001-01-01T00:00:00Z"
+        }
+      }
+    },
+    {
+      "lid": "CXBC1",
+      "name": "Cedar Creek (CA) near Bell Station",
+      "rfc": {
+        "abbreviation": "CNRFC",
+        "name": "California Nevada River Forecast Center"
+      },
+      "wfo": {
+        "abbreviation": "MTR",
+        "name": "Monterey"
+      },
+      "state": {
+        "abbreviation": "CA",
+        "name": "California"
+      },
+      "latitude": 37.0499451,
+      "longitude": -121.327431,
+      "pedts": {
+        "observed": "HGIRG",
+        "forecast": ""
+      },
+      "status": {
+        "observed": {
+          "primary": -999,
+          "primaryUnit": "",
+          "secondary": -999,
+          "secondaryUnit": "",
+          "floodCategory": "out_of_service",
+          "validTime": "0001-01-01T00:00:00Z"
+        },
+        "forecast": {
+          "primary": -999,
+          "primaryUnit": "",
+          "secondary": -999,
+          "secondaryUnit": "",
+          "floodCategory": "out_of_service",
+          "validTime": "0001-01-01T00:00:00Z"
+        }
+      }
+    },
+    {
+      "lid": "CXMC1",
+      "name": "Coyote Creek  Metcalf",
+      "rfc": {
+        "abbreviation": "CNRFC",
+        "name": "California Nevada River Forecast Center"
+      },
+      "wfo": {
+        "abbreviation": "MTR",
+        "name": "Monterey"
+      },
+      "state": {
+        "abbreviation": "CA",
+        "name": "California"
+      },
+      "latitude": 37.222419,
+      "longitude": -121.745857,
+      "pedts": {
+        "observed": "HGIRG",
+        "forecast": ""
+      },
+      "status": {
+        "observed": {
+          "primary": 6.52,
+          "primaryUnit": "ft",
+          "secondary": 0.039,
+          "secondaryUnit": "kcfs",
+          "floodCategory": "not_defined",
+          "validTime": "2026-11-25T11:15:00Z"
+        },
+        "forecast": {
+          "primary": -999,
+          "primaryUnit": "",
+          "secondary": -999,
+          "secondaryUnit": "",
+          "floodCategory": "fcst_not_current",
+          "validTime": "0001-01-01T00:00:00Z"
+        }
+      }
+    },
+    {
+      "lid": "CYEC1",
+      "name": "Coyote Creek at Edenvale",
+      "rfc": {
+        "abbreviation": "CNRFC",
+        "name": "California Nevada River Forecast Center"
+      },
+      "wfo": {
+        "abbreviation": "MTR",
+        "name": "Monterey"
+      },
+      "state": {
+        "abbreviation": "CA",
+        "name": "California"
+      },
+      "latitude": 37.2709,
+      "longitude": -121.7977,
+      "pedts": {
+        "observed": "HGIRG",
+        "forecast": "HGIFZ"
+      },
+      "status": {
+        "observed": {
+          "primary": 2.51,
+          "primaryUnit": "ft",
+          "secondary": 0.007,
+          "secondaryUnit": "kcfs",
+          "floodCategory": "no_flooding",
+          "validTime": "2026-11-25T11:15:00Z"
+        },
+        "forecast": {
+          "primary": 2.48,
+          "primaryUnit": "ft",
+          "secondary": 0.006,
+          "secondaryUnit": "kcfs",
+          "floodCategory": "no_flooding",
+          "validTime": "2026-11-25T12:00:00Z"
+        }
+      }
+    },
+    {
+      "lid": "CYQC1",
+      "name": "Coyote Creek below Percolation Pond",
+      "rfc": {
+        "abbreviation": "CNRFC",
+        "name": "California Nevada River Forecast Center"
+      },
+      "wfo": {
+        "abbreviation": "MTR",
+        "name": "Monterey"
+      },
+      "state": {
+        "abbreviation": "CA",
+        "name": "California"
+      },
+      "latitude": 37.2348,
+      "longitude": -121.7607,
+      "pedts": {
+        "observed": "HGIRG",
+        "forecast": ""
+      },
+      "status": {
+        "observed": {
+          "primary": 1.08,
+          "primaryUnit": "ft",
+          "secondary": 0.015,
+          "secondaryUnit": "kcfs",
+          "floodCategory": "out_of_service",
+          "validTime": "2026-11-25T11:06:00Z"
+        },
+        "forecast": {
+          "primary": -999,
+          "primaryUnit": "",
+          "secondary": -999,
+          "secondaryUnit": "",
+          "floodCategory": "out_of_service",
+          "validTime": "0001-01-01T00:00:00Z"
+        }
+      }
+    },
+    {
+      "lid": "CYTC1",
+      "name": "Coyote Creek at Madrone",
+      "rfc": {
+        "abbreviation": "CNRFC",
+        "name": "California Nevada River Forecast Center"
+      },
+      "wfo": {
+        "abbreviation": "MTR",
+        "name": "Monterey"
+      },
+      "state": {
+        "abbreviation": "CA",
+        "name": "California"
+      },
+      "latitude": 37.1682777,
+      "longitude": -121.6496677,
+      "pedts": {
+        "observed": "HGIRG",
+        "forecast": "HGIFE"
+      },
+      "status": {
+        "observed": {
+          "primary": 2.14,
+          "primaryUnit": "ft",
+          "secondary": 0.023,
+          "secondaryUnit": "kcfs",
+          "floodCategory": "no_flooding",
+          "validTime": "2026-11-25T11:00:00Z"
+        },
+        "forecast": {
+          "primary": 2.12,
+          "primaryUnit": "ft",
+          "secondary": 0.02,
+          "secondaryUnit": "kcfs",
+          "floodCategory": "no_flooding",
+          "validTime": "2026-11-25T12:00:00Z"
+        }
+      }
+    },
+    {
+      "lid": "CYWC1",
+      "name": "Coyote Creek at Piercy Rd",
+      "rfc": {
+        "abbreviation": "CNRFC",
+        "name": "California Nevada River Forecast Center"
+      },
+      "wfo": {
+        "abbreviation": "MTR",
+        "name": "Monterey"
+      },
+      "state": {
+        "abbreviation": "CA",
+        "name": "California"
+      },
+      "latitude": 37.2541,
+      "longitude": -121.7808,
+      "pedts": {
+        "observed": "HGIRR",
+        "forecast": ""
+      },
+      "status": {
+        "observed": {
+          "primary": -999,
+          "primaryUnit": "",
+          "secondary": -999,
+          "secondaryUnit": "",
+          "floodCategory": "out_of_service",
+          "validTime": "0001-01-01T00:00:00Z"
+        },
+        "forecast": {
+          "primary": -999,
+          "primaryUnit": "",
+          "secondary": -999,
+          "secondaryUnit": "",
+          "floodCategory": "out_of_service",
+          "validTime": "0001-01-01T00:00:00Z"
+        }
+      }
+    },
+    {
+      "lid": "CYYC1",
+      "name": "Coyote Creek at E William Street",
+      "rfc": {
+        "abbreviation": "CNRFC",
+        "name": "California Nevada River Forecast Center"
+      },
+      "wfo": {
+        "abbreviation": "MTR",
+        "name": "Monterey"
+      },
+      "state": {
+        "abbreviation": "CA",
+        "name": "California"
+      },
+      "latitude": 37.3369,
+      "longitude": -121.8683,
+      "pedts": {
+        "observed": "HGIRG",
+        "forecast": ""
+      },
+      "status": {
+        "observed": {
+          "primary": 4.68,
+          "primaryUnit": "ft",
+          "secondary": 0.016,
+          "secondaryUnit": "kcfs",
+          "floodCategory": "no_flooding",
+          "validTime": "2026-11-25T11:15:00Z"
+        },
+        "forecast": {
+          "primary": -999,
+          "primaryUnit": "",
+          "secondary": -999,
+          "secondaryUnit": "",
+          "floodCategory": "fcst_not_current",
+          "validTime": "0001-01-01T00:00:00Z"
+        }
+      }
+    },
+    {
+      "lid": "DDVC1",
+      "name": "Canoas Creek at Dow Drive",
+      "rfc": {
+        "abbreviation": "CNRFC",
+        "name": "California Nevada River Forecast Center"
+      },
+      "wfo": {
+        "abbreviation": "MTR",
+        "name": "Monterey"
+      },
+      "state": {
+        "abbreviation": "CA",
+        "name": "California"
+      },
+      "latitude": 37.2803,
+      "longitude": -121.8689,
+      "pedts": {
+        "observed": "HGIRG",
+        "forecast": ""
+      },
+      "status": {
+        "observed": {
+          "primary": 1.2,
+          "primaryUnit": "ft",
+          "secondary": 0.001,
+          "secondaryUnit": "kcfs",
+          "floodCategory": "not_defined",
+          "validTime": "2026-11-25T11:15:00Z"
+        },
+        "forecast": {
+          "primary": -999,
+          "primaryUnit": "",
+          "secondary": -999,
+          "secondaryUnit": "",
+          "floodCategory": "fcst_not_current",
+          "validTime": "0001-01-01T00:00:00Z"
+        }
+      }
+    },
+    {
+      "lid": "DSEC1",
+      "name": "Los Gatos Creek below Lake Elsman",
+      "rfc": {
+        "abbreviation": "CNRFC",
+        "name": "California Nevada River Forecast Center"
+      },
+      "wfo": {
+        "abbreviation": "MTR",
+        "name": "Monterey"
+      },
+      "state": {
+        "abbreviation": "CA",
+        "name": "California"
+      },
+      "latitude": 37.1312,
+      "longitude": -121.9343,
+      "pedts": {
+        "observed": "HGIRG",
+        "forecast": ""
+      },
+      "status": {
+        "observed": {
+          "primary": 4.51,
+          "primaryUnit": "ft",
+          "secondary": -999,
+          "secondaryUnit": "kcfs",
+          "floodCategory": "not_defined",
+          "validTime": "2026-11-25T10:15:00Z"
+        },
+        "forecast": {
+          "primary": -999,
+          "primaryUnit": "",
+          "secondary": -999,
+          "secondaryUnit": "",
+          "floodCategory": "fcst_not_current",
+          "validTime": "0001-01-01T00:00:00Z"
+        }
+      }
+    },
+    {
+      "lid": "DSLC1",
+      "name": "Lyndon Canyon Creek at Beardsley",
+      "rfc": {
+        "abbreviation": "CNRFC",
+        "name": "California Nevada River Forecast Center"
+      },
+      "wfo": {
+        "abbreviation": "MTR",
+        "name": "Monterey"
+      },
+      "state": {
+        "abbreviation": "CA",
+        "name": "California"
+      },
+      "latitude": 37.19995,
+      "longitude": -122.01453,
+      "pedts": {
+        "observed": "HGIRG",
+        "forecast": ""
+      },
+      "status": {
+        "observed": {
+          "primary": 4.18,
+          "primaryUnit": "ft",
+          "secondary": -999,
+          "secondaryUnit": "kcfs",
+          "floodCategory": "not_defined",
+          "validTime": "2026-11-25T10:30:00Z"
+        },
+        "forecast": {
+          "primary": -999,
+          "primaryUnit": "",
+          "secondary": -999,
+          "secondaryUnit": "",
+          "floodCategory": "fcst_not_current",
+          "validTime": "0001-01-01T00:00:00Z"
+        }
+      }
+    },
+    {
+      "lid": "EAMC1",
+      "name": "Smith Creek abv Elam Ave",
+      "rfc": {
+        "abbreviation": "CNRFC",
+        "name": "California Nevada River Forecast Center"
+      },
+      "wfo": {
+        "abbreviation": "MTR",
+        "name": "Monterey"
+      },
+      "state": {
+        "abbreviation": "CA",
+        "name": "California"
+      },
+      "latitude": 37.2738144,
+      "longitude": -121.974220515,
+      "pedts": {
+        "observed": "HGIRG",
+        "forecast": ""
+      },
+      "status": {
+        "observed": {
+          "primary": 1.11,
+          "primaryUnit": "ft",
+          "secondary": 0,
+          "secondaryUnit": "kcfs",
+          "floodCategory": "not_defined",
+          "validTime": "2026-11-25T11:00:00Z"
+        },
+        "forecast": {
+          "primary": -999,
+          "primaryUnit": "",
+          "secondary": -999,
+          "secondaryUnit": "",
+          "floodCategory": "fcst_not_current",
+          "validTime": "0001-01-01T00:00:00Z"
+        }
+      }
+    },
+    {
+      "lid": "EDAC1",
+      "name": "El Camino Storm Drain above Lawrence Expressway",
+      "rfc": {
+        "abbreviation": "CNRFC",
+        "name": "California Nevada River Forecast Center"
+      },
+      "wfo": {
+        "abbreviation": "MTR",
+        "name": "Monterey"
+      },
+      "state": {
+        "abbreviation": "CA",
+        "name": "California"
+      },
+      "latitude": 37.3686,
+      "longitude": -121.9969,
+      "pedts": {
+        "observed": "HGIRR",
+        "forecast": ""
+      },
+      "status": {
+        "observed": {
+          "primary": -999,
+          "primaryUnit": "",
+          "secondary": -999,
+          "secondaryUnit": "",
+          "floodCategory": "obs_not_current",
+          "validTime": "0001-01-01T00:00:00Z"
+        },
+        "forecast": {
+          "primary": -999,
+          "primaryUnit": "",
+          "secondary": -999,
+          "secondaryUnit": "",
+          "floodCategory": "fcst_not_current",
+          "validTime": "0001-01-01T00:00:00Z"
+        }
+      }
+    },
+    {
+      "lid": "EGSC1",
+      "name": "East Little Llagas Creek below San Martin Ave",
+      "rfc": {
+        "abbreviation": "CNRFC",
+        "name": "California Nevada River Forecast Center"
+      },
+      "wfo": {
+        "abbreviation": "MTR",
+        "name": "Monterey"
+      },
+      "state": {
+        "abbreviation": "CA",
+        "name": "California"
+      },
+      "latitude": 37.08979,
+      "longitude": -121.59602,
+      "pedts": {
+        "observed": "HGIRG",
+        "forecast": ""
+      },
+      "status": {
+        "observed": {
+          "primary": 4.95,
+          "primaryUnit": "ft",
+          "secondary": 0,
+          "secondaryUnit": "kcfs",
+          "floodCategory": "not_defined",
+          "validTime": "2026-11-25T11:15:00Z"
+        },
+        "forecast": {
+          "primary": -999,
+          "primaryUnit": "",
+          "secondary": -999,
+          "secondaryUnit": "",
+          "floodCategory": "fcst_not_current",
+          "validTime": "0001-01-01T00:00:00Z"
+        }
+      }
+    },
+    {
+      "lid": "EGYC1",
+      "name": "East Llagas Creek above Sycamore Avenue",
+      "rfc": {
+        "abbreviation": "CNRFC",
+        "name": "California Nevada River Forecast Center"
+      },
+      "wfo": {
+        "abbreviation": "MTR",
+        "name": "Monterey"
+      },
+      "state": {
+        "abbreviation": "CA",
+        "name": "California"
+      },
+      "latitude": 37.09583,
+      "longitude": -121.6013,
+      "pedts": {
+        "observed": "HGIRG",
+        "forecast": ""
+      },
+      "status": {
+        "observed": {
+          "primary": 1.96,
+          "primaryUnit": "ft",
+          "secondary": -999,
+          "secondaryUnit": "kcfs",
+          "floodCategory": "not_defined",
+          "validTime": "2026-11-25T11:15:00Z"
+        },
+        "forecast": {
+          "primary": -999,
+          "primaryUnit": "",
+          "secondary": -999,
+          "secondaryUnit": "",
+          "floodCategory": "fcst_not_current",
+          "validTime": "0001-01-01T00:00:00Z"
+        }
+      }
+    },
+    {
+      "lid": "ELUC1",
+      "name": "East Little Llagas Creek above Church Avenue",
+      "rfc": {
+        "abbreviation": "CNRFC",
+        "name": "California Nevada River Forecast Center"
+      },
+      "wfo": {
+        "abbreviation": "MTR",
+        "name": "Monterey"
+      },
+      "state": {
+        "abbreviation": "CA",
+        "name": "California"
+      },
+      "latitude": 37.0733,
+      "longitude": -121.585,
+      "pedts": {
+        "observed": "HGIRG",
+        "forecast": ""
+      },
+      "status": {
+        "observed": {
+          "primary": 6.53,
+          "primaryUnit": "ft",
+          "secondary": -999,
+          "secondaryUnit": "kcfs",
+          "floodCategory": "not_defined",
+          "validTime": "2026-11-25T11:04:00Z"
+        },
+        "forecast": {
+          "primary": -999,
+          "primaryUnit": "",
+          "secondary": -999,
+          "secondaryUnit": "",
+          "floodCategory": "fcst_not_current",
+          "validTime": "0001-01-01T00:00:00Z"
+        }
+      }
+    },
+    {
+      "lid": "ELVC1",
+      "name": "Salsipuedes Creek at East Lake Avenue",
+      "rfc": {
+        "abbreviation": "CNRFC",
+        "name": "California Nevada River Forecast Center"
+      },
+      "wfo": {
+        "abbreviation": "MTR",
+        "name": "Monterey"
+      },
+      "state": {
+        "abbreviation": "CA",
+        "name": "California"
+      },
+      "latitude": 36.935277777778,
+      "longitude": -121.74333333333,
+      "pedts": {
+        "observed": "HGIRZ",
+        "forecast": ""
+      },
+      "status": {
+        "observed": {
+          "primary": -999,
+          "primaryUnit": "",
+          "secondary": -999,
+          "secondaryUnit": "",
+          "floodCategory": "out_of_service",
+          "validTime": "0001-01-01T00:00:00Z"
+        },
+        "forecast": {
+          "primary": -999,
+          "primaryUnit": "",
+          "secondary": -999,
+          "secondaryUnit": "",
+          "floodCategory": "out_of_service",
+          "validTime": "0001-01-01T00:00:00Z"
+        }
+      }
+    },
+    {
+      "lid": "FXLC1",
+      "name": "Fisher Creek at Laguna Ave",
+      "rfc": {
+        "abbreviation": "CNRFC",
+        "name": "California Nevada River Forecast Center"
+      },
+      "wfo": {
+        "abbreviation": "MTR",
+        "name": "Monterey"
+      },
+      "state": {
+        "abbreviation": "CA",
+        "name": "California"
+      },
+      "latitude": 37.1898,
+      "longitude": -121.7334,
+      "pedts": {
+        "observed": "HGIRG",
+        "forecast": ""
+      },
+      "status": {
+        "observed": {
+          "primary": 0.29,
+          "primaryUnit": "ft",
+          "secondary": -999,
+          "secondaryUnit": "kcfs",
+          "floodCategory": "not_defined",
+          "validTime": "2026-11-25T11:15:00Z"
+        },
+        "forecast": {
+          "primary": -999,
+          "primaryUnit": "",
+          "secondary": -999,
+          "secondaryUnit": "",
+          "floodCategory": "fcst_not_current",
+          "validTime": "0001-01-01T00:00:00Z"
+        }
+      }
+    },
+    {
+      "lid": "GFLC1",
+      "name": "Guadalupe River (CA) at Fish Ladder above Blossom Hill",
+      "rfc": {
+        "abbreviation": "CNRFC",
+        "name": "California Nevada River Forecast Center"
+      },
+      "wfo": {
+        "abbreviation": "MTR",
+        "name": "Monterey"
+      },
+      "state": {
+        "abbreviation": "CA",
+        "name": "California"
+      },
+      "latitude": 37.2469,
+      "longitude": -121.8699,
+      "pedts": {
+        "observed": "HGIRG",
+        "forecast": ""
+      },
+      "status": {
+        "observed": {
+          "primary": 1.89,
+          "primaryUnit": "ft",
+          "secondary": 0.014,
+          "secondaryUnit": "kcfs",
+          "floodCategory": "not_defined",
+          "validTime": "2026-11-25T11:00:00Z"
+        },
+        "forecast": {
+          "primary": -999,
+          "primaryUnit": "",
+          "secondary": -999,
+          "secondaryUnit": "",
+          "floodCategory": "fcst_not_current",
+          "validTime": "0001-01-01T00:00:00Z"
+        }
+      }
+    },
+    {
+      "lid": "GOHC1",
+      "name": "Guadalupe Creek near Hicks Road",
+      "rfc": {
+        "abbreviation": "CNRFC",
+        "name": "California Nevada River Forecast Center"
+      },
+      "wfo": {
+        "abbreviation": "MTR",
+        "name": "Monterey"
+      },
+      "state": {
+        "abbreviation": "CA",
+        "name": "California"
+      },
+      "latitude": 37.2175,
+      "longitude": -121.9102,
+      "pedts": {
+        "observed": "HGIRG",
+        "forecast": ""
+      },
+      "status": {
+        "observed": {
+          "primary": 1.73,
+          "primaryUnit": "ft",
+          "secondary": 0.003,
+          "secondaryUnit": "kcfs",
+          "floodCategory": "not_defined",
+          "validTime": "2026-11-25T11:15:00Z"
+        },
+        "forecast": {
+          "primary": -999,
+          "primaryUnit": "",
+          "secondary": -999,
+          "secondaryUnit": "",
+          "floodCategory": "fcst_not_current",
+          "validTime": "0001-01-01T00:00:00Z"
+        }
+      }
+    },
+    {
+      "lid": "GPEC1",
+      "name": "Guadalupe Creek below Guadalupe Reservoir",
+      "rfc": {
+        "abbreviation": "CNRFC",
+        "name": "California Nevada River Forecast Center"
+      },
+      "wfo": {
+        "abbreviation": "MTR",
+        "name": "Monterey"
+      },
+      "state": {
+        "abbreviation": "CA",
+        "name": "California"
+      },
+      "latitude": 37.1996,
+      "longitude": -121.8816,
+      "pedts": {
+        "observed": "HGIRG",
+        "forecast": ""
+      },
+      "status": {
+        "observed": {
+          "primary": 1.51,
+          "primaryUnit": "ft",
+          "secondary": 0.002,
+          "secondaryUnit": "kcfs",
+          "floodCategory": "not_defined",
+          "validTime": "2026-11-25T11:15:00Z"
+        },
+        "forecast": {
+          "primary": -999,
+          "primaryUnit": "",
+          "secondary": -999,
+          "secondaryUnit": "",
+          "floodCategory": "fcst_not_current",
+          "validTime": "0001-01-01T00:00:00Z"
+        }
+      }
+    },
+    {
+      "lid": "GQIC1",
+      "name": "Guadalupe Creek above Guadalupe Reservoir",
+      "rfc": {
+        "abbreviation": "CNRFC",
+        "name": "California Nevada River Forecast Center"
+      },
+      "wfo": {
+        "abbreviation": "MTR",
+        "name": "Monterey"
+      },
+      "state": {
+        "abbreviation": "CA",
+        "name": "California"
+      },
+      "latitude": 37.18366,
+      "longitude": -121.87186,
+      "pedts": {
+        "observed": "HGIRG",
+        "forecast": ""
+      },
+      "status": {
+        "observed": {
+          "primary": 2.55,
+          "primaryUnit": "ft",
+          "secondary": 0.002,
+          "secondaryUnit": "kcfs",
+          "floodCategory": "not_defined",
+          "validTime": "2026-11-25T11:15:00Z"
+        },
+        "forecast": {
+          "primary": -999,
+          "primaryUnit": "",
+          "secondary": -999,
+          "secondaryUnit": "",
+          "floodCategory": "fcst_not_current",
+          "validTime": "0001-01-01T00:00:00Z"
+        }
+      }
+    },
+    {
+      "lid": "GSJC1",
+      "name": "Guadalupe River (CA) above Hwy 101 at San Jose",
+      "rfc": {
+        "abbreviation": "CNRFC",
+        "name": "California Nevada River Forecast Center"
+      },
+      "wfo": {
+        "abbreviation": "MTR",
+        "name": "Monterey"
+      },
+      "state": {
+        "abbreviation": "CA",
+        "name": "California"
+      },
+      "latitude": 37.3738296,
+      "longitude": -121.9330129,
+      "pedts": {
+        "observed": "HGIRG",
+        "forecast": "HGIFZ"
+      },
+      "status": {
+        "observed": {
+          "primary": 5.36,
+          "primaryUnit": "ft",
+          "secondary": 0.044,
+          "secondaryUnit": "kcfs",
+          "floodCategory": "no_flooding",
+          "validTime": "2026-11-25T11:00:00Z"
+        },
+        "forecast": {
+          "primary": 5.42,
+          "primaryUnit": "ft",
+          "secondary": 0.049,
+          "secondaryUnit": "kcfs",
+          "floodCategory": "no_flooding",
+          "validTime": "2026-11-25T17:00:00Z"
+        }
+      }
+    },
+    {
+      "lid": "GTDC1",
+      "name": "Guadalupe River (CA) at Tasman Drive",
+      "rfc": {
+        "abbreviation": "CNRFC",
+        "name": "California Nevada River Forecast Center"
+      },
+      "wfo": {
+        "abbreviation": "MTR",
+        "name": "Monterey"
+      },
+      "state": {
+        "abbreviation": "CA",
+        "name": "California"
+      },
+      "latitude": 37.4099,
+      "longitude": -121.9594,
+      "pedts": {
+        "observed": "HGIRR",
+        "forecast": ""
+      },
+      "status": {
+        "observed": {
+          "primary": -999,
+          "primaryUnit": "",
+          "secondary": -999,
+          "secondaryUnit": "",
+          "floodCategory": "out_of_service",
+          "validTime": "0001-01-01T00:00:00Z"
+        },
+        "forecast": {
+          "primary": -999,
+          "primaryUnit": "",
+          "secondary": -999,
+          "secondaryUnit": "",
+          "floodCategory": "out_of_service",
+          "validTime": "0001-01-01T00:00:00Z"
+        }
+      }
+    },
+    {
+      "lid": "GUBC1",
+      "name": "Guadalupe River (CA) above Branham Lane",
+      "rfc": {
+        "abbreviation": "CNRFC",
+        "name": "California Nevada River Forecast Center"
+      },
+      "wfo": {
+        "abbreviation": "MTR",
+        "name": "Monterey"
+      },
+      "state": {
+        "abbreviation": "CA",
+        "name": "California"
+      },
+      "latitude": 37.2614,
+      "longitude": -121.8727,
+      "pedts": {
+        "observed": "HGIRG",
+        "forecast": ""
+      },
+      "status": {
+        "observed": {
+          "primary": -999,
+          "primaryUnit": "",
+          "secondary": -999,
+          "secondaryUnit": "",
+          "floodCategory": "out_of_service",
+          "validTime": "0001-01-01T00:00:00Z"
+        },
+        "forecast": {
+          "primary": -999,
+          "primaryUnit": "",
+          "secondary": -999,
+          "secondaryUnit": "",
+          "floodCategory": "out_of_service",
+          "validTime": "0001-01-01T00:00:00Z"
+        }
+      }
+    },
+    {
+      "lid": "GUDC1",
+      "name": "Guadalupe River (CA) above Almaden Expressway",
+      "rfc": {
+        "abbreviation": "CNRFC",
+        "name": "California Nevada River Forecast Center"
+      },
+      "wfo": {
+        "abbreviation": "MTR",
+        "name": "Monterey"
+      },
+      "state": {
+        "abbreviation": "CA",
+        "name": "California"
+      },
+      "latitude": 37.2808,
+      "longitude": -121.8802,
+      "pedts": {
+        "observed": "HGIRG",
+        "forecast": "HGIFE"
+      },
+      "status": {
+        "observed": {
+          "primary": 1.55,
+          "primaryUnit": "ft",
+          "secondary": 0.004,
+          "secondaryUnit": "kcfs",
+          "floodCategory": "no_flooding",
+          "validTime": "2026-11-25T11:15:00Z"
+        },
+        "forecast": {
+          "primary": 1.93,
+          "primaryUnit": "ft",
+          "secondary": 0.02,
+          "secondaryUnit": "kcfs",
+          "floodCategory": "no_flooding",
+          "validTime": "2026-11-25T16:00:00Z"
+        }
+      }
+    },
+    {
+      "lid": "GUFC1",
+      "name": "Guadalupe River (CA) at Fish Ladder at Masson Dam",
+      "rfc": {
+        "abbreviation": "CNRFC",
+        "name": "California Nevada River Forecast Center"
+      },
+      "wfo": {
+        "abbreviation": "MTR",
+        "name": "Monterey"
+      },
+      "state": {
+        "abbreviation": "CA",
+        "name": "California"
+      },
+      "latitude": 37.2332,
+      "longitude": -121.8988,
+      "pedts": {
+        "observed": "HGIRG",
+        "forecast": ""
+      },
+      "status": {
+        "observed": {
+          "primary": 3.35,
+          "primaryUnit": "ft",
+          "secondary": -999,
+          "secondaryUnit": "kcfs",
+          "floodCategory": "not_defined",
+          "validTime": "2026-11-25T11:08:00Z"
+        },
+        "forecast": {
+          "primary": -999,
+          "primaryUnit": "",
+          "secondary": -999,
+          "secondaryUnit": "",
+          "floodCategory": "fcst_not_current",
+          "validTime": "0001-01-01T00:00:00Z"
+        }
+      }
+    },
+    {
+      "lid": "GUGC1",
+      "name": "Guadalupe River (CA) at Gold Street",
+      "rfc": {
+        "abbreviation": "CNRFC",
+        "name": "California Nevada River Forecast Center"
+      },
+      "wfo": {
+        "abbreviation": "MTR",
+        "name": "Monterey"
+      },
+      "state": {
+        "abbreviation": "CA",
+        "name": "California"
+      },
+      "latitude": 37.4223,
+      "longitude": -121.9757,
+      "pedts": {
+        "observed": "HGIRR",
+        "forecast": ""
+      },
+      "status": {
+        "observed": {
+          "primary": -999,
+          "primaryUnit": "",
+          "secondary": -999,
+          "secondaryUnit": "",
+          "floodCategory": "obs_not_current",
+          "validTime": "0001-01-01T00:00:00Z"
+        },
+        "forecast": {
+          "primary": -999,
+          "primaryUnit": "",
+          "secondary": -999,
+          "secondaryUnit": "",
+          "floodCategory": "fcst_not_current",
+          "validTime": "0001-01-01T00:00:00Z"
+        }
+      }
+    },
+    {
+      "lid": "GUMC1",
+      "name": "Guadalupe River (CA) at Montague Expressway",
+      "rfc": {
+        "abbreviation": "CNRFC",
+        "name": "California Nevada River Forecast Center"
+      },
+      "wfo": {
+        "abbreviation": "MTR",
+        "name": "Monterey"
+      },
+      "state": {
+        "abbreviation": "CA",
+        "name": "California"
+      },
+      "latitude": 37.395325,
+      "longitude": -121.940179,
+      "pedts": {
+        "observed": "HGIRG",
+        "forecast": ""
+      },
+      "status": {
+        "observed": {
+          "primary": 10.42,
+          "primaryUnit": "ft",
+          "secondary": -999,
+          "secondaryUnit": "kcfs",
+          "floodCategory": "not_defined",
+          "validTime": "2026-11-25T11:15:00Z"
+        },
+        "forecast": {
+          "primary": -999,
+          "primaryUnit": "",
+          "secondary": -999,
+          "secondaryUnit": "",
+          "floodCategory": "fcst_not_current",
+          "validTime": "0001-01-01T00:00:00Z"
+        }
+      }
+    },
+    {
+      "lid": "GUTC1",
+      "name": "Guadalupe River (CA) at Trimble Road",
+      "rfc": {
+        "abbreviation": "CNRFC",
+        "name": "California Nevada River Forecast Center"
+      },
+      "wfo": {
+        "abbreviation": "MTR",
+        "name": "Monterey"
+      },
+      "state": {
+        "abbreviation": "CA",
+        "name": "California"
+      },
+      "latitude": 37.3793,
+      "longitude": -121.9379,
+      "pedts": {
+        "observed": "HGIRR",
+        "forecast": ""
+      },
+      "status": {
+        "observed": {
+          "primary": -999,
+          "primaryUnit": "",
+          "secondary": -999,
+          "secondaryUnit": "",
+          "floodCategory": "out_of_service",
+          "validTime": "0001-01-01T00:00:00Z"
+        },
+        "forecast": {
+          "primary": -999,
+          "primaryUnit": "",
+          "secondary": -999,
+          "secondaryUnit": "",
+          "floodCategory": "out_of_service",
+          "validTime": "0001-01-01T00:00:00Z"
+        }
+      }
+    },
+    {
+      "lid": "GVRC1",
+      "name": "Corralitos Creek at Green Valley Rd",
+      "rfc": {
+        "abbreviation": "CNRFC",
+        "name": "California Nevada River Forecast Center"
+      },
+      "wfo": {
+        "abbreviation": "MTR",
+        "name": "Monterey"
+      },
+      "state": {
+        "abbreviation": "CA",
+        "name": "California"
+      },
+      "latitude": 36.941111111111,
+      "longitude": -121.76666666667,
+      "pedts": {
+        "observed": "HGIRR",
+        "forecast": ""
+      },
+      "status": {
+        "observed": {
+          "primary": -999,
+          "primaryUnit": "",
+          "secondary": -999,
+          "secondaryUnit": "",
+          "floodCategory": "out_of_service",
+          "validTime": "0001-01-01T00:00:00Z"
+        },
+        "forecast": {
+          "primary": -999,
+          "primaryUnit": "",
+          "secondary": -999,
+          "secondaryUnit": "",
+          "floodCategory": "out_of_service",
+          "validTime": "0001-01-01T00:00:00Z"
+        }
+      }
+    },
+    {
+      "lid": "HAVC1",
+      "name": "Hale Creek near Magdalena Avenue",
+      "rfc": {
+        "abbreviation": "CNRFC",
+        "name": "California Nevada River Forecast Center"
+      },
+      "wfo": {
+        "abbreviation": "MTR",
+        "name": "Monterey"
+      },
+      "state": {
+        "abbreviation": "CA",
+        "name": "California"
+      },
+      "latitude": 37.3589,
+      "longitude": -122.0998,
+      "pedts": {
+        "observed": "HGIRG",
+        "forecast": ""
+      },
+      "status": {
+        "observed": {
+          "primary": 1.19,
+          "primaryUnit": "ft",
+          "secondary": 0,
+          "secondaryUnit": "kcfs",
+          "floodCategory": "no_flooding",
+          "validTime": "2026-11-25T11:15:00Z"
+        },
+        "forecast": {
+          "primary": -999,
+          "primaryUnit": "",
+          "secondary": -999,
+          "secondaryUnit": "",
+          "floodCategory": "fcst_not_current",
+          "validTime": "0001-01-01T00:00:00Z"
+        }
+      }
+    },
+    {
+      "lid": "HCYC1",
+      "name": "Coyote Creek at Coyote Ranch Road",
+      "rfc": {
+        "abbreviation": "CNRFC",
+        "name": "California Nevada River Forecast Center"
+      },
+      "wfo": {
+        "abbreviation": "MTR",
+        "name": "Monterey"
+      },
+      "state": {
+        "abbreviation": "CA",
+        "name": "California"
+      },
+      "latitude": 37.218,
+      "longitude": -121.7405,
+      "pedts": {
+        "observed": "HGIRG",
+        "forecast": ""
+      },
+      "status": {
+        "observed": {
+          "primary": 7.77,
+          "primaryUnit": "ft",
+          "secondary": -999,
+          "secondaryUnit": "kcfs",
+          "floodCategory": "not_defined",
+          "validTime": "2026-11-25T11:00:00Z"
+        },
+        "forecast": {
+          "primary": -999,
+          "primaryUnit": "",
+          "secondary": -999,
+          "secondaryUnit": "",
+          "floodCategory": "fcst_not_current",
+          "validTime": "0001-01-01T00:00:00Z"
+        }
+      }
+    },
+    {
+      "lid": "HDRC1",
+      "name": "Los Gatos Creek above Hendrys Creek",
+      "rfc": {
+        "abbreviation": "CNRFC",
+        "name": "California Nevada River Forecast Center"
+      },
+      "wfo": {
+        "abbreviation": "MTR",
+        "name": "Monterey"
+      },
+      "state": {
+        "abbreviation": "CA",
+        "name": "California"
+      },
+      "latitude": 37.1692,
+      "longitude": -121.9775,
+      "pedts": {
+        "observed": "HGIRG",
+        "forecast": ""
+      },
+      "status": {
+        "observed": {
+          "primary": 3.81,
+          "primaryUnit": "ft",
+          "secondary": -999,
+          "secondaryUnit": "kcfs",
+          "floodCategory": "not_defined",
+          "validTime": "2026-11-25T11:15:00Z"
+        },
+        "forecast": {
+          "primary": -999,
+          "primaryUnit": "",
+          "secondary": -999,
+          "secondaryUnit": "",
+          "floodCategory": "fcst_not_current",
+          "validTime": "0001-01-01T00:00:00Z"
+        }
+      }
+    },
+    {
+      "lid": "HKRC1",
+      "name": "Los Gatos Creek  Hooker",
+      "rfc": {
+        "abbreviation": "CNRFC",
+        "name": "California Nevada River Forecast Center"
+      },
+      "wfo": {
+        "abbreviation": "MTR",
+        "name": "Monterey"
+      },
+      "state": {
+        "abbreviation": "CA",
+        "name": "California"
+      },
+      "latitude": 37.15605,
+      "longitude": -121.96232,
+      "pedts": {
+        "observed": "HGIRG",
+        "forecast": ""
+      },
+      "status": {
+        "observed": {
+          "primary": 3.49,
+          "primaryUnit": "ft",
+          "secondary": -999,
+          "secondaryUnit": "kcfs",
+          "floodCategory": "not_defined",
+          "validTime": "2026-11-25T11:15:00Z"
+        },
+        "forecast": {
+          "primary": -999,
+          "primaryUnit": "",
+          "secondary": -999,
+          "secondaryUnit": "",
+          "floodCategory": "fcst_not_current",
+          "validTime": "0001-01-01T00:00:00Z"
+        }
+      }
+    },
+    {
+      "lid": "HWBC1",
+      "name": "Briggs Creek near Howell Reservoir",
+      "rfc": {
+        "abbreviation": "CNRFC",
+        "name": "California Nevada River Forecast Center"
+      },
+      "wfo": {
+        "abbreviation": "MTR",
+        "name": "Monterey"
+      },
+      "state": {
+        "abbreviation": "CA",
+        "name": "California"
+      },
+      "latitude": 37.1873,
+      "longitude": -122.02031,
+      "pedts": {
+        "observed": "HGIRG",
+        "forecast": ""
+      },
+      "status": {
+        "observed": {
+          "primary": -999,
+          "primaryUnit": "",
+          "secondary": -999,
+          "secondaryUnit": "",
+          "floodCategory": "obs_not_current",
+          "validTime": "0001-01-01T00:00:00Z"
+        },
+        "forecast": {
+          "primary": -999,
+          "primaryUnit": "",
+          "secondary": -999,
+          "secondaryUnit": "",
+          "floodCategory": "fcst_not_current",
+          "validTime": "0001-01-01T00:00:00Z"
+        }
+      }
+    },
+    {
+      "lid": "IWNC1",
+      "name": "San Lorenzo River (CA) at Lomond Street Bridge",
+      "rfc": {
+        "abbreviation": "CNRFC",
+        "name": "California Nevada River Forecast Center"
+      },
+      "wfo": {
+        "abbreviation": "MTR",
+        "name": "Monterey"
+      },
+      "state": {
+        "abbreviation": "CA",
+        "name": "California"
+      },
+      "latitude": 37.125833333333,
+      "longitude": -122.11888888889,
+      "pedts": {
+        "observed": "HGIRR",
+        "forecast": ""
+      },
+      "status": {
+        "observed": {
+          "primary": 0.81,
+          "primaryUnit": "ft",
+          "secondary": -999,
+          "secondaryUnit": "kcfs",
+          "floodCategory": "no_flooding",
+          "validTime": "2026-11-25T11:20:00Z"
+        },
+        "forecast": {
+          "primary": -999,
+          "primaryUnit": "",
+          "secondary": -999,
+          "secondaryUnit": "",
+          "floodCategory": "fcst_not_current",
+          "validTime": "0001-01-01T00:00:00Z"
+        }
+      }
+    },
+    {
+      "lid": "KDGC1",
+      "name": "Guadalupe River at LAKE KITTRIDGE",
+      "rfc": {
+        "abbreviation": "CNRFC",
+        "name": "California Nevada River Forecast Center"
+      },
+      "wfo": {
+        "abbreviation": "MTR",
+        "name": "Monterey"
+      },
+      "state": {
+        "abbreviation": "CA",
+        "name": "California"
+      },
+      "latitude": 37.190485,
+      "longitude": -122.01575,
+      "pedts": {
+        "observed": "HPIRG",
+        "forecast": ""
+      },
+      "status": {
+        "observed": {
+          "primary": 0.14,
+          "primaryUnit": "ft",
+          "secondary": -999,
+          "secondaryUnit": "kcfs",
+          "floodCategory": "not_defined",
+          "validTime": "2026-11-25T11:15:00Z"
+        },
+        "forecast": {
+          "primary": -999,
+          "primaryUnit": "",
+          "secondary": -999,
+          "secondaryUnit": "",
+          "floodCategory": "fcst_not_current",
+          "validTime": "0001-01-01T00:00:00Z"
+        }
+      }
+    },
+    {
+      "lid": "LCXC1",
+      "name": "Llagas Creek below Chesbro Reservoir",
+      "rfc": {
+        "abbreviation": "CNRFC",
+        "name": "California Nevada River Forecast Center"
+      },
+      "wfo": {
+        "abbreviation": "MTR",
+        "name": "Monterey"
+      },
+      "state": {
+        "abbreviation": "CA",
+        "name": "California"
+      },
+      "latitude": 37.1144,
+      "longitude": -121.6905,
+      "pedts": {
+        "observed": "HGIRG",
+        "forecast": ""
+      },
+      "status": {
+        "observed": {
+          "primary": 1.26,
+          "primaryUnit": "ft",
+          "secondary": 0.011,
+          "secondaryUnit": "kcfs",
+          "floodCategory": "not_defined",
+          "validTime": "2026-11-25T11:15:00Z"
+        },
+        "forecast": {
+          "primary": -999,
+          "primaryUnit": "",
+          "secondary": -999,
+          "secondaryUnit": "",
+          "floodCategory": "fcst_not_current",
+          "validTime": "0001-01-01T00:00:00Z"
+        }
+      }
+    },
+    {
+      "lid": "LESC1",
+      "name": "Los Gatos Creek at Lake Elsman",
+      "rfc": {
+        "abbreviation": "CNRFC",
+        "name": "California Nevada River Forecast Center"
+      },
+      "wfo": {
+        "abbreviation": "MTR",
+        "name": "Monterey"
+      },
+      "state": {
+        "abbreviation": "CA",
+        "name": "California"
+      },
+      "latitude": 37.1298,
+      "longitude": -121.9296,
+      "pedts": {
+        "observed": "HPIRG",
+        "forecast": ""
+      },
+      "status": {
+        "observed": {
+          "primary": 1076.3,
+          "primaryUnit": "ft",
+          "secondary": 3.25,
+          "secondaryUnit": "kcfs",
+          "floodCategory": "not_defined",
+          "validTime": "2026-11-25T11:15:00Z"
+        },
+        "forecast": {
+          "primary": -999,
+          "primaryUnit": "",
+          "secondary": -999,
+          "secondaryUnit": "",
+          "floodCategory": "fcst_not_current",
+          "validTime": "0001-01-01T00:00:00Z"
+        }
+      }
+    },
+    {
+      "lid": "LGHC1",
+      "name": "Llagas Creek above Chesbro Reservoir",
+      "rfc": {
+        "abbreviation": "CNRFC",
+        "name": "California Nevada River Forecast Center"
+      },
+      "wfo": {
+        "abbreviation": "MTR",
+        "name": "Monterey"
+      },
+      "state": {
+        "abbreviation": "CA",
+        "name": "California"
+      },
+      "latitude": 37.1483,
+      "longitude": -121.768,
+      "pedts": {
+        "observed": "HGIRG",
+        "forecast": ""
+      },
+      "status": {
+        "observed": {
+          "primary": 2.38,
+          "primaryUnit": "ft",
+          "secondary": 0.001,
+          "secondaryUnit": "kcfs",
+          "floodCategory": "not_defined",
+          "validTime": "2026-11-25T11:05:00Z"
+        },
+        "forecast": {
+          "primary": -999,
+          "primaryUnit": "",
+          "secondary": -999,
+          "secondaryUnit": "",
+          "floodCategory": "fcst_not_current",
+          "validTime": "0001-01-01T00:00:00Z"
+        }
+      }
+    },
+    {
+      "lid": "LGLC1",
+      "name": "Los Gatos Creek below Lexington Reservoir",
+      "rfc": {
+        "abbreviation": "CNRFC",
+        "name": "California Nevada River Forecast Center"
+      },
+      "wfo": {
+        "abbreviation": "MTR",
+        "name": "Monterey"
+      },
+      "state": {
+        "abbreviation": "CA",
+        "name": "California"
+      },
+      "latitude": 37.2189,
+      "longitude": -121.9852,
+      "pedts": {
+        "observed": "HGIRG",
+        "forecast": ""
+      },
+      "status": {
+        "observed": {
+          "primary": 1.82,
+          "primaryUnit": "ft",
+          "secondary": 0.011,
+          "secondaryUnit": "kcfs",
+          "floodCategory": "no_flooding",
+          "validTime": "2026-11-25T11:15:00Z"
+        },
+        "forecast": {
+          "primary": -999,
+          "primaryUnit": "",
+          "secondary": -999,
+          "secondaryUnit": "",
+          "floodCategory": "fcst_not_current",
+          "validTime": "0001-01-01T00:00:00Z"
+        }
+      }
+    },
+    {
+      "lid": "LGQC1",
+      "name": "Los Gatos Creek above Bascom Avenue",
+      "rfc": {
+        "abbreviation": "CNRFC",
+        "name": "California Nevada River Forecast Center"
+      },
+      "wfo": {
+        "abbreviation": "MTR",
+        "name": "Monterey"
+      },
+      "state": {
+        "abbreviation": "CA",
+        "name": "California"
+      },
+      "latitude": 37.2967,
+      "longitude": -121.9327,
+      "pedts": {
+        "observed": "HGIRR",
+        "forecast": ""
+      },
+      "status": {
+        "observed": {
+          "primary": -999,
+          "primaryUnit": "",
+          "secondary": -999,
+          "secondaryUnit": "",
+          "floodCategory": "out_of_service",
+          "validTime": "0001-01-01T00:00:00Z"
+        },
+        "forecast": {
+          "primary": -999,
+          "primaryUnit": "",
+          "secondary": -999,
+          "secondaryUnit": "",
+          "floodCategory": "out_of_service",
+          "validTime": "0001-01-01T00:00:00Z"
+        }
+      }
+    },
+    {
+      "lid": "LGTC1",
+      "name": "Los Gatos Creek at Lincoln Avenue",
+      "rfc": {
+        "abbreviation": "CNRFC",
+        "name": "California Nevada River Forecast Center"
+      },
+      "wfo": {
+        "abbreviation": "MTR",
+        "name": "Monterey"
+      },
+      "state": {
+        "abbreviation": "CA",
+        "name": "California"
+      },
+      "latitude": 37.3124,
+      "longitude": -121.9046,
+      "pedts": {
+        "observed": "HGIRG",
+        "forecast": ""
+      },
+      "status": {
+        "observed": {
+          "primary": 5.18,
+          "primaryUnit": "ft",
+          "secondary": 0.009,
+          "secondaryUnit": "kcfs",
+          "floodCategory": "no_flooding",
+          "validTime": "2026-11-25T11:06:00Z"
+        },
+        "forecast": {
+          "primary": -999,
+          "primaryUnit": "",
+          "secondary": -999,
+          "secondaryUnit": "",
+          "floodCategory": "fcst_not_current",
+          "validTime": "0001-01-01T00:00:00Z"
+        }
+      }
+    },
+    {
+      "lid": "LGWC1",
+      "name": "Los Gatos Creek at Kirk Dam Weir",
+      "rfc": {
+        "abbreviation": "CNRFC",
+        "name": "California Nevada River Forecast Center"
+      },
+      "wfo": {
+        "abbreviation": "MTR",
+        "name": "Monterey"
+      },
+      "state": {
+        "abbreviation": "CA",
+        "name": "California"
+      },
+      "latitude": 37.2604,
+      "longitude": -121.9571,
+      "pedts": {
+        "observed": "HGIRG",
+        "forecast": ""
+      },
+      "status": {
+        "observed": {
+          "primary": 1.21,
+          "primaryUnit": "ft",
+          "secondary": 0.012,
+          "secondaryUnit": "kcfs",
+          "floodCategory": "out_of_service",
+          "validTime": "2026-11-25T11:05:00Z"
+        },
+        "forecast": {
+          "primary": -999,
+          "primaryUnit": "",
+          "secondary": -999,
+          "secondaryUnit": "",
+          "floodCategory": "out_of_service",
+          "validTime": "0001-01-01T00:00:00Z"
+        }
+      }
+    },
+    {
+      "lid": "LKLC1",
+      "name": "Los Gatos Creek  Lake Elsman Diversion",
+      "rfc": {
+        "abbreviation": "CNRFC",
+        "name": "California Nevada River Forecast Center"
+      },
+      "wfo": {
+        "abbreviation": "MTR",
+        "name": "Monterey"
+      },
+      "state": {
+        "abbreviation": "CA",
+        "name": "California"
+      },
+      "latitude": 37.13052,
+      "longitude": -121.933466,
+      "pedts": {
+        "observed": "HPIRG",
+        "forecast": ""
+      },
+      "status": {
+        "observed": {
+          "primary": -999,
+          "primaryUnit": "",
+          "secondary": -999,
+          "secondaryUnit": "",
+          "floodCategory": "obs_not_current",
+          "validTime": "0001-01-01T00:00:00Z"
+        },
+        "forecast": {
+          "primary": -999,
+          "primaryUnit": "",
+          "secondary": -999,
+          "secondaryUnit": "",
+          "floodCategory": "fcst_not_current",
+          "validTime": "0001-01-01T00:00:00Z"
+        }
+      }
+    },
+    {
+      "lid": "LLGC1",
+      "name": "Llagas Creek near Gilroy",
+      "rfc": {
+        "abbreviation": "CNRFC",
+        "name": "California Nevada River Forecast Center"
+      },
+      "wfo": {
+        "abbreviation": "MTR",
+        "name": "Monterey"
+      },
+      "state": {
+        "abbreviation": "CA",
+        "name": "California"
+      },
+      "latitude": 36.98744858,
+      "longitude": -121.5271622,
+      "pedts": {
+        "observed": "HGIRG",
+        "forecast": ""
+      },
+      "status": {
+        "observed": {
+          "primary": 0.7,
+          "primaryUnit": "ft",
+          "secondary": 0.003,
+          "secondaryUnit": "kcfs",
+          "floodCategory": "not_defined",
+          "validTime": "2026-11-25T11:00:00Z"
+        },
+        "forecast": {
+          "primary": -999,
+          "primaryUnit": "",
+          "secondary": -999,
+          "secondaryUnit": "",
+          "floodCategory": "fcst_not_current",
+          "validTime": "0001-01-01T00:00:00Z"
+        }
+      }
+    },
+    {
+      "lid": "LPHC1",
+      "name": "Lower Penitencia Creek at Machada Avenue",
+      "rfc": {
+        "abbreviation": "CNRFC",
+        "name": "California Nevada River Forecast Center"
+      },
+      "wfo": {
+        "abbreviation": "MTR",
+        "name": "Monterey"
+      },
+      "state": {
+        "abbreviation": "CA",
+        "name": "California"
+      },
+      "latitude": 37.4218,
+      "longitude": -121.9068,
+      "pedts": {
+        "observed": "HGIRG",
+        "forecast": ""
+      },
+      "status": {
+        "observed": {
+          "primary": 1.08,
+          "primaryUnit": "ft",
+          "secondary": 0.003,
+          "secondaryUnit": "kcfs",
+          "floodCategory": "no_flooding",
+          "validTime": "2026-11-25T11:04:00Z"
+        },
+        "forecast": {
+          "primary": -999,
+          "primaryUnit": "",
+          "secondary": -999,
+          "secondaryUnit": "",
+          "floodCategory": "fcst_not_current",
+          "validTime": "0001-01-01T00:00:00Z"
+        }
+      }
+    },
+    {
+      "lid": "LRCC1",
+      "name": "Guadalupe River  Lake Ranch",
+      "rfc": {
+        "abbreviation": "CNRFC",
+        "name": "California Nevada River Forecast Center"
+      },
+      "wfo": {
+        "abbreviation": "MTR",
+        "name": "Monterey"
+      },
+      "state": {
+        "abbreviation": "CA",
+        "name": "California"
+      },
+      "latitude": 37.216853,
+      "longitude": -122.048454,
+      "pedts": {
+        "observed": "HPIRG",
+        "forecast": ""
+      },
+      "status": {
+        "observed": {
+          "primary": 8.7,
+          "primaryUnit": "ft",
+          "secondary": 0,
+          "secondaryUnit": "kcfs",
+          "floodCategory": "not_defined",
+          "validTime": "2026-11-25T11:15:00Z"
+        },
+        "forecast": {
+          "primary": -999,
+          "primaryUnit": "",
+          "secondary": -999,
+          "secondaryUnit": "",
+          "floodCategory": "fcst_not_current",
+          "validTime": "0001-01-01T00:00:00Z"
+        }
+      }
+    },
+    {
+      "lid": "LRKC1",
+      "name": "Los Gatos Creek at Lark Avenue",
+      "rfc": {
+        "abbreviation": "CNRFC",
+        "name": "California Nevada River Forecast Center"
+      },
+      "wfo": {
+        "abbreviation": "MTR",
+        "name": "Monterey"
+      },
+      "state": {
+        "abbreviation": "CA",
+        "name": "California"
+      },
+      "latitude": 37.2518,
+      "longitude": -121.9645,
+      "pedts": {
+        "observed": "HGIRG",
+        "forecast": ""
+      },
+      "status": {
+        "observed": {
+          "primary": 1.38,
+          "primaryUnit": "ft",
+          "secondary": 0.013,
+          "secondaryUnit": "kcfs",
+          "floodCategory": "no_flooding",
+          "validTime": "2026-11-25T11:15:00Z"
+        },
+        "forecast": {
+          "primary": -999,
+          "primaryUnit": "",
+          "secondary": -999,
+          "secondaryUnit": "",
+          "floodCategory": "fcst_not_current",
+          "validTime": "0001-01-01T00:00:00Z"
+        }
+      }
+    },
+    {
+      "lid": "LRNC1",
+      "name": "Guadalupe River at Lake Ranch North",
+      "rfc": {
+        "abbreviation": "CNRFC",
+        "name": "California Nevada River Forecast Center"
+      },
+      "wfo": {
+        "abbreviation": "MTR",
+        "name": "Monterey"
+      },
+      "state": {
+        "abbreviation": "CA",
+        "name": "California"
+      },
+      "latitude": 37.221102,
+      "longitude": -122.053155,
+      "pedts": {
+        "observed": "HPIRG",
+        "forecast": ""
+      },
+      "status": {
+        "observed": {
+          "primary": 3.97,
+          "primaryUnit": "ft",
+          "secondary": -999,
+          "secondaryUnit": "kcfs",
+          "floodCategory": "not_defined",
+          "validTime": "2026-11-25T11:15:00Z"
+        },
+        "forecast": {
+          "primary": -999,
+          "primaryUnit": "",
+          "secondary": -999,
+          "secondaryUnit": "",
+          "floodCategory": "fcst_not_current",
+          "validTime": "0001-01-01T00:00:00Z"
+        }
+      }
+    },
+    {
+      "lid": "LRRC1",
+      "name": "San Lorenzo River (CA) at Santa Cruz",
+      "rfc": {
+        "abbreviation": "CNRFC",
+        "name": "California Nevada River Forecast Center"
+      },
+      "wfo": {
+        "abbreviation": "MTR",
+        "name": "Monterey"
+      },
+      "state": {
+        "abbreviation": "CA",
+        "name": "California"
+      },
+      "latitude": 36.9907832,
+      "longitude": -122.0319076,
+      "pedts": {
+        "observed": "HGIRG",
+        "forecast": ""
+      },
+      "status": {
+        "observed": {
+          "primary": 2.45,
+          "primaryUnit": "ft",
+          "secondary": 0.071,
+          "secondaryUnit": "kcfs",
+          "floodCategory": "no_flooding",
+          "validTime": "2026-11-25T11:00:00Z"
+        },
+        "forecast": {
+          "primary": -999,
+          "primaryUnit": "",
+          "secondary": -999,
+          "secondaryUnit": "",
+          "floodCategory": "fcst_not_current",
+          "validTime": "0001-01-01T00:00:00Z"
+        }
+      }
+    },
+    {
+      "lid": "LRYC1",
+      "name": "Los Gatos Creek above Ryland Dam",
+      "rfc": {
+        "abbreviation": "CNRFC",
+        "name": "California Nevada River Forecast Center"
+      },
+      "wfo": {
+        "abbreviation": "MTR",
+        "name": "Monterey"
+      },
+      "state": {
+        "abbreviation": "CA",
+        "name": "California"
+      },
+      "latitude": 37.164167,
+      "longitude": -121.977222,
+      "pedts": {
+        "observed": "HGIRG",
+        "forecast": ""
+      },
+      "status": {
+        "observed": {
+          "primary": 5.35,
+          "primaryUnit": "ft",
+          "secondary": 0.003,
+          "secondaryUnit": "kcfs",
+          "floodCategory": "not_defined",
+          "validTime": "2026-11-25T11:15:00Z"
+        },
+        "forecast": {
+          "primary": -999,
+          "primaryUnit": "",
+          "secondary": -999,
+          "secondaryUnit": "",
+          "floodCategory": "fcst_not_current",
+          "validTime": "0001-01-01T00:00:00Z"
+        }
+      }
+    },
+    {
+      "lid": "LSKC1",
+      "name": "Lower Silver Creek at San Antonio St",
+      "rfc": {
+        "abbreviation": "CNRFC",
+        "name": "California Nevada River Forecast Center"
+      },
+      "wfo": {
+        "abbreviation": "MTR",
+        "name": "Monterey"
+      },
+      "state": {
+        "abbreviation": "CA",
+        "name": "California"
+      },
+      "latitude": 37.35345,
+      "longitude": -121.8452,
+      "pedts": {
+        "observed": "HGIRG",
+        "forecast": ""
+      },
+      "status": {
+        "observed": {
+          "primary": 0.84,
+          "primaryUnit": "ft",
+          "secondary": 0.01,
+          "secondaryUnit": "kcfs",
+          "floodCategory": "not_defined",
+          "validTime": "2026-11-25T11:15:00Z"
+        },
+        "forecast": {
+          "primary": -999,
+          "primaryUnit": "",
+          "secondary": -999,
+          "secondaryUnit": "",
+          "floodCategory": "fcst_not_current",
+          "validTime": "0001-01-01T00:00:00Z"
+        }
+      }
+    },
+    {
+      "lid": "LSXC1",
+      "name": "Llagas Creek at Lake Silveira",
+      "rfc": {
+        "abbreviation": "CNRFC",
+        "name": "California Nevada River Forecast Center"
+      },
+      "wfo": {
+        "abbreviation": "MTR",
+        "name": "Monterey"
+      },
+      "state": {
+        "abbreviation": "CA",
+        "name": "California"
+      },
+      "latitude": 37.0956,
+      "longitude": -121.6229,
+      "pedts": {
+        "observed": "HPIRG",
+        "forecast": ""
+      },
+      "status": {
+        "observed": {
+          "primary": 305.44,
+          "primaryUnit": "ft",
+          "secondary": -999,
+          "secondaryUnit": "kcfs",
+          "floodCategory": "not_defined",
+          "validTime": "2026-11-25T11:00:00Z"
+        },
+        "forecast": {
+          "primary": -999,
+          "primaryUnit": "",
+          "secondary": -999,
+          "secondaryUnit": "",
+          "floodCategory": "fcst_not_current",
+          "validTime": "0001-01-01T00:00:00Z"
+        }
+      }
+    },
+    {
+      "lid": "LTQC1",
+      "name": "Los Trancos Creek at Arastradero Road (LTAA)",
+      "rfc": {
+        "abbreviation": "CNRFC",
+        "name": "California Nevada River Forecast Center"
+      },
+      "wfo": {
+        "abbreviation": "MTR",
+        "name": "Monterey"
+      },
+      "state": {
+        "abbreviation": "CA",
+        "name": "California"
+      },
+      "latitude": 37.3831,
+      "longitude": -122.1929,
+      "pedts": {
+        "observed": "QRIRR",
+        "forecast": ""
+      },
+      "status": {
+        "observed": {
+          "primary": 0,
+          "primaryUnit": "kcfs",
+          "secondary": -999,
+          "secondaryUnit": "ft",
+          "floodCategory": "not_defined",
+          "validTime": "2026-11-25T10:30:00Z"
+        },
+        "forecast": {
+          "primary": -999,
+          "primaryUnit": "",
+          "secondary": -999,
+          "secondaryUnit": "",
+          "floodCategory": "fcst_not_current",
+          "validTime": "0001-01-01T00:00:00Z"
+        }
+      }
+    },
+    {
+      "lid": "LUVC1",
+      "name": "Little Uvas Creek - Uvas Rd",
+      "rfc": {
+        "abbreviation": "CNRFC",
+        "name": "California Nevada River Forecast Center"
+      },
+      "wfo": {
+        "abbreviation": "MTR",
+        "name": "Monterey"
+      },
+      "state": {
+        "abbreviation": "CA",
+        "name": "California"
+      },
+      "latitude": 37.110277,
+      "longitude": -121.734822,
+      "pedts": {
+        "observed": "HGIRG",
+        "forecast": ""
+      },
+      "status": {
+        "observed": {
+          "primary": 3.02,
+          "primaryUnit": "ft",
+          "secondary": 0,
+          "secondaryUnit": "kcfs",
+          "floodCategory": "not_defined",
+          "validTime": "2026-11-25T11:00:00Z"
+        },
+        "forecast": {
+          "primary": -999,
+          "primaryUnit": "",
+          "secondary": -999,
+          "secondaryUnit": "",
+          "floodCategory": "fcst_not_current",
+          "validTime": "0001-01-01T00:00:00Z"
+        }
+      }
+    },
+    {
+      "lid": "LWCC1",
+      "name": "Guadalupe River  Lower Cavanee",
+      "rfc": {
+        "abbreviation": "CNRFC",
+        "name": "California Nevada River Forecast Center"
+      },
+      "wfo": {
+        "abbreviation": "MTR",
+        "name": "Monterey"
+      },
+      "state": {
+        "abbreviation": "CA",
+        "name": "California"
+      },
+      "latitude": 37.1878,
+      "longitude": -121.972,
+      "pedts": {
+        "observed": "HGIRG",
+        "forecast": ""
+      },
+      "status": {
+        "observed": {
+          "primary": 4.24,
+          "primaryUnit": "ft",
+          "secondary": -999,
+          "secondaryUnit": "kcfs",
+          "floodCategory": "not_defined",
+          "validTime": "2026-11-25T11:15:00Z"
+        },
+        "forecast": {
+          "primary": -999,
+          "primaryUnit": "",
+          "secondary": -999,
+          "secondaryUnit": "",
+          "floodCategory": "fcst_not_current",
+          "validTime": "0001-01-01T00:00:00Z"
+        }
+      }
+    },
+    {
+      "lid": "LXCC1",
+      "name": "Llagas Creek at Church Diversion",
+      "rfc": {
+        "abbreviation": "CNRFC",
+        "name": "California Nevada River Forecast Center"
+      },
+      "wfo": {
+        "abbreviation": "MTR",
+        "name": "Monterey"
+      },
+      "state": {
+        "abbreviation": "CA",
+        "name": "California"
+      },
+      "latitude": 37.072234,
+      "longitude": -121.597249,
+      "pedts": {
+        "observed": "HGIRG",
+        "forecast": ""
+      },
+      "status": {
+        "observed": {
+          "primary": 5.65,
+          "primaryUnit": "ft",
+          "secondary": 0.006,
+          "secondaryUnit": "kcfs",
+          "floodCategory": "not_defined",
+          "validTime": "2026-11-25T11:00:00Z"
+        },
+        "forecast": {
+          "primary": -999,
+          "primaryUnit": "",
+          "secondary": -999,
+          "secondaryUnit": "",
+          "floodCategory": "fcst_not_current",
+          "validTime": "0001-01-01T00:00:00Z"
+        }
+      }
+    },
+    {
+      "lid": "LXRC1",
+      "name": "Los Gatos Creek above Lexington Reservoir",
+      "rfc": {
+        "abbreviation": "CNRFC",
+        "name": "California Nevada River Forecast Center"
+      },
+      "wfo": {
+        "abbreviation": "MTR",
+        "name": "Monterey"
+      },
+      "state": {
+        "abbreviation": "CA",
+        "name": "California"
+      },
+      "latitude": 37.1677,
+      "longitude": -121.9805,
+      "pedts": {
+        "observed": "HGIRG",
+        "forecast": ""
+      },
+      "status": {
+        "observed": {
+          "primary": -999,
+          "primaryUnit": "",
+          "secondary": -999,
+          "secondaryUnit": "",
+          "floodCategory": "out_of_service",
+          "validTime": "0001-01-01T00:00:00Z"
+        },
+        "forecast": {
+          "primary": -999,
+          "primaryUnit": "",
+          "secondary": -999,
+          "secondaryUnit": "",
+          "floodCategory": "out_of_service",
+          "validTime": "0001-01-01T00:00:00Z"
+        }
+      }
+    },
+    {
+      "lid": "MAYC1",
+      "name": "Mabury Diversion  ",
+      "rfc": {
+        "abbreviation": "CNRFC",
+        "name": "California Nevada River Forecast Center"
+      },
+      "wfo": {
+        "abbreviation": "MTR",
+        "name": "Monterey"
+      },
+      "state": {
+        "abbreviation": "CA",
+        "name": "California"
+      },
+      "latitude": 37.3717,
+      "longitude": -121.8615,
+      "pedts": {
+        "observed": "HGIRG",
+        "forecast": ""
+      },
+      "status": {
+        "observed": {
+          "primary": -999,
+          "primaryUnit": "",
+          "secondary": -999,
+          "secondaryUnit": "",
+          "floodCategory": "out_of_service",
+          "validTime": "0001-01-01T00:00:00Z"
+        },
+        "forecast": {
+          "primary": -999,
+          "primaryUnit": "",
+          "secondary": -999,
+          "secondaryUnit": "",
+          "floodCategory": "out_of_service",
+          "validTime": "0001-01-01T00:00:00Z"
+        }
+      }
+    },
+    {
+      "lid": "MFSC1",
+      "name": "Mayfield Slough  Tidal Station",
+      "rfc": {
+        "abbreviation": "CNRFC",
+        "name": "California Nevada River Forecast Center"
+      },
+      "wfo": {
+        "abbreviation": "MTR",
+        "name": "Monterey"
+      },
+      "state": {
+        "abbreviation": "CA",
+        "name": "California"
+      },
+      "latitude": 37.455555555555556,
+      "longitude": -122.10083333333333,
+      "pedts": {
+        "observed": "HGIRR",
+        "forecast": ""
+      },
+      "status": {
+        "observed": {
+          "primary": 3.32,
+          "primaryUnit": "ft",
+          "secondary": -999,
+          "secondaryUnit": "kcfs",
+          "floodCategory": "not_defined",
+          "validTime": "2026-11-25T11:05:00Z"
+        },
+        "forecast": {
+          "primary": -999,
+          "primaryUnit": "",
+          "secondary": -999,
+          "secondaryUnit": "",
+          "floodCategory": "fcst_not_current",
+          "validTime": "0001-01-01T00:00:00Z"
+        }
+      }
+    },
+    {
+      "lid": "MKZC1",
+      "name": "Guadalupe River  MCKENZIE",
+      "rfc": {
+        "abbreviation": "CNRFC",
+        "name": "California Nevada River Forecast Center"
+      },
+      "wfo": {
+        "abbreviation": "MTR",
+        "name": "Monterey"
+      },
+      "state": {
+        "abbreviation": "CA",
+        "name": "California"
+      },
+      "latitude": 37.2203,
+      "longitude": -122.056,
+      "pedts": {
+        "observed": "HGIRG",
+        "forecast": ""
+      },
+      "status": {
+        "observed": {
+          "primary": 3.78,
+          "primaryUnit": "ft",
+          "secondary": -999,
+          "secondaryUnit": "kcfs",
+          "floodCategory": "not_defined",
+          "validTime": "2026-11-25T11:15:00Z"
+        },
+        "forecast": {
+          "primary": -999,
+          "primaryUnit": "",
+          "secondary": -999,
+          "secondaryUnit": "",
+          "floodCategory": "fcst_not_current",
+          "validTime": "0001-01-01T00:00:00Z"
+        }
+      }
+    },
+    {
+      "lid": "MMVC1",
+      "name": "Matadero Creek at Lambert Avenue",
+      "rfc": {
+        "abbreviation": "CNRFC",
+        "name": "California Nevada River Forecast Center"
+      },
+      "wfo": {
+        "abbreviation": "MTR",
+        "name": "Monterey"
+      },
+      "state": {
+        "abbreviation": "CA",
+        "name": "California"
+      },
+      "latitude": 37.4222,
+      "longitude": -122.1358,
+      "pedts": {
+        "observed": "HGIRG",
+        "forecast": ""
+      },
+      "status": {
+        "observed": {
+          "primary": 2.49,
+          "primaryUnit": "ft",
+          "secondary": 0,
+          "secondaryUnit": "kcfs",
+          "floodCategory": "not_defined",
+          "validTime": "2026-11-25T11:00:00Z"
+        },
+        "forecast": {
+          "primary": -999,
+          "primaryUnit": "",
+          "secondary": -999,
+          "secondaryUnit": "",
+          "floodCategory": "fcst_not_current",
+          "validTime": "0001-01-01T00:00:00Z"
+        }
+      }
+    },
+    {
+      "lid": "MVNC1",
+      "name": "Los Gatos Creek at Montevina",
+      "rfc": {
+        "abbreviation": "CNRFC",
+        "name": "California Nevada River Forecast Center"
+      },
+      "wfo": {
+        "abbreviation": "MTR",
+        "name": "Monterey"
+      },
+      "state": {
+        "abbreviation": "CA",
+        "name": "California"
+      },
+      "latitude": 37.1995,
+      "longitude": -121.9919,
+      "pedts": {
+        "observed": "QRIRG",
+        "forecast": ""
+      },
+      "status": {
+        "observed": {
+          "primary": -999,
+          "primaryUnit": "",
+          "secondary": -999,
+          "secondaryUnit": "",
+          "floodCategory": "obs_not_current",
+          "validTime": "0001-01-01T00:00:00Z"
+        },
+        "forecast": {
+          "primary": -999,
+          "primaryUnit": "",
+          "secondary": -999,
+          "secondaryUnit": "",
+          "floodCategory": "fcst_not_current",
+          "validTime": "0001-01-01T00:00:00Z"
+        }
+      }
+    },
+    {
+      "lid": "NCAC1",
+      "name": "New Chicago Marsh at Alviso",
+      "rfc": {
+        "abbreviation": "CNRFC",
+        "name": "California Nevada River Forecast Center"
+      },
+      "wfo": {
+        "abbreviation": "MTR",
+        "name": "Monterey"
+      },
+      "state": {
+        "abbreviation": "CA",
+        "name": "California"
+      },
+      "latitude": 37.429807,
+      "longitude": -121.978261,
+      "pedts": {
+        "observed": "HGIRG",
+        "forecast": ""
+      },
+      "status": {
+        "observed": {
+          "primary": 9.71,
+          "primaryUnit": "ft",
+          "secondary": -999,
+          "secondaryUnit": "kcfs",
+          "floodCategory": "not_defined",
+          "validTime": "2026-11-25T11:15:00Z"
+        },
+        "forecast": {
+          "primary": -999,
+          "primaryUnit": "",
+          "secondary": -999,
+          "secondaryUnit": "",
+          "floodCategory": "fcst_not_current",
+          "validTime": "0001-01-01T00:00:00Z"
+        }
+      }
+    },
+    {
+      "lid": "NCDC1",
+      "name": "New Chicago Marsh at Don Edwards",
+      "rfc": {
+        "abbreviation": "CNRFC",
+        "name": "California Nevada River Forecast Center"
+      },
+      "wfo": {
+        "abbreviation": "MTR",
+        "name": "Monterey"
+      },
+      "state": {
+        "abbreviation": "CA",
+        "name": "California"
+      },
+      "latitude": 37.44056,
+      "longitude": -121.965235,
+      "pedts": {
+        "observed": "HGIRG",
+        "forecast": ""
+      },
+      "status": {
+        "observed": {
+          "primary": 9.05,
+          "primaryUnit": "ft",
+          "secondary": -999,
+          "secondaryUnit": "kcfs",
+          "floodCategory": "not_defined",
+          "validTime": "2026-11-25T11:15:00Z"
+        },
+        "forecast": {
+          "primary": -999,
+          "primaryUnit": "",
+          "secondary": -999,
+          "secondaryUnit": "",
+          "floodCategory": "fcst_not_current",
+          "validTime": "0001-01-01T00:00:00Z"
+        }
+      }
+    },
+    {
+      "lid": "NRGC1",
+      "name": "Coyote Creek near Gilroy",
+      "rfc": {
+        "abbreviation": "CNRFC",
+        "name": "California Nevada River Forecast Center"
+      },
+      "wfo": {
+        "abbreviation": "MTR",
+        "name": "Monterey"
+      },
+      "state": {
+        "abbreviation": "CA",
+        "name": "California"
+      },
+      "latitude": 37.07772286,
+      "longitude": -121.4943832,
+      "pedts": {
+        "observed": "HGIRG",
+        "forecast": ""
+      },
+      "status": {
+        "observed": {
+          "primary": 2.88,
+          "primaryUnit": "ft",
+          "secondary": -999,
+          "secondaryUnit": "kcfs",
+          "floodCategory": "not_defined",
+          "validTime": "2026-11-25T11:15:00Z"
+        },
+        "forecast": {
+          "primary": -999,
+          "primaryUnit": "",
+          "secondary": -999,
+          "secondaryUnit": "",
+          "floodCategory": "fcst_not_current",
+          "validTime": "0001-01-01T00:00:00Z"
+        }
+      }
+    },
+    {
+      "lid": "OCLC1",
+      "name": "Lower Silver Creek at Ocala Avenue",
+      "rfc": {
+        "abbreviation": "CNRFC",
+        "name": "California Nevada River Forecast Center"
+      },
+      "wfo": {
+        "abbreviation": "MTR",
+        "name": "Monterey"
+      },
+      "state": {
+        "abbreviation": "CA",
+        "name": "California"
+      },
+      "latitude": 37.3431,
+      "longitude": -121.8129,
+      "pedts": {
+        "observed": "HGIRR",
+        "forecast": ""
+      },
+      "status": {
+        "observed": {
+          "primary": -999,
+          "primaryUnit": "",
+          "secondary": -999,
+          "secondaryUnit": "",
+          "floodCategory": "out_of_service",
+          "validTime": "0001-01-01T00:00:00Z"
+        },
+        "forecast": {
+          "primary": -999,
+          "primaryUnit": "",
+          "secondary": -999,
+          "secondaryUnit": "",
+          "floodCategory": "out_of_service",
+          "validTime": "0001-01-01T00:00:00Z"
+        }
+      }
+    },
+    {
+      "lid": "OLAC1",
+      "name": "Matadero Creek at Palo Alto",
+      "rfc": {
+        "abbreviation": "CNRFC",
+        "name": "California Nevada River Forecast Center"
+      },
+      "wfo": {
+        "abbreviation": "MTR",
+        "name": "Monterey"
+      },
+      "state": {
+        "abbreviation": "CA",
+        "name": "California"
+      },
+      "latitude": 37.4216062,
+      "longitude": -122.1355193,
+      "pedts": {
+        "observed": "HGIRG",
+        "forecast": ""
+      },
+      "status": {
+        "observed": {
+          "primary": -999,
+          "primaryUnit": "",
+          "secondary": -999,
+          "secondaryUnit": "",
+          "floodCategory": "out_of_service",
+          "validTime": "0001-01-01T00:00:00Z"
+        },
+        "forecast": {
+          "primary": -999,
+          "primaryUnit": "",
+          "secondary": -999,
+          "secondaryUnit": "",
+          "floodCategory": "out_of_service",
+          "validTime": "0001-01-01T00:00:00Z"
+        }
+      }
+    },
+    {
+      "lid": "OSWC1",
+      "name": "Guadalupe River  Ostwald",
+      "rfc": {
+        "abbreviation": "CNRFC",
+        "name": "California Nevada River Forecast Center"
+      },
+      "wfo": {
+        "abbreviation": "MTR",
+        "name": "Monterey"
+      },
+      "state": {
+        "abbreviation": "CA",
+        "name": "California"
+      },
+      "latitude": 37.14856,
+      "longitude": -121.95,
+      "pedts": {
+        "observed": "HGIRG",
+        "forecast": ""
+      },
+      "status": {
+        "observed": {
+          "primary": 4.13,
+          "primaryUnit": "ft",
+          "secondary": -999,
+          "secondaryUnit": "kcfs",
+          "floodCategory": "not_defined",
+          "validTime": "2026-11-25T11:15:00Z"
+        },
+        "forecast": {
+          "primary": -999,
+          "primaryUnit": "",
+          "secondary": -999,
+          "secondaryUnit": "",
+          "floodCategory": "fcst_not_current",
+          "validTime": "0001-01-01T00:00:00Z"
+        }
+      }
+    },
+    {
+      "lid": "PAHC1",
+      "name": "Pacheco Reservoir above Pacheco Reservoir",
+      "rfc": {
+        "abbreviation": "CNRFC",
+        "name": "California Nevada River Forecast Center"
+      },
+      "wfo": {
+        "abbreviation": "MTR",
+        "name": "Monterey"
+      },
+      "state": {
+        "abbreviation": "CA",
+        "name": "California"
+      },
+      "latitude": 37.0502,
+      "longitude": -121.2913,
+      "pedts": {
+        "observed": "HPIRG",
+        "forecast": ""
+      },
+      "status": {
+        "observed": {
+          "primary": -999,
+          "primaryUnit": "",
+          "secondary": -999,
+          "secondaryUnit": "",
+          "floodCategory": "obs_not_current",
+          "validTime": "0001-01-01T00:00:00Z"
+        },
+        "forecast": {
+          "primary": -999,
+          "primaryUnit": "",
+          "secondary": -999,
+          "secondaryUnit": "",
+          "floodCategory": "fcst_not_current",
+          "validTime": "0001-01-01T00:00:00Z"
+        }
+      }
+    },
+    {
+      "lid": "PAJC1",
+      "name": "Pajaro River at Watsonville",
+      "rfc": {
+        "abbreviation": "CNRFC",
+        "name": "California Nevada River Forecast Center"
+      },
+      "wfo": {
+        "abbreviation": "MTR",
+        "name": "Monterey"
+      },
+      "state": {
+        "abbreviation": "CA",
+        "name": "California"
+      },
+      "latitude": 36.9056111,
+      "longitude": -121.7518889,
+      "pedts": {
+        "observed": "HGIRG",
+        "forecast": ""
+      },
+      "status": {
+        "observed": {
+          "primary": 12.02,
+          "primaryUnit": "ft",
+          "secondary": 0.007,
+          "secondaryUnit": "kcfs",
+          "floodCategory": "not_defined",
+          "validTime": "2026-11-25T11:00:00Z"
+        },
+        "forecast": {
+          "primary": -999,
+          "primaryUnit": "",
+          "secondary": -999,
+          "secondaryUnit": "",
+          "floodCategory": "fcst_not_current",
+          "validTime": "0001-01-01T00:00:00Z"
+        }
+      }
+    },
+    {
+      "lid": "PBPC1",
+      "name": "Pacheco Creek below Pacheco Reservoir",
+      "rfc": {
+        "abbreviation": "CNRFC",
+        "name": "California Nevada River Forecast Center"
+      },
+      "wfo": {
+        "abbreviation": "MTR",
+        "name": "Monterey"
+      },
+      "state": {
+        "abbreviation": "CA",
+        "name": "California"
+      },
+      "latitude": 37.049412,
+      "longitude": -121.29099,
+      "pedts": {
+        "observed": "HGIRG",
+        "forecast": ""
+      },
+      "status": {
+        "observed": {
+          "primary": -999,
+          "primaryUnit": "",
+          "secondary": -999,
+          "secondaryUnit": "",
+          "floodCategory": "obs_not_current",
+          "validTime": "0001-01-01T00:00:00Z"
+        },
+        "forecast": {
+          "primary": -999,
+          "primaryUnit": "",
+          "secondary": -999,
+          "secondaryUnit": "",
+          "floodCategory": "fcst_not_current",
+          "validTime": "0001-01-01T00:00:00Z"
+        }
+      }
+    },
+    {
+      "lid": "PBSC1",
+      "name": "Pacheco Creek near Bell Station",
+      "rfc": {
+        "abbreviation": "CNRFC",
+        "name": "California Nevada River Forecast Center"
+      },
+      "wfo": {
+        "abbreviation": "MTR",
+        "name": "Monterey"
+      },
+      "state": {
+        "abbreviation": "CA",
+        "name": "California"
+      },
+      "latitude": 37.0347,
+      "longitude": -121.31,
+      "pedts": {
+        "observed": "HGIRG",
+        "forecast": ""
+      },
+      "status": {
+        "observed": {
+          "primary": -999,
+          "primaryUnit": "",
+          "secondary": -999,
+          "secondaryUnit": "",
+          "floodCategory": "obs_not_current",
+          "validTime": "0001-01-01T00:00:00Z"
+        },
+        "forecast": {
+          "primary": -999,
+          "primaryUnit": "",
+          "secondary": -999,
+          "secondaryUnit": "",
+          "floodCategory": "fcst_not_current",
+          "validTime": "0001-01-01T00:00:00Z"
+        }
+      }
+    },
+    {
+      "lid": "PGTC1",
+      "name": "Saratoga Creek at Pruneridge Avenue",
+      "rfc": {
+        "abbreviation": "CNRFC",
+        "name": "California Nevada River Forecast Center"
+      },
+      "wfo": {
+        "abbreviation": "MTR",
+        "name": "Monterey"
+      },
+      "state": {
+        "abbreviation": "CA",
+        "name": "California"
+      },
+      "latitude": 37.3311,
+      "longitude": -121.9886,
+      "pedts": {
+        "observed": "HGIRG",
+        "forecast": ""
+      },
+      "status": {
+        "observed": {
+          "primary": 0.6,
+          "primaryUnit": "ft",
+          "secondary": -999,
+          "secondaryUnit": "kcfs",
+          "floodCategory": "not_defined",
+          "validTime": "2026-11-25T11:15:00Z"
+        },
+        "forecast": {
+          "primary": -999,
+          "primaryUnit": "",
+          "secondary": -999,
+          "secondaryUnit": "",
+          "floodCategory": "fcst_not_current",
+          "validTime": "0001-01-01T00:00:00Z"
+        }
+      }
+    },
+    {
+      "lid": "PHOC1",
+      "name": "Pacheco Creek near Dunneville",
+      "rfc": {
+        "abbreviation": "CNRFC",
+        "name": "California Nevada River Forecast Center"
+      },
+      "wfo": {
+        "abbreviation": "MTR",
+        "name": "Monterey"
+      },
+      "state": {
+        "abbreviation": "CA",
+        "name": "California"
+      },
+      "latitude": 36.98,
+      "longitude": -121.3802778,
+      "pedts": {
+        "observed": "HGIRG",
+        "forecast": "HGIFZ"
+      },
+      "status": {
+        "observed": {
+          "primary": 1.53,
+          "primaryUnit": "ft",
+          "secondary": -999,
+          "secondaryUnit": "kcfs",
+          "floodCategory": "no_flooding",
+          "validTime": "2026-11-25T11:15:00Z"
+        },
+        "forecast": {
+          "primary": 2.02,
+          "primaryUnit": "ft",
+          "secondary": 0,
+          "secondaryUnit": "kcfs",
+          "floodCategory": "no_flooding",
+          "validTime": "2026-11-25T20:00:00Z"
+        }
+      }
+    },
+    {
+      "lid": "PJMC1",
+      "name": "Pajaro River at Main Street",
+      "rfc": {
+        "abbreviation": "CNRFC",
+        "name": "California Nevada River Forecast Center"
+      },
+      "wfo": {
+        "abbreviation": "MTR",
+        "name": "Monterey"
+      },
+      "state": {
+        "abbreviation": "CA",
+        "name": "California"
+      },
+      "latitude": 36.9053,
+      "longitude": -121.7503,
+      "pedts": {
+        "observed": "HGIRR",
+        "forecast": ""
+      },
+      "status": {
+        "observed": {
+          "primary": -999,
+          "primaryUnit": "",
+          "secondary": -999,
+          "secondaryUnit": "",
+          "floodCategory": "out_of_service",
+          "validTime": "0001-01-01T00:00:00Z"
+        },
+        "forecast": {
+          "primary": -999,
+          "primaryUnit": "",
+          "secondary": -999,
+          "secondaryUnit": "",
+          "floodCategory": "out_of_service",
+          "validTime": "0001-01-01T00:00:00Z"
+        }
+      }
+    },
+    {
+      "lid": "PKWC1",
+      "name": "Packwood Creek  Jackson Ranch",
+      "rfc": {
+        "abbreviation": "CNRFC",
+        "name": "California Nevada River Forecast Center"
+      },
+      "wfo": {
+        "abbreviation": "MTR",
+        "name": "Monterey"
+      },
+      "state": {
+        "abbreviation": "CA",
+        "name": "California"
+      },
+      "latitude": 37.168855,
+      "longitude": -121.602062,
+      "pedts": {
+        "observed": "HGIRG",
+        "forecast": ""
+      },
+      "status": {
+        "observed": {
+          "primary": 0.51,
+          "primaryUnit": "ft",
+          "secondary": 0,
+          "secondaryUnit": "kcfs",
+          "floodCategory": "not_defined",
+          "validTime": "2026-11-25T11:00:00Z"
+        },
+        "forecast": {
+          "primary": -999,
+          "primaryUnit": "",
+          "secondary": -999,
+          "secondaryUnit": "",
+          "floodCategory": "fcst_not_current",
+          "validTime": "0001-01-01T00:00:00Z"
+        }
+      }
+    },
+    {
+      "lid": "PMBC1",
+      "name": "Permanente Creek above Berry Avenue",
+      "rfc": {
+        "abbreviation": "CNRFC",
+        "name": "California Nevada River Forecast Center"
+      },
+      "wfo": {
+        "abbreviation": "MTR",
+        "name": "Monterey"
+      },
+      "state": {
+        "abbreviation": "CA",
+        "name": "California"
+      },
+      "latitude": 37.3615,
+      "longitude": -122.0869,
+      "pedts": {
+        "observed": "HGIRG",
+        "forecast": ""
+      },
+      "status": {
+        "observed": {
+          "primary": 2.3,
+          "primaryUnit": "ft",
+          "secondary": 0.025,
+          "secondaryUnit": "kcfs",
+          "floodCategory": "no_flooding",
+          "validTime": "2026-11-25T11:00:00Z"
+        },
+        "forecast": {
+          "primary": -999,
+          "primaryUnit": "",
+          "secondary": -999,
+          "secondaryUnit": "",
+          "floodCategory": "fcst_not_current",
+          "validTime": "0001-01-01T00:00:00Z"
+        }
+      }
+    },
+    {
+      "lid": "PMEC1",
+      "name": "Permanente Creek at Rancho San Antonio",
+      "rfc": {
+        "abbreviation": "CNRFC",
+        "name": "California Nevada River Forecast Center"
+      },
+      "wfo": {
+        "abbreviation": "MTR",
+        "name": "Monterey"
+      },
+      "state": {
+        "abbreviation": "CA",
+        "name": "California"
+      },
+      "latitude": 37.3329,
+      "longitude": -122.0884,
+      "pedts": {
+        "observed": "HGIRG",
+        "forecast": ""
+      },
+      "status": {
+        "observed": {
+          "primary": 3.03,
+          "primaryUnit": "ft",
+          "secondary": 0.002,
+          "secondaryUnit": "kcfs",
+          "floodCategory": "no_flooding",
+          "validTime": "2026-11-25T11:00:00Z"
+        },
+        "forecast": {
+          "primary": -999,
+          "primaryUnit": "",
+          "secondary": -999,
+          "secondaryUnit": "",
+          "floodCategory": "fcst_not_current",
+          "validTime": "0001-01-01T00:00:00Z"
+        }
+      }
+    },
+    {
+      "lid": "PTDC1",
+      "name": "Upper Penitencia Creek at Dorel Drive",
+      "rfc": {
+        "abbreviation": "CNRFC",
+        "name": "California Nevada River Forecast Center"
+      },
+      "wfo": {
+        "abbreviation": "MTR",
+        "name": "Monterey"
+      },
+      "state": {
+        "abbreviation": "CA",
+        "name": "California"
+      },
+      "latitude": 37.3952,
+      "longitude": -121.8281,
+      "pedts": {
+        "observed": "HGIRG",
+        "forecast": ""
+      },
+      "status": {
+        "observed": {
+          "primary": 7.12,
+          "primaryUnit": "ft",
+          "secondary": 0,
+          "secondaryUnit": "kcfs",
+          "floodCategory": "no_flooding",
+          "validTime": "2026-11-25T11:03:00Z"
+        },
+        "forecast": {
+          "primary": -999,
+          "primaryUnit": "",
+          "secondary": -999,
+          "secondaryUnit": "",
+          "floodCategory": "fcst_not_current",
+          "validTime": "0001-01-01T00:00:00Z"
+        }
+      }
+    },
+    {
+      "lid": "QBAC1",
+      "name": "Coyote Creek below Anderson Reservoir",
+      "rfc": {
+        "abbreviation": "CNRFC",
+        "name": "California Nevada River Forecast Center"
+      },
+      "wfo": {
+        "abbreviation": "MTR",
+        "name": "Monterey"
+      },
+      "state": {
+        "abbreviation": "CA",
+        "name": "California"
+      },
+      "latitude": 37.164777,
+      "longitude": -121.632302,
+      "pedts": {
+        "observed": "HGIRG",
+        "forecast": ""
+      },
+      "status": {
+        "observed": {
+          "primary": 4.29,
+          "primaryUnit": "ft",
+          "secondary": -999,
+          "secondaryUnit": "kcfs",
+          "floodCategory": "not_defined",
+          "validTime": "2026-11-25T11:00:00Z"
+        },
+        "forecast": {
+          "primary": -999,
+          "primaryUnit": "",
+          "secondary": -999,
+          "secondaryUnit": "",
+          "floodCategory": "fcst_not_current",
+          "validTime": "0001-01-01T00:00:00Z"
+        }
+      }
+    },
+    {
+      "lid": "QSGC1",
+      "name": "Saratoga Creek at Saratoga",
+      "rfc": {
+        "abbreviation": "CNRFC",
+        "name": "California Nevada River Forecast Center"
+      },
+      "wfo": {
+        "abbreviation": "MTR",
+        "name": "Monterey"
+      },
+      "state": {
+        "abbreviation": "CA",
+        "name": "California"
+      },
+      "latitude": 37.2518,
+      "longitude": -122.0515,
+      "pedts": {
+        "observed": "QRIRG",
+        "forecast": ""
+      },
+      "status": {
+        "observed": {
+          "primary": -999,
+          "primaryUnit": "",
+          "secondary": -999,
+          "secondaryUnit": "",
+          "floodCategory": "obs_not_current",
+          "validTime": "0001-01-01T00:00:00Z"
+        },
+        "forecast": {
+          "primary": -999,
+          "primaryUnit": "",
+          "secondary": -999,
+          "secondaryUnit": "",
+          "floodCategory": "fcst_not_current",
+          "validTime": "0001-01-01T00:00:00Z"
+        }
+      }
+    },
+    {
+      "lid": "QSTC1",
+      "name": "San Tomas Aquino Creek at San Tomas Creek at Scott Blvd",
+      "rfc": {
+        "abbreviation": "CNRFC",
+        "name": "California Nevada River Forecast Center"
+      },
+      "wfo": {
+        "abbreviation": "MTR",
+        "name": "Monterey"
+      },
+      "state": {
+        "abbreviation": "CA",
+        "name": "California"
+      },
+      "latitude": 37.3791,
+      "longitude": -121.969,
+      "pedts": {
+        "observed": "HGIRG",
+        "forecast": ""
+      },
+      "status": {
+        "observed": {
+          "primary": -999,
+          "primaryUnit": "",
+          "secondary": -999,
+          "secondaryUnit": "",
+          "floodCategory": "out_of_service",
+          "validTime": "0001-01-01T00:00:00Z"
+        },
+        "forecast": {
+          "primary": -999,
+          "primaryUnit": "",
+          "secondary": -999,
+          "secondaryUnit": "",
+          "floodCategory": "out_of_service",
+          "validTime": "0001-01-01T00:00:00Z"
+        }
+      }
+    },
+    {
+      "lid": "RBHC1",
+      "name": "Ross Creek at Blossom Hill Road",
+      "rfc": {
+        "abbreviation": "CNRFC",
+        "name": "California Nevada River Forecast Center"
+      },
+      "wfo": {
+        "abbreviation": "MTR",
+        "name": "Monterey"
+      },
+      "state": {
+        "abbreviation": "CA",
+        "name": "California"
+      },
+      "latitude": 37.235,
+      "longitude": -121.88083333333333,
+      "pedts": {
+        "observed": "HGIRG",
+        "forecast": ""
+      },
+      "status": {
+        "observed": {
+          "primary": 1.2,
+          "primaryUnit": "ft",
+          "secondary": 0,
+          "secondaryUnit": "kcfs",
+          "floodCategory": "not_defined",
+          "validTime": "2026-11-25T11:15:00Z"
+        },
+        "forecast": {
+          "primary": -999,
+          "primaryUnit": "",
+          "secondary": -999,
+          "secondaryUnit": "",
+          "floodCategory": "fcst_not_current",
+          "validTime": "0001-01-01T00:00:00Z"
+        }
+      }
+    },
+    {
+      "lid": "RCCC1",
+      "name": "Coyote Creek below Coyote Reservoir NR San Martin",
+      "rfc": {
+        "abbreviation": "CNRFC",
+        "name": "California Nevada River Forecast Center"
+      },
+      "wfo": {
+        "abbreviation": "MTR",
+        "name": "Monterey"
+      },
+      "state": {
+        "abbreviation": "CA",
+        "name": "California"
+      },
+      "latitude": 37.1229999,
+      "longitude": -121.5527193,
+      "pedts": {
+        "observed": "HGIRG",
+        "forecast": ""
+      },
+      "status": {
+        "observed": {
+          "primary": 4.95,
+          "primaryUnit": "ft",
+          "secondary": 0.02,
+          "secondaryUnit": "kcfs",
+          "floodCategory": "not_defined",
+          "validTime": "2026-11-25T11:15:00Z"
+        },
+        "forecast": {
+          "primary": -999,
+          "primaryUnit": "",
+          "secondary": -999,
+          "secondaryUnit": "",
+          "floodCategory": "fcst_not_current",
+          "validTime": "0001-01-01T00:00:00Z"
+        }
+      }
+    },
+    {
+      "lid": "RSCC1",
+      "name": "Ross Creek at Cherry Avenue",
+      "rfc": {
+        "abbreviation": "CNRFC",
+        "name": "California Nevada River Forecast Center"
+      },
+      "wfo": {
+        "abbreviation": "MTR",
+        "name": "Monterey"
+      },
+      "state": {
+        "abbreviation": "CA",
+        "name": "California"
+      },
+      "latitude": 37.2631,
+      "longitude": -121.8868,
+      "pedts": {
+        "observed": "HGIRG",
+        "forecast": ""
+      },
+      "status": {
+        "observed": {
+          "primary": 2.68,
+          "primaryUnit": "ft",
+          "secondary": -999,
+          "secondaryUnit": "kcfs",
+          "floodCategory": "no_flooding",
+          "validTime": "2026-11-25T11:15:00Z"
+        },
+        "forecast": {
+          "primary": -999,
+          "primaryUnit": "",
+          "secondary": -999,
+          "secondaryUnit": "",
+          "floodCategory": "fcst_not_current",
+          "validTime": "0001-01-01T00:00:00Z"
+        }
+      }
+    },
+    {
+      "lid": "RTSC1",
+      "name": "Artesian Slough",
+      "rfc": {
+        "abbreviation": "CNRFC",
+        "name": "California Nevada River Forecast Center"
+      },
+      "wfo": {
+        "abbreviation": "MTR",
+        "name": "Monterey"
+      },
+      "state": {
+        "abbreviation": "CA",
+        "name": "California"
+      },
+      "latitude": 37.4606,
+      "longitude": -121.963,
+      "pedts": {
+        "observed": "HGIRG",
+        "forecast": ""
+      },
+      "status": {
+        "observed": {
+          "primary": 6.82,
+          "primaryUnit": "ft",
+          "secondary": -999,
+          "secondaryUnit": "kcfs",
+          "floodCategory": "not_defined",
+          "validTime": "2026-11-25T11:00:00Z"
+        },
+        "forecast": {
+          "primary": -999,
+          "primaryUnit": "",
+          "secondary": -999,
+          "secondaryUnit": "",
+          "floodCategory": "fcst_not_current",
+          "validTime": "0001-01-01T00:00:00Z"
+        }
+      }
+    },
+    {
+      "lid": "RYAC1",
+      "name": "San Francisco Bay  Coyote Creek",
+      "rfc": {
+        "abbreviation": "CNRFC",
+        "name": "California Nevada River Forecast Center"
+      },
+      "wfo": {
+        "abbreviation": "MTR",
+        "name": "Monterey"
+      },
+      "state": {
+        "abbreviation": "CA",
+        "name": "California"
+      },
+      "latitude": 37.4638278,
+      "longitude": -122.0241556,
+      "pedts": {
+        "observed": "HGIRG",
+        "forecast": ""
+      },
+      "status": {
+        "observed": {
+          "primary": 7.08,
+          "primaryUnit": "ft",
+          "secondary": -999,
+          "secondaryUnit": "kcfs",
+          "floodCategory": "not_defined",
+          "validTime": "2026-11-25T10:15:00Z"
+        },
+        "forecast": {
+          "primary": -999,
+          "primaryUnit": "",
+          "secondary": -999,
+          "secondaryUnit": "",
+          "floodCategory": "fcst_not_current",
+          "validTime": "0001-01-01T00:00:00Z"
+        }
+      }
+    },
+    {
+      "lid": "SFCC1",
+      "name": "San Francisquito Creek at Stanford University",
+      "rfc": {
+        "abbreviation": "CNRFC",
+        "name": "California Nevada River Forecast Center"
+      },
+      "wfo": {
+        "abbreviation": "MTR",
+        "name": "Monterey"
+      },
+      "state": {
+        "abbreviation": "CA",
+        "name": "California"
+      },
+      "latitude": 37.42327257,
+      "longitude": -122.1894095,
+      "pedts": {
+        "observed": "HGIRG",
+        "forecast": "HGIFZ"
+      },
+      "status": {
+        "observed": {
+          "primary": 0.4,
+          "primaryUnit": "ft",
+          "secondary": 0.002,
+          "secondaryUnit": "kcfs",
+          "floodCategory": "no_flooding",
+          "validTime": "2026-11-25T11:15:00Z"
+        },
+        "forecast": {
+          "primary": 0.52,
+          "primaryUnit": "ft",
+          "secondary": 0.004,
+          "secondaryUnit": "kcfs",
+          "floodCategory": "no_flooding",
+          "validTime": "2026-11-25T14:00:00Z"
+        }
+      }
+    },
+    {
+      "lid": "SLQC1",
+      "name": "Salsipuedes Creek at Highway 129",
+      "rfc": {
+        "abbreviation": "CNRFC",
+        "name": "California Nevada River Forecast Center"
+      },
+      "wfo": {
+        "abbreviation": "MTR",
+        "name": "Monterey"
+      },
+      "state": {
+        "abbreviation": "CA",
+        "name": "California"
+      },
+      "latitude": 36.9125,
+      "longitude": -121.74527777778,
+      "pedts": {
+        "observed": "HGIRR",
+        "forecast": ""
+      },
+      "status": {
+        "observed": {
+          "primary": -999,
+          "primaryUnit": "",
+          "secondary": -999,
+          "secondaryUnit": "",
+          "floodCategory": "out_of_service",
+          "validTime": "0001-01-01T00:00:00Z"
+        },
+        "forecast": {
+          "primary": -999,
+          "primaryUnit": "",
+          "secondary": -999,
+          "secondaryUnit": "",
+          "floodCategory": "out_of_service",
+          "validTime": "0001-01-01T00:00:00Z"
+        }
+      }
+    },
+    {
+      "lid": "SOGC1",
+      "name": "Saratoga Creek at Saratoga",
+      "rfc": {
+        "abbreviation": "CNRFC",
+        "name": "California Nevada River Forecast Center"
+      },
+      "wfo": {
+        "abbreviation": "MTR",
+        "name": "Monterey"
+      },
+      "state": {
+        "abbreviation": "CA",
+        "name": "California"
+      },
+      "latitude": 37.25438808,
+      "longitude": -122.039404,
+      "pedts": {
+        "observed": "HGIRG",
+        "forecast": ""
+      },
+      "status": {
+        "observed": {
+          "primary": 2.18,
+          "primaryUnit": "ft",
+          "secondary": 0.002,
+          "secondaryUnit": "kcfs",
+          "floodCategory": "not_defined",
+          "validTime": "2026-11-25T10:15:00Z"
+        },
+        "forecast": {
+          "primary": -999,
+          "primaryUnit": "",
+          "secondary": -999,
+          "secondaryUnit": "",
+          "floodCategory": "fcst_not_current",
+          "validTime": "0001-01-01T00:00:00Z"
+        }
+      }
+    },
+    {
+      "lid": "SOQC1",
+      "name": "Soquel Creek at Soquel",
+      "rfc": {
+        "abbreviation": "CNRFC",
+        "name": "California Nevada River Forecast Center"
+      },
+      "wfo": {
+        "abbreviation": "MTR",
+        "name": "Monterey"
+      },
+      "state": {
+        "abbreviation": "CA",
+        "name": "California"
+      },
+      "latitude": 36.9913389,
+      "longitude": -121.9557933,
+      "pedts": {
+        "observed": "HGIRG",
+        "forecast": ""
+      },
+      "status": {
+        "observed": {
+          "primary": 2.66,
+          "primaryUnit": "ft",
+          "secondary": 0.008,
+          "secondaryUnit": "kcfs",
+          "floodCategory": "no_flooding",
+          "validTime": "2026-11-25T10:45:00Z"
+        },
+        "forecast": {
+          "primary": -999,
+          "primaryUnit": "",
+          "secondary": -999,
+          "secondaryUnit": "",
+          "floodCategory": "fcst_not_current",
+          "validTime": "0001-01-01T00:00:00Z"
+        }
+      }
+    },
+    {
+      "lid": "STDC1",
+      "name": "Stevens Creek  Stevens Creek Reservoir",
+      "rfc": {
+        "abbreviation": "CNRFC",
+        "name": "California Nevada River Forecast Center"
+      },
+      "wfo": {
+        "abbreviation": "MTR",
+        "name": "Monterey"
+      },
+      "state": {
+        "abbreviation": "CA",
+        "name": "California"
+      },
+      "latitude": 37.298611111111,
+      "longitude": -122.07611111111,
+      "pedts": {
+        "observed": "HPIRG",
+        "forecast": ""
+      },
+      "status": {
+        "observed": {
+          "primary": 527.14,
+          "primaryUnit": "ft",
+          "secondary": 2.39,
+          "secondaryUnit": "kcfs",
+          "floodCategory": "not_defined",
+          "validTime": "2026-11-25T11:00:00Z"
+        },
+        "forecast": {
+          "primary": -999,
+          "primaryUnit": "",
+          "secondary": -999,
+          "secondaryUnit": "",
+          "floodCategory": "fcst_not_current",
+          "validTime": "0001-01-01T00:00:00Z"
+        }
+      }
+    },
+    {
+      "lid": "SVXC1",
+      "name": "Stevens Creek above Hwy 85",
+      "rfc": {
+        "abbreviation": "CNRFC",
+        "name": "California Nevada River Forecast Center"
+      },
+      "wfo": {
+        "abbreviation": "MTR",
+        "name": "Monterey"
+      },
+      "state": {
+        "abbreviation": "CA",
+        "name": "California"
+      },
+      "latitude": 37.3952,
+      "longitude": -122.0689,
+      "pedts": {
+        "observed": "HGIRG",
+        "forecast": ""
+      },
+      "status": {
+        "observed": {
+          "primary": 2.55,
+          "primaryUnit": "ft",
+          "secondary": -999,
+          "secondaryUnit": "kcfs",
+          "floodCategory": "no_flooding",
+          "validTime": "2026-11-25T11:15:00Z"
+        },
+        "forecast": {
+          "primary": -999,
+          "primaryUnit": "",
+          "secondary": -999,
+          "secondaryUnit": "",
+          "floodCategory": "fcst_not_current",
+          "validTime": "0001-01-01T00:00:00Z"
+        }
+      }
+    },
+    {
+      "lid": "SVZC1",
+      "name": "Stevens Creek below Stevens Creek Reservoir",
+      "rfc": {
+        "abbreviation": "CNRFC",
+        "name": "California Nevada River Forecast Center"
+      },
+      "wfo": {
+        "abbreviation": "MTR",
+        "name": "Monterey"
+      },
+      "state": {
+        "abbreviation": "CA",
+        "name": "California"
+      },
+      "latitude": 37.3059,
+      "longitude": -122.0732,
+      "pedts": {
+        "observed": "HGIRG",
+        "forecast": ""
+      },
+      "status": {
+        "observed": {
+          "primary": 2.25,
+          "primaryUnit": "ft",
+          "secondary": 0.004,
+          "secondaryUnit": "kcfs",
+          "floodCategory": "no_flooding",
+          "validTime": "2026-11-25T11:15:00Z"
+        },
+        "forecast": {
+          "primary": -999,
+          "primaryUnit": "",
+          "secondary": -999,
+          "secondaryUnit": "",
+          "floodCategory": "fcst_not_current",
+          "validTime": "0001-01-01T00:00:00Z"
+        }
+      }
+    },
+    {
+      "lid": "SYQC1",
+      "name": "Sunnyvale East above Hwy 101",
+      "rfc": {
+        "abbreviation": "CNRFC",
+        "name": "California Nevada River Forecast Center"
+      },
+      "wfo": {
+        "abbreviation": "MTR",
+        "name": "Monterey"
+      },
+      "state": {
+        "abbreviation": "CA",
+        "name": "California"
+      },
+      "latitude": 37.3946,
+      "longitude": -122.0104,
+      "pedts": {
+        "observed": "HGIRG",
+        "forecast": ""
+      },
+      "status": {
+        "observed": {
+          "primary": 1.56,
+          "primaryUnit": "ft",
+          "secondary": 0.003,
+          "secondaryUnit": "kcfs",
+          "floodCategory": "no_flooding",
+          "validTime": "2026-11-25T11:15:00Z"
+        },
+        "forecast": {
+          "primary": -999,
+          "primaryUnit": "",
+          "secondary": -999,
+          "secondaryUnit": "",
+          "floodCategory": "fcst_not_current",
+          "validTime": "0001-01-01T00:00:00Z"
+        }
+      }
+    },
+    {
+      "lid": "THQC1",
+      "name": "Thompson Creek above Quimby Avenue",
+      "rfc": {
+        "abbreviation": "CNRFC",
+        "name": "California Nevada River Forecast Center"
+      },
+      "wfo": {
+        "abbreviation": "MTR",
+        "name": "Monterey"
+      },
+      "state": {
+        "abbreviation": "CA",
+        "name": "California"
+      },
+      "latitude": 37.3236,
+      "longitude": -121.8079,
+      "pedts": {
+        "observed": "HGIRG",
+        "forecast": ""
+      },
+      "status": {
+        "observed": {
+          "primary": 1.32,
+          "primaryUnit": "ft",
+          "secondary": 0.001,
+          "secondaryUnit": "kcfs",
+          "floodCategory": "not_defined",
+          "validTime": "2026-11-25T11:15:00Z"
+        },
+        "forecast": {
+          "primary": -999,
+          "primaryUnit": "",
+          "secondary": -999,
+          "secondaryUnit": "",
+          "floodCategory": "fcst_not_current",
+          "validTime": "0001-01-01T00:00:00Z"
+        }
+      }
+    },
+    {
+      "lid": "TMGC1",
+      "name": "San Tomas Aquino Creek at Mission College Blvd.",
+      "rfc": {
+        "abbreviation": "CNRFC",
+        "name": "California Nevada River Forecast Center"
+      },
+      "wfo": {
+        "abbreviation": "MTR",
+        "name": "Monterey"
+      },
+      "state": {
+        "abbreviation": "CA",
+        "name": "California"
+      },
+      "latitude": 37.3889,
+      "longitude": -121.9686,
+      "pedts": {
+        "observed": "HGIRG",
+        "forecast": ""
+      },
+      "status": {
+        "observed": {
+          "primary": 4.16,
+          "primaryUnit": "ft",
+          "secondary": 0.006,
+          "secondaryUnit": "kcfs",
+          "floodCategory": "no_flooding",
+          "validTime": "2026-11-25T11:15:00Z"
+        },
+        "forecast": {
+          "primary": -999,
+          "primaryUnit": "",
+          "secondary": -999,
+          "secondaryUnit": "",
+          "floodCategory": "fcst_not_current",
+          "validTime": "0001-01-01T00:00:00Z"
+        }
+      }
+    },
+    {
+      "lid": "TMSC1",
+      "name": "San Tomas Aquino Creek above Williams Road",
+      "rfc": {
+        "abbreviation": "CNRFC",
+        "name": "California Nevada River Forecast Center"
+      },
+      "wfo": {
+        "abbreviation": "MTR",
+        "name": "Monterey"
+      },
+      "state": {
+        "abbreviation": "CA",
+        "name": "California"
+      },
+      "latitude": 37.306463,
+      "longitude": -121.964252,
+      "pedts": {
+        "observed": "HGIRG",
+        "forecast": ""
+      },
+      "status": {
+        "observed": {
+          "primary": 0.7,
+          "primaryUnit": "ft",
+          "secondary": -999,
+          "secondaryUnit": "kcfs",
+          "floodCategory": "no_flooding",
+          "validTime": "2026-11-25T11:16:00Z"
+        },
+        "forecast": {
+          "primary": -999,
+          "primaryUnit": "",
+          "secondary": -999,
+          "secondaryUnit": "",
+          "floodCategory": "fcst_not_current",
+          "validTime": "0001-01-01T00:00:00Z"
+        }
+      }
+    },
+    {
+      "lid": "TOUC1",
+      "name": "Guadalupe River  Trout Creek",
+      "rfc": {
+        "abbreviation": "CNRFC",
+        "name": "California Nevada River Forecast Center"
+      },
+      "wfo": {
+        "abbreviation": "MTR",
+        "name": "Monterey"
+      },
+      "state": {
+        "abbreviation": "CA",
+        "name": "California"
+      },
+      "latitude": 37.202923,
+      "longitude": -121.99328,
+      "pedts": {
+        "observed": "HGIRG",
+        "forecast": ""
+      },
+      "status": {
+        "observed": {
+          "primary": 3.65,
+          "primaryUnit": "ft",
+          "secondary": -999,
+          "secondaryUnit": "kcfs",
+          "floodCategory": "not_defined",
+          "validTime": "2026-11-25T11:15:00Z"
+        },
+        "forecast": {
+          "primary": -999,
+          "primaryUnit": "",
+          "secondary": -999,
+          "secondaryUnit": "",
+          "floodCategory": "fcst_not_current",
+          "validTime": "0001-01-01T00:00:00Z"
+        }
+      }
+    },
+    {
+      "lid": "UMSC1",
+      "name": "Miller Slough at US Hwy 101",
+      "rfc": {
+        "abbreviation": "CNRFC",
+        "name": "California Nevada River Forecast Center"
+      },
+      "wfo": {
+        "abbreviation": "MTR",
+        "name": "Monterey"
+      },
+      "state": {
+        "abbreviation": "CA",
+        "name": "California"
+      },
+      "latitude": 37.0095454,
+      "longitude": -121.5581067,
+      "pedts": {
+        "observed": "HGIRG",
+        "forecast": ""
+      },
+      "status": {
+        "observed": {
+          "primary": 1.96,
+          "primaryUnit": "ft",
+          "secondary": -999,
+          "secondaryUnit": "kcfs",
+          "floodCategory": "not_defined",
+          "validTime": "2026-11-25T11:00:00Z"
+        },
+        "forecast": {
+          "primary": -999,
+          "primaryUnit": "",
+          "secondary": -999,
+          "secondaryUnit": "",
+          "floodCategory": "fcst_not_current",
+          "validTime": "0001-01-01T00:00:00Z"
+        }
+      }
+    },
+    {
+      "lid": "UMYC1",
+      "name": "Upper Penitencia Creek below Educational Park Drive ",
+      "rfc": {
+        "abbreviation": "CNRFC",
+        "name": "California Nevada River Forecast Center"
+      },
+      "wfo": {
+        "abbreviation": "MTR",
+        "name": "Monterey"
+      },
+      "state": {
+        "abbreviation": "CA",
+        "name": "California"
+      },
+      "latitude": 37.37001532,
+      "longitude": -121.8631496,
+      "pedts": {
+        "observed": "HGIRG",
+        "forecast": ""
+      },
+      "status": {
+        "observed": {
+          "primary": 3.43,
+          "primaryUnit": "ft",
+          "secondary": -999,
+          "secondaryUnit": "kcfs",
+          "floodCategory": "not_defined",
+          "validTime": "2026-11-25T11:05:00Z"
+        },
+        "forecast": {
+          "primary": -999,
+          "primaryUnit": "",
+          "secondary": -999,
+          "secondaryUnit": "",
+          "floodCategory": "fcst_not_current",
+          "validTime": "0001-01-01T00:00:00Z"
+        }
+      }
+    },
+    {
+      "lid": "UPCC1",
+      "name": "Upper Penitencia Creek at Piedmont Road",
+      "rfc": {
+        "abbreviation": "CNRFC",
+        "name": "California Nevada River Forecast Center"
+      },
+      "wfo": {
+        "abbreviation": "MTR",
+        "name": "Monterey"
+      },
+      "state": {
+        "abbreviation": "CA",
+        "name": "California"
+      },
+      "latitude": 37.3906,
+      "longitude": -121.8429,
+      "pedts": {
+        "observed": "HGIRG",
+        "forecast": "HGIFZ"
+      },
+      "status": {
+        "observed": {
+          "primary": 4.19,
+          "primaryUnit": "ft",
+          "secondary": -999,
+          "secondaryUnit": "kcfs",
+          "floodCategory": "no_flooding",
+          "validTime": "2026-11-25T11:15:00Z"
+        },
+        "forecast": {
+          "primary": 4.72,
+          "primaryUnit": "ft",
+          "secondary": 0,
+          "secondaryUnit": "kcfs",
+          "floodCategory": "no_flooding",
+          "validTime": "2026-11-25T12:00:00Z"
+        }
+      }
+    },
+    {
+      "lid": "USYC1",
+      "name": "Upper Silver Creek at Yerba Buena Rd",
+      "rfc": {
+        "abbreviation": "CNRFC",
+        "name": "California Nevada River Forecast Center"
+      },
+      "wfo": {
+        "abbreviation": "MTR",
+        "name": "Monterey"
+      },
+      "state": {
+        "abbreviation": "CA",
+        "name": "California"
+      },
+      "latitude": 37.295833333333,
+      "longitude": -121.80777777778,
+      "pedts": {
+        "observed": "HGIRG",
+        "forecast": ""
+      },
+      "status": {
+        "observed": {
+          "primary": 1.03,
+          "primaryUnit": "ft",
+          "secondary": 0.003,
+          "secondaryUnit": "kcfs",
+          "floodCategory": "not_defined",
+          "validTime": "2026-11-25T11:00:00Z"
+        },
+        "forecast": {
+          "primary": -999,
+          "primaryUnit": "",
+          "secondary": -999,
+          "secondaryUnit": "",
+          "floodCategory": "fcst_not_current",
+          "validTime": "0001-01-01T00:00:00Z"
+        }
+      }
+    },
+    {
+      "lid": "UVBC1",
+      "name": "Uvas Creek below Uvas Reservoir",
+      "rfc": {
+        "abbreviation": "CNRFC",
+        "name": "California Nevada River Forecast Center"
+      },
+      "wfo": {
+        "abbreviation": "MTR",
+        "name": "Monterey"
+      },
+      "state": {
+        "abbreviation": "CA",
+        "name": "California"
+      },
+      "latitude": 37.0649,
+      "longitude": -121.6885,
+      "pedts": {
+        "observed": "HGIRG",
+        "forecast": ""
+      },
+      "status": {
+        "observed": {
+          "primary": 1.7,
+          "primaryUnit": "ft",
+          "secondary": 0.01,
+          "secondaryUnit": "kcfs",
+          "floodCategory": "not_defined",
+          "validTime": "2026-11-25T11:15:00Z"
+        },
+        "forecast": {
+          "primary": -999,
+          "primaryUnit": "",
+          "secondary": -999,
+          "secondaryUnit": "",
+          "floodCategory": "fcst_not_current",
+          "validTime": "0001-01-01T00:00:00Z"
+        }
+      }
+    },
+    {
+      "lid": "UVGC1",
+      "name": "Uvas Creek above W Luchessa Ave.",
+      "rfc": {
+        "abbreviation": "CNRFC",
+        "name": "California Nevada River Forecast Center"
+      },
+      "wfo": {
+        "abbreviation": "MTR",
+        "name": "Monterey"
+      },
+      "state": {
+        "abbreviation": "CA",
+        "name": "California"
+      },
+      "latitude": 36.9924,
+      "longitude": -121.5735,
+      "pedts": {
+        "observed": "HGIRG",
+        "forecast": ""
+      },
+      "status": {
+        "observed": {
+          "primary": 3.21,
+          "primaryUnit": "ft",
+          "secondary": 0,
+          "secondaryUnit": "kcfs",
+          "floodCategory": "no_flooding",
+          "validTime": "2026-11-25T11:15:00Z"
+        },
+        "forecast": {
+          "primary": -999,
+          "primaryUnit": "",
+          "secondary": -999,
+          "secondaryUnit": "",
+          "floodCategory": "fcst_not_current",
+          "validTime": "0001-01-01T00:00:00Z"
+        }
+      }
+    },
+    {
+      "lid": "UVHC1",
+      "name": "Uvas Creek at Heritage Way",
+      "rfc": {
+        "abbreviation": "CNRFC",
+        "name": "California Nevada River Forecast Center"
+      },
+      "wfo": {
+        "abbreviation": "MTR",
+        "name": "Monterey"
+      },
+      "state": {
+        "abbreviation": "CA",
+        "name": "California"
+      },
+      "latitude": 37.0538,
+      "longitude": -121.6619,
+      "pedts": {
+        "observed": "HGIRG",
+        "forecast": ""
+      },
+      "status": {
+        "observed": {
+          "primary": 4.64,
+          "primaryUnit": "ft",
+          "secondary": 0.013,
+          "secondaryUnit": "kcfs",
+          "floodCategory": "not_defined",
+          "validTime": "2026-11-25T11:15:00Z"
+        },
+        "forecast": {
+          "primary": -999,
+          "primaryUnit": "",
+          "secondary": -999,
+          "secondaryUnit": "",
+          "floodCategory": "fcst_not_current",
+          "validTime": "0001-01-01T00:00:00Z"
+        }
+      }
+    },
+    {
+      "lid": "UVMC1",
+      "name": "Uvas Creek at Miller Avenue",
+      "rfc": {
+        "abbreviation": "CNRFC",
+        "name": "California Nevada River Forecast Center"
+      },
+      "wfo": {
+        "abbreviation": "MTR",
+        "name": "Monterey"
+      },
+      "state": {
+        "abbreviation": "CA",
+        "name": "California"
+      },
+      "latitude": 36.998672,
+      "longitude": -121.58509,
+      "pedts": {
+        "observed": "HGIRG",
+        "forecast": ""
+      },
+      "status": {
+        "observed": {
+          "primary": 1.37,
+          "primaryUnit": "ft",
+          "secondary": 0.002,
+          "secondaryUnit": "kcfs",
+          "floodCategory": "no_flooding",
+          "validTime": "2026-11-25T11:15:00Z"
+        },
+        "forecast": {
+          "primary": -999,
+          "primaryUnit": "",
+          "secondary": -999,
+          "secondaryUnit": "",
+          "floodCategory": "fcst_not_current",
+          "validTime": "0001-01-01T00:00:00Z"
+        }
+      }
+    },
+    {
+      "lid": "UVXC1",
+      "name": "Uvas Creek at HWY 152",
+      "rfc": {
+        "abbreviation": "CNRFC",
+        "name": "California Nevada River Forecast Center"
+      },
+      "wfo": {
+        "abbreviation": "MTR",
+        "name": "Monterey"
+      },
+      "state": {
+        "abbreviation": "CA",
+        "name": "California"
+      },
+      "latitude": 37.010399,
+      "longitude": -121.625396,
+      "pedts": {
+        "observed": "HGIRG",
+        "forecast": ""
+      },
+      "status": {
+        "observed": {
+          "primary": 2.36,
+          "primaryUnit": "ft",
+          "secondary": 0.013,
+          "secondaryUnit": "kcfs",
+          "floodCategory": "not_defined",
+          "validTime": "2026-11-25T11:15:00Z"
+        },
+        "forecast": {
+          "primary": -999,
+          "primaryUnit": "",
+          "secondary": -999,
+          "secondaryUnit": "",
+          "floodCategory": "fcst_not_current",
+          "validTime": "0001-01-01T00:00:00Z"
+        }
+      }
+    },
+    {
+      "lid": "VASC1",
+      "name": "Los Gatos Creek at Vasona Reservoir",
+      "rfc": {
+        "abbreviation": "CNRFC",
+        "name": "California Nevada River Forecast Center"
+      },
+      "wfo": {
+        "abbreviation": "MTR",
+        "name": "Monterey"
+      },
+      "state": {
+        "abbreviation": "CA",
+        "name": "California"
+      },
+      "latitude": 37.246666666667,
+      "longitude": -121.96361111111,
+      "pedts": {
+        "observed": "HPIRG",
+        "forecast": ""
+      },
+      "status": {
+        "observed": {
+          "primary": 291.13,
+          "primaryUnit": "ft",
+          "secondary": 0.284,
+          "secondaryUnit": "kcfs",
+          "floodCategory": "not_defined",
+          "validTime": "2026-11-25T11:00:00Z"
+        },
+        "forecast": {
+          "primary": -999,
+          "primaryUnit": "",
+          "secondary": -999,
+          "secondaryUnit": "",
+          "floodCategory": "fcst_not_current",
+          "validTime": "0001-01-01T00:00:00Z"
+        }
+      }
+    },
+    {
+      "lid": "VBTC1",
+      "name": "Stevens Creek below Interstate 280",
+      "rfc": {
+        "abbreviation": "CNRFC",
+        "name": "California Nevada River Forecast Center"
+      },
+      "wfo": {
+        "abbreviation": "MTR",
+        "name": "Monterey"
+      },
+      "state": {
+        "abbreviation": "CA",
+        "name": "California"
+      },
+      "latitude": 37.3330013,
+      "longitude": -122.063495,
+      "pedts": {
+        "observed": "HGIRG",
+        "forecast": ""
+      },
+      "status": {
+        "observed": {
+          "primary": 3.37,
+          "primaryUnit": "ft",
+          "secondary": 0.004,
+          "secondaryUnit": "kcfs",
+          "floodCategory": "not_defined",
+          "validTime": "2026-11-25T11:00:00Z"
+        },
+        "forecast": {
+          "primary": -999,
+          "primaryUnit": "",
+          "secondary": -999,
+          "secondaryUnit": "",
+          "floodCategory": "fcst_not_current",
+          "validTime": "0001-01-01T00:00:00Z"
+        }
+      }
+    },
+    {
+      "lid": "VQIC1",
+      "name": "Los Gatos Creek above Vasona Reservoir",
+      "rfc": {
+        "abbreviation": "CNRFC",
+        "name": "California Nevada River Forecast Center"
+      },
+      "wfo": {
+        "abbreviation": "MTR",
+        "name": "Monterey"
+      },
+      "state": {
+        "abbreviation": "CA",
+        "name": "California"
+      },
+      "latitude": 37.23075,
+      "longitude": -121.973116,
+      "pedts": {
+        "observed": "HGIRG",
+        "forecast": ""
+      },
+      "status": {
+        "observed": {
+          "primary": 2.31,
+          "primaryUnit": "ft",
+          "secondary": 0.009,
+          "secondaryUnit": "kcfs",
+          "floodCategory": "no_flooding",
+          "validTime": "2026-11-25T11:15:00Z"
+        },
+        "forecast": {
+          "primary": -999,
+          "primaryUnit": "",
+          "secondary": -999,
+          "secondaryUnit": "",
+          "floodCategory": "fcst_not_current",
+          "validTime": "0001-01-01T00:00:00Z"
+        }
+      }
+    },
+    {
+      "lid": "WAVC1",
+      "name": "San Francisquito Creek at Waverly (SFWS)",
+      "rfc": {
+        "abbreviation": "CNRFC",
+        "name": "California Nevada River Forecast Center"
+      },
+      "wfo": {
+        "abbreviation": "MTR",
+        "name": "Monterey"
+      },
+      "state": {
+        "abbreviation": "CA",
+        "name": "California"
+      },
+      "latitude": 37.45111111111111,
+      "longitude": -122.16694444444444,
+      "pedts": {
+        "observed": "HGIRR",
+        "forecast": ""
+      },
+      "status": {
+        "observed": {
+          "primary": 0.83,
+          "primaryUnit": "ft",
+          "secondary": -999,
+          "secondaryUnit": "kcfs",
+          "floodCategory": "no_flooding",
+          "validTime": "2026-11-25T11:05:00Z"
+        },
+        "forecast": {
+          "primary": -999,
+          "primaryUnit": "",
+          "secondary": -999,
+          "secondaryUnit": "",
+          "floodCategory": "fcst_not_current",
+          "validTime": "0001-01-01T00:00:00Z"
+        }
+      }
+    },
+    {
+      "lid": "WBHC1",
+      "name": "Matadero Creek at West Bayshore Road",
+      "rfc": {
+        "abbreviation": "CNRFC",
+        "name": "California Nevada River Forecast Center"
+      },
+      "wfo": {
+        "abbreviation": "MTR",
+        "name": "Monterey"
+      },
+      "state": {
+        "abbreviation": "CA",
+        "name": "California"
+      },
+      "latitude": 37.4217,
+      "longitude": -122.1344,
+      "pedts": {
+        "observed": "HGIRR",
+        "forecast": ""
+      },
+      "status": {
+        "observed": {
+          "primary": -999,
+          "primaryUnit": "",
+          "secondary": -999,
+          "secondaryUnit": "",
+          "floodCategory": "out_of_service",
+          "validTime": "0001-01-01T00:00:00Z"
+        },
+        "forecast": {
+          "primary": -999,
+          "primaryUnit": "",
+          "secondary": -999,
+          "secondaryUnit": "",
+          "floodCategory": "out_of_service",
+          "validTime": "0001-01-01T00:00:00Z"
+        }
+      }
+    },
+    {
+      "lid": "WBLC1",
+      "name": "West Branch Llagas Creek at Cohansey Avenue",
+      "rfc": {
+        "abbreviation": "CNRFC",
+        "name": "California Nevada River Forecast Center"
+      },
+      "wfo": {
+        "abbreviation": "MTR",
+        "name": "Monterey"
+      },
+      "state": {
+        "abbreviation": "CA",
+        "name": "California"
+      },
+      "latitude": 37.034382,
+      "longitude": -121.587065,
+      "pedts": {
+        "observed": "HGIRG",
+        "forecast": ""
+      },
+      "status": {
+        "observed": {
+          "primary": 4.89,
+          "primaryUnit": "ft",
+          "secondary": -999,
+          "secondaryUnit": "kcfs",
+          "floodCategory": "not_defined",
+          "validTime": "2026-11-25T11:00:00Z"
+        },
+        "forecast": {
+          "primary": -999,
+          "primaryUnit": "",
+          "secondary": -999,
+          "secondaryUnit": "",
+          "floodCategory": "fcst_not_current",
+          "validTime": "0001-01-01T00:00:00Z"
+        }
+      }
+    },
+    {
+      "lid": "WBYC1",
+      "name": "San Francisquito Creek at West Bayshore (SFWB)",
+      "rfc": {
+        "abbreviation": "CNRFC",
+        "name": "California Nevada River Forecast Center"
+      },
+      "wfo": {
+        "abbreviation": "MTR",
+        "name": "Monterey"
+      },
+      "state": {
+        "abbreviation": "CA",
+        "name": "California"
+      },
+      "latitude": 37.4525,
+      "longitude": -122.12777777777778,
+      "pedts": {
+        "observed": "HGIRR",
+        "forecast": ""
+      },
+      "status": {
+        "observed": {
+          "primary": 0.37,
+          "primaryUnit": "ft",
+          "secondary": -999,
+          "secondaryUnit": "kcfs",
+          "floodCategory": "not_defined",
+          "validTime": "2026-11-25T11:05:00Z"
+        },
+        "forecast": {
+          "primary": -999,
+          "primaryUnit": "",
+          "secondary": -999,
+          "secondaryUnit": "",
+          "floodCategory": "fcst_not_current",
+          "validTime": "0001-01-01T00:00:00Z"
+        }
+      }
+    },
+    {
+      "lid": "WDTC1",
+      "name": "Wildcat Creek at SPRR",
+      "rfc": {
+        "abbreviation": "CNRFC",
+        "name": "California Nevada River Forecast Center"
+      },
+      "wfo": {
+        "abbreviation": "MTR",
+        "name": "Monterey"
+      },
+      "state": {
+        "abbreviation": "CA",
+        "name": "California"
+      },
+      "latitude": 37.269908112,
+      "longitude": -121.9925924709,
+      "pedts": {
+        "observed": "HGIRG",
+        "forecast": ""
+      },
+      "status": {
+        "observed": {
+          "primary": 0.45,
+          "primaryUnit": "ft",
+          "secondary": 0,
+          "secondaryUnit": "kcfs",
+          "floodCategory": "not_defined",
+          "validTime": "2026-11-25T11:00:00Z"
+        },
+        "forecast": {
+          "primary": -999,
+          "primaryUnit": "",
+          "secondary": -999,
+          "secondaryUnit": "",
+          "floodCategory": "fcst_not_current",
+          "validTime": "0001-01-01T00:00:00Z"
+        }
+      }
+    },
+    {
+      "lid": "WFPC1",
+      "name": "West Fork Permanente Creek below Deer Farm",
+      "rfc": {
+        "abbreviation": "CNRFC",
+        "name": "California Nevada River Forecast Center"
+      },
+      "wfo": {
+        "abbreviation": "MTR",
+        "name": "Monterey"
+      },
+      "state": {
+        "abbreviation": "CA",
+        "name": "California"
+      },
+      "latitude": 37.3322,
+      "longitude": -122.0986,
+      "pedts": {
+        "observed": "HGIRG",
+        "forecast": ""
+      },
+      "status": {
+        "observed": {
+          "primary": 2.65,
+          "primaryUnit": "ft",
+          "secondary": -999,
+          "secondaryUnit": "kcfs",
+          "floodCategory": "not_defined",
+          "validTime": "2026-11-25T11:00:00Z"
+        },
+        "forecast": {
+          "primary": -999,
+          "primaryUnit": "",
+          "secondary": -999,
+          "secondaryUnit": "",
+          "floodCategory": "fcst_not_current",
+          "validTime": "0001-01-01T00:00:00Z"
+        }
+      }
+    },
+    {
+      "lid": "WLAC1",
+      "name": "West Little Llagas Creek below Edmundson",
+      "rfc": {
+        "abbreviation": "CNRFC",
+        "name": "California Nevada River Forecast Center"
+      },
+      "wfo": {
+        "abbreviation": "MTR",
+        "name": "Monterey"
+      },
+      "state": {
+        "abbreviation": "CA",
+        "name": "California"
+      },
+      "latitude": 37.1114,
+      "longitude": -121.6442,
+      "pedts": {
+        "observed": "HGIRG",
+        "forecast": ""
+      },
+      "status": {
+        "observed": {
+          "primary": -999,
+          "primaryUnit": "",
+          "secondary": -999,
+          "secondaryUnit": "",
+          "floodCategory": "obs_not_current",
+          "validTime": "0001-01-01T00:00:00Z"
+        },
+        "forecast": {
+          "primary": -999,
+          "primaryUnit": "",
+          "secondary": -999,
+          "secondaryUnit": "",
+          "floodCategory": "fcst_not_current",
+          "validTime": "0001-01-01T00:00:00Z"
+        }
+      }
+    },
+    {
+      "lid": "WLMC1",
+      "name": "Los Gatos Creek at Williams Reservoir",
+      "rfc": {
+        "abbreviation": "CNRFC",
+        "name": "California Nevada River Forecast Center"
+      },
+      "wfo": {
+        "abbreviation": "MTR",
+        "name": "Monterey"
+      },
+      "state": {
+        "abbreviation": "CA",
+        "name": "California"
+      },
+      "latitude": 37.1215,
+      "longitude": -121.9076,
+      "pedts": {
+        "observed": "HPIRG",
+        "forecast": ""
+      },
+      "status": {
+        "observed": {
+          "primary": -999,
+          "primaryUnit": "",
+          "secondary": -999,
+          "secondaryUnit": "",
+          "floodCategory": "obs_not_current",
+          "validTime": "0001-01-01T00:00:00Z"
+        },
+        "forecast": {
+          "primary": -999,
+          "primaryUnit": "",
+          "secondary": -999,
+          "secondaryUnit": "",
+          "floodCategory": "fcst_not_current",
+          "validTime": "0001-01-01T00:00:00Z"
+        }
+      }
+    },
+    {
+      "lid": "WSXC1",
+      "name": "Salsipuedes Creek near Lakeview Rd",
+      "rfc": {
+        "abbreviation": "CNRFC",
+        "name": "California Nevada River Forecast Center"
+      },
+      "wfo": {
+        "abbreviation": "MTR",
+        "name": "Monterey"
+      },
+      "state": {
+        "abbreviation": "CA",
+        "name": "California"
+      },
+      "latitude": 36.9181222,
+      "longitude": -121.733611,
+      "pedts": {
+        "observed": "HGIRG",
+        "forecast": ""
+      },
+      "status": {
+        "observed": {
+          "primary": 4.17,
+          "primaryUnit": "ft",
+          "secondary": 0,
+          "secondaryUnit": "kcfs",
+          "floodCategory": "not_defined",
+          "validTime": "2026-11-25T10:45:00Z"
+        },
+        "forecast": {
+          "primary": -999,
+          "primaryUnit": "",
+          "secondary": -999,
+          "secondaryUnit": "",
+          "floodCategory": "fcst_not_current",
+          "validTime": "0001-01-01T00:00:00Z"
+        }
+      }
+    },
+    {
+      "lid": "XAOC1",
+      "name": "Coyote Creek above Ogier Ponds",
+      "rfc": {
+        "abbreviation": "CNRFC",
+        "name": "California Nevada River Forecast Center"
+      },
+      "wfo": {
+        "abbreviation": "MTR",
+        "name": "Monterey"
+      },
+      "state": {
+        "abbreviation": "CA",
+        "name": "California"
+      },
+      "latitude": 37.171469,
+      "longitude": -121.681746,
+      "pedts": {
+        "observed": "HGIRG",
+        "forecast": ""
+      },
+      "status": {
+        "observed": {
+          "primary": 1.56,
+          "primaryUnit": "ft",
+          "secondary": -999,
+          "secondaryUnit": "kcfs",
+          "floodCategory": "not_defined",
+          "validTime": "2026-11-25T11:15:00Z"
+        },
+        "forecast": {
+          "primary": -999,
+          "primaryUnit": "",
+          "secondary": -999,
+          "secondaryUnit": "",
+          "floodCategory": "fcst_not_current",
+          "validTime": "0001-01-01T00:00:00Z"
+        }
+      }
+    },
+    {
+      "lid": "XAPC1",
+      "name": "Aptos Creek at Aptos",
+      "rfc": {
+        "abbreviation": "CNRFC",
+        "name": "California Nevada River Forecast Center"
+      },
+      "wfo": {
+        "abbreviation": "MTR",
+        "name": "Monterey"
+      },
+      "state": {
+        "abbreviation": "CA",
+        "name": "California"
+      },
+      "latitude": 37.00161665,
+      "longitude": -121.9060688,
+      "pedts": {
+        "observed": "HGIRG",
+        "forecast": ""
+      },
+      "status": {
+        "observed": {
+          "primary": 3.19,
+          "primaryUnit": "ft",
+          "secondary": 0.001,
+          "secondaryUnit": "kcfs",
+          "floodCategory": "not_defined",
+          "validTime": "2026-11-25T11:00:00Z"
+        },
+        "forecast": {
+          "primary": -999,
+          "primaryUnit": "",
+          "secondary": -999,
+          "secondaryUnit": "",
+          "floodCategory": "fcst_not_current",
+          "validTime": "0001-01-01T00:00:00Z"
+        }
+      }
+    },
+    {
+      "lid": "XBCC1",
+      "name": "Berryessa Creek at Old Piedmont Road",
+      "rfc": {
+        "abbreviation": "CNRFC",
+        "name": "California Nevada River Forecast Center"
+      },
+      "wfo": {
+        "abbreviation": "MTR",
+        "name": "Monterey"
+      },
+      "state": {
+        "abbreviation": "CA",
+        "name": "California"
+      },
+      "latitude": 37.418167165,
+      "longitude": -121.8550948,
+      "pedts": {
+        "observed": "HGIRG",
+        "forecast": ""
+      },
+      "status": {
+        "observed": {
+          "primary": 9.9,
+          "primaryUnit": "ft",
+          "secondary": 0.021,
+          "secondaryUnit": "kcfs",
+          "floodCategory": "no_flooding",
+          "validTime": "2026-11-25T11:15:00Z"
+        },
+        "forecast": {
+          "primary": -999,
+          "primaryUnit": "",
+          "secondary": -999,
+          "secondaryUnit": "",
+          "floodCategory": "fcst_not_current",
+          "validTime": "0001-01-01T00:00:00Z"
+        }
+      }
+    },
+    {
+      "lid": "XBOC1",
+      "name": "Coyote Creek below Ogier Ponds",
+      "rfc": {
+        "abbreviation": "CNRFC",
+        "name": "California Nevada River Forecast Center"
+      },
+      "wfo": {
+        "abbreviation": "MTR",
+        "name": "Monterey"
+      },
+      "state": {
+        "abbreviation": "CA",
+        "name": "California"
+      },
+      "latitude": 37.191559,
+      "longitude": -121.708435,
+      "pedts": {
+        "observed": "HGIRG",
+        "forecast": ""
+      },
+      "status": {
+        "observed": {
+          "primary": 10.84,
+          "primaryUnit": "ft",
+          "secondary": -999,
+          "secondaryUnit": "kcfs",
+          "floodCategory": "not_defined",
+          "validTime": "2026-11-25T11:15:00Z"
+        },
+        "forecast": {
+          "primary": -999,
+          "primaryUnit": "",
+          "secondary": -999,
+          "secondaryUnit": "",
+          "floodCategory": "fcst_not_current",
+          "validTime": "0001-01-01T00:00:00Z"
+        }
+      }
+    },
+    {
+      "lid": "XCBC1",
+      "name": "Coyote Creek at Berryessa Rd.",
+      "rfc": {
+        "abbreviation": "CNRFC",
+        "name": "California Nevada River Forecast Center"
+      },
+      "wfo": {
+        "abbreviation": "MTR",
+        "name": "Monterey"
+      },
+      "state": {
+        "abbreviation": "CA",
+        "name": "California"
+      },
+      "latitude": 37.368056,
+      "longitude": -121.880833,
+      "pedts": {
+        "observed": "HGIRG",
+        "forecast": ""
+      },
+      "status": {
+        "observed": {
+          "primary": -999,
+          "primaryUnit": "",
+          "secondary": -999,
+          "secondaryUnit": "",
+          "floodCategory": "obs_not_current",
+          "validTime": "0001-01-01T00:00:00Z"
+        },
+        "forecast": {
+          "primary": -999,
+          "primaryUnit": "",
+          "secondary": -999,
+          "secondaryUnit": "",
+          "floodCategory": "fcst_not_current",
+          "validTime": "0001-01-01T00:00:00Z"
+        }
+      }
+    },
+    {
+      "lid": "XCMC1",
+      "name": "Coyote Creek at Madrone",
+      "rfc": {
+        "abbreviation": "CNRFC",
+        "name": "California Nevada River Forecast Center"
+      },
+      "wfo": {
+        "abbreviation": "MTR",
+        "name": "Monterey"
+      },
+      "state": {
+        "abbreviation": "CA",
+        "name": "California"
+      },
+      "latitude": 37.168479,
+      "longitude": -121.64951,
+      "pedts": {
+        "observed": "HGIRG",
+        "forecast": ""
+      },
+      "status": {
+        "observed": {
+          "primary": -999,
+          "primaryUnit": "",
+          "secondary": -999,
+          "secondaryUnit": "",
+          "floodCategory": "out_of_service",
+          "validTime": "0001-01-01T00:00:00Z"
+        },
+        "forecast": {
+          "primary": -999,
+          "primaryUnit": "",
+          "secondary": -999,
+          "secondaryUnit": "",
+          "floodCategory": "out_of_service",
+          "validTime": "0001-01-01T00:00:00Z"
+        }
+      }
+    },
+    {
+      "lid": "XLAC1",
+      "name": "Little Arthur Creek at Redwood Retreat Rd",
+      "rfc": {
+        "abbreviation": "CNRFC",
+        "name": "California Nevada River Forecast Center"
+      },
+      "wfo": {
+        "abbreviation": "MTR",
+        "name": "Monterey"
+      },
+      "state": {
+        "abbreviation": "CA",
+        "name": "California"
+      },
+      "latitude": 37.0281,
+      "longitude": -121.6594,
+      "pedts": {
+        "observed": "HGIRG",
+        "forecast": ""
+      },
+      "status": {
+        "observed": {
+          "primary": 3.56,
+          "primaryUnit": "ft",
+          "secondary": 0,
+          "secondaryUnit": "kcfs",
+          "floodCategory": "not_defined",
+          "validTime": "2026-11-25T11:15:00Z"
+        },
+        "forecast": {
+          "primary": -999,
+          "primaryUnit": "",
+          "secondary": -999,
+          "secondaryUnit": "",
+          "floodCategory": "fcst_not_current",
+          "validTime": "0001-01-01T00:00:00Z"
+        }
+      }
+    },
+    {
+      "lid": "XLSC1",
+      "name": "Llagas Creek below Santa Teresa Blvd",
+      "rfc": {
+        "abbreviation": "CNRFC",
+        "name": "California Nevada River Forecast Center"
+      },
+      "wfo": {
+        "abbreviation": "MTR",
+        "name": "Monterey"
+      },
+      "state": {
+        "abbreviation": "CA",
+        "name": "California"
+      },
+      "latitude": 37.0917,
+      "longitude": -121.6344,
+      "pedts": {
+        "observed": "HGIRG",
+        "forecast": ""
+      },
+      "status": {
+        "observed": {
+          "primary": 3.92,
+          "primaryUnit": "ft",
+          "secondary": 0.021,
+          "secondaryUnit": "kcfs",
+          "floodCategory": "not_defined",
+          "validTime": "2026-11-25T11:15:00Z"
+        },
+        "forecast": {
+          "primary": -999,
+          "primaryUnit": "",
+          "secondary": -999,
+          "secondaryUnit": "",
+          "floodCategory": "fcst_not_current",
+          "validTime": "0001-01-01T00:00:00Z"
+        }
+      }
+    },
+    {
+      "lid": "XSEC1",
+      "name": "Sunnyvale East below Caribbean Drive",
+      "rfc": {
+        "abbreviation": "CNRFC",
+        "name": "California Nevada River Forecast Center"
+      },
+      "wfo": {
+        "abbreviation": "MTR",
+        "name": "Monterey"
+      },
+      "state": {
+        "abbreviation": "CA",
+        "name": "California"
+      },
+      "latitude": 37.418056,
+      "longitude": -122.002861,
+      "pedts": {
+        "observed": "HGIRG",
+        "forecast": ""
+      },
+      "status": {
+        "observed": {
+          "primary": 6.38,
+          "primaryUnit": "ft",
+          "secondary": -999,
+          "secondaryUnit": "kcfs",
+          "floodCategory": "not_defined",
+          "validTime": "2026-11-25T11:15:00Z"
+        },
+        "forecast": {
+          "primary": -999,
+          "primaryUnit": "",
+          "secondary": -999,
+          "secondaryUnit": "",
+          "floodCategory": "fcst_not_current",
+          "validTime": "0001-01-01T00:00:00Z"
+        }
+      }
+    },
+    {
+      "lid": "XTOC1",
+      "name": "San Tomas Creek at SPRR",
+      "rfc": {
+        "abbreviation": "CNRFC",
+        "name": "California Nevada River Forecast Center"
+      },
+      "wfo": {
+        "abbreviation": "MTR",
+        "name": "Monterey"
+      },
+      "state": {
+        "abbreviation": "CA",
+        "name": "California"
+      },
+      "latitude": 37.26888183,
+      "longitude": -121.99086096,
+      "pedts": {
+        "observed": "HGIRG",
+        "forecast": ""
+      },
+      "status": {
+        "observed": {
+          "primary": 2.29,
+          "primaryUnit": "ft",
+          "secondary": -999,
+          "secondaryUnit": "kcfs",
+          "floodCategory": "not_defined",
+          "validTime": "2026-11-25T11:00:00Z"
+        },
+        "forecast": {
+          "primary": -999,
+          "primaryUnit": "",
+          "secondary": -999,
+          "secondaryUnit": "",
+          "floodCategory": "fcst_not_current",
+          "validTime": "0001-01-01T00:00:00Z"
+        }
+      }
+    },
+    {
+      "lid": "YPRC1",
+      "name": "Coyote Perc Pond 10B",
+      "rfc": {
+        "abbreviation": "CNRFC",
+        "name": "California Nevada River Forecast Center"
+      },
+      "wfo": {
+        "abbreviation": "MTR",
+        "name": "Monterey"
+      },
+      "state": {
+        "abbreviation": "CA",
+        "name": "California"
+      },
+      "latitude": 37.237266,
+      "longitude": -121.762727,
+      "pedts": {
+        "observed": "",
+        "forecast": ""
+      },
+      "status": {
+        "observed": {
+          "primary": -999,
+          "primaryUnit": "",
+          "secondary": -999,
+          "secondaryUnit": "",
+          "floodCategory": "obs_not_current",
+          "validTime": "0001-01-01T00:00:00Z"
+        },
+        "forecast": {
+          "primary": -999,
+          "primaryUnit": "",
+          "secondary": -999,
+          "secondaryUnit": "",
+          "floodCategory": "fcst_not_current",
+          "validTime": "0001-01-01T00:00:00Z"
+        }
+      }
+    }
+  ]
+}

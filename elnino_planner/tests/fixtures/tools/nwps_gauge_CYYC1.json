@@ -1,0 +1,154 @@
+{
+  "lid": "CYYC1",
+  "usgsId": "",
+  "reachId": "948050175",
+  "name": "Coyote Creek at E William Street",
+  "description": "",
+  "rfc": {
+    "abbreviation": "CNRFC",
+    "name": "California Nevada River Forecast Center"
+  },
+  "wfo": {
+    "abbreviation": "MTR",
+    "name": "Monterey"
+  },
+  "state": {
+    "abbreviation": "CA",
+    "name": "California"
+  },
+  "county": "Santa Clara",
+  "timeZone": "PST8PDT",
+  "latitude": 37.3369,
+  "longitude": -121.8683,
+  "pedts": {
+    "observed": "HGIRG",
+    "forecast": ""
+  },
+  "status": {
+    "observed": {
+      "primary": 4.68,
+      "primaryUnit": "ft",
+      "secondary": 0.016,
+      "secondaryUnit": "kcfs",
+      "floodCategory": "no_flooding",
+      "validTime": "2026-11-25T11:30:00Z"
+    },
+    "forecast": {
+      "primary": -999,
+      "primaryUnit": "",
+      "secondary": -999,
+      "secondaryUnit": "",
+      "floodCategory": "fcst_not_current",
+      "validTime": "0001-01-01T00:00:00Z"
+    }
+  },
+  "flood": {
+    "stageUnits": "ft",
+    "flowUnits": "cfs",
+    "categories": {
+      "major": {
+        "stage": -9999,
+        "flow": -9999
+      },
+      "moderate": {
+        "stage": 32.5,
+        "flow": 6074
+      },
+      "minor": {
+        "stage": 28,
+        "flow": 4152
+      },
+      "action": {
+        "stage": 25,
+        "flow": 3092
+      }
+    },
+    "lro": null,
+    "crests": {
+      "historic": [],
+      "recent": []
+    },
+    "lowWaters": {
+      "historic": []
+    },
+    "impacts": [
+      {
+        "stage": 32.5,
+        "statement": "Moderate Flooding: Selma Olinder Park inundated and overflows into Olinder Neighborhood. Minor flooding at Olinder School. William Street Park is inundated. Higher flows will result in significant flooding along William Street and Olinder Neighborhood."
+      },
+      {
+        "stage": 28,
+        "statement": "Minor Flooding: Selma Olinder Park inundated. William Street Park begins to flood."
+      },
+      {
+        "stage": 25,
+        "statement": "Action Stage."
+      }
+    ]
+  },
+  "images": {
+    "probability": {
+      "weekint": {
+        "stage": "",
+        "flow": "",
+        "volume": ""
+      },
+      "entperiod": {
+        "stage": "",
+        "flow": "",
+        "volume": ""
+      },
+      "shortrange": ""
+    },
+    "hydrograph": {
+      "default": "https://water.noaa.gov/resources/hydrographs/cyyc1_hg.png",
+      "floodcat": "https://water.noaa.gov/resources/hydrographs/cyyc1_record.png"
+    },
+    "photos": []
+  },
+  "dataAttribution": [
+    {
+      "abbrev": "Valley Water",
+      "text": "Valley Water",
+      "title": "Valley Water",
+      "url": "https://valleywater.tierraplan.com/map?p=sensor&sid=5098&disc=f"
+    }
+  ],
+  "impactsLowWaters": [],
+  "normalThreshold": {
+    "value": 0,
+    "units": "ft"
+  },
+  "hydronotes": [],
+  "datums": {
+    "vertical": {
+      "value": []
+    },
+    "horizontal": {
+      "value": []
+    },
+    "notes": {
+      "value": []
+    }
+  },
+  "inundation": {
+    "enabled": false,
+    "url": "",
+    "zeroDatum": null,
+    "downloads": null,
+    "siteSpecificInfo": "",
+    "dataAttribution": []
+  },
+  "upstreamLid": "CYEC1",
+  "downstreamLid": "CMIC1",
+  "inService": {
+    "enabled": true,
+    "message": ""
+  },
+  "lowThreshold": null,
+  "forecastReliability": "Graphical forecasts are not available during times of high water, forecast crest information can be found in the local WFO web page.",
+  "TruncateObs": "-1",
+  "TruncateFcst": "-1",
+  "ObservedFloodCategory": "no_flooding",
+  "ForecastFloodCategory": "fcst_not_current"
+}
