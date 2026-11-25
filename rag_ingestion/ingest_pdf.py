@@ -11,6 +11,7 @@ from langchain_openai import OpenAIEmbeddings
 from langchain_community.document_loaders import WebBaseLoader
 from langchain_community.document_loaders.parsers import PyPDFParser
 from langchain_core.documents.base import Blob
+from langchain_core.documents import Document
 from langchain_text_splitters import RecursiveCharacterTextSplitter
 from dotenv import load_dotenv
 
@@ -51,8 +52,43 @@ def build_headers() -> dict[str, str]:
     }
 
 
+SCRIPT_DIR = Path(__file__).resolve().parent
+SNAPSHOT_HEADER = re.compile(r"\A\s*<!--(.*?)-->\s*", re.DOTALL)
+
+
+def snapshot_for(record: dict, url: str) -> Path | None:
+    """Saved copy of a page that blocks direct requests (see manifest `snapshot_paths`).
+
+    Paths are relative to this script's folder. A listed path that does not exist is an
+    error, not a silent fallback to the live URL (which is known to be blocked).
+    """
+    rel = (record.get("snapshot_paths") or {}).get(url)
+    if not rel:
+        return None
+    path = SCRIPT_DIR / rel
+    if not path.is_file():
+        raise FileNotFoundError(f"snapshot listed but missing: {rel}")
+    return path
+
+
+def load_snapshot(path: Path, url: str) -> list[Document]:
+    """Read a snapshot, dropping its provenance header so it is not embedded."""
+    text = path.read_text(encoding="utf-8")
+    header = SNAPSHOT_HEADER.match(text)
+    metadata = {"source": url, "snapshot_file": path.name}
+    if header:
+        fetched = re.search(r"fetched:\s*(\S+)", header.group(1))
+        if fetched:
+            metadata["snapshot_fetched"] = fetched.group(1)
+        text = text[header.end():]
+    return [Document(page_content=text, metadata=metadata)]
+
+
 def load_source_url(url: str, record: dict, headers: dict[str, str]):
-    if urlparse(url).path.lower().endswith(".pdf"):
+    snapshot = snapshot_for(record, url)
+    if snapshot is not None:
+        docs = load_snapshot(snapshot, url)
+    elif urlparse(url).path.lower().endswith(".pdf"):
         response = requests.get(url, headers=headers, timeout=30)
         response.raise_for_status()
 
@@ -81,6 +117,13 @@ def load_source_url(url: str, record: dict, headers: dict[str, str]):
         "publication_date",
         "date_precision",
         "accessed_date",
+        # WP-4 fields; present only on records that have been updated so far.
+        "scope",
+        "jurisdiction_code",
+        "volatility",
+        "review_by",
+        "phase",
+        "language",
     )
     shared_metadata = {
         key: record[key]
@@ -108,6 +151,8 @@ def classify_error(exc: Exception) -> tuple[str, int | None]:
             return "retryable_error", status_code
         return "http_error", status_code
 
+    if isinstance(exc, FileNotFoundError):
+        return "snapshot_missing", status_code
     if isinstance(exc, (requests.Timeout, requests.ConnectionError)):
         return "retryable_error", status_code
     if isinstance(exc, requests.RequestException):
@@ -192,15 +237,21 @@ def normalize_extracted_text(text: str) -> str:
     return text.strip()
 
 
-def main():
+def main(only: set[str] | None = None):
     headers = build_headers()
-    script_dir = Path(__file__).resolve().parent
+    script_dir = SCRIPT_DIR
     manifest_path = script_dir / "sources.jsonl"
     records = [
         json.loads(line)
         for line in manifest_path.read_text(encoding="utf-8").splitlines()
         if line.strip()
     ]
+    if only:
+        unknown = only - {record.get("id") for record in records}
+        if unknown:
+            raise SystemExit(f"--only names records not in sources.jsonl: {sorted(unknown)}")
+        records = [record for record in records if record.get("id") in only]
+        print(f"Ingesting {len(records)} record(s): {', '.join(sorted(only))}")
 
     run_id = datetime.now(timezone.utc).strftime("%Y%m%dT%H%M%SZ")
     status_path = script_dir / f"ingestion_status_{run_id}.jsonl"
@@ -216,14 +267,18 @@ def main():
                 try:
                     loaded_docs = load_source_url(url, record, headers)
                     documents.extend(loaded_docs)
-                    status = "success" if loaded_docs else "empty"
+                    from_snapshot = snapshot_for(record, url) is not None
+                    if not loaded_docs:
+                        status = "empty"
+                    else:
+                        status = "success_snapshot" if from_snapshot else "success"
                     status_record = make_status(
                         record,
                         url,
                         status,
                         document_count=len(loaded_docs),
                     )
-                    print(f"{status.upper():7} {url} ({len(loaded_docs)} document(s))")
+                    print(f"{status.upper():16} {url} ({len(loaded_docs)} document(s))")
                 except Exception as exc:
                     status, _ = classify_error(exc)
                     failure_count += 1
@@ -317,6 +372,15 @@ def upsert_to_vectordb(chunks, embedded):
         print("No vectors to upsert.")
 
 if __name__ == "__main__":
-    chunks, embeddings = main()
+    import argparse
+
+    parser = argparse.ArgumentParser(description="Ingest sources.jsonl into Pinecone.")
+    parser.add_argument(
+        "--only",
+        help="Comma-separated record ids to ingest (default: every record).",
+    )
+    args = parser.parse_args()
+    only = {item.strip() for item in args.only.split(",") if item.strip()} if args.only else None
+    chunks, embeddings = main(only)
     #print(f"length of chunks:{len(chunks)},length of embeddings{len(embeddings)}")
     upsert_to_vectordb(chunks, embeddings)
