@@ -3,7 +3,7 @@ name = "ai-engineer"
 version = "0.1.0"
 description = "Add your description here"
 readme = "README.md"
-requires-python = ">=3.9"
+requires-python = ">=3.12"
 dependencies = [
     "fastapi",
     "httpx",
@@ -12,9 +12,19 @@ dependencies = [
     "langchain-core>=0.3.86",
     "langchain-openai>=0.3.35",
     "langchain-text-splitters>=0.3.11",
+    "langchain-community",
     "openai",
     "pinecone>=7.3.0",
     "python-dotenv",
     "requests>=2.32.5",
     "streamlit",
+    "google-adk>=1.0.0",
+    "litellm>=1.75.5",
+    "google-genai>=1.0.0",
+    "a2a-sdk>=0.2.0",
+    "pypdf",
+    "bs4",
+    "fonttools",
+    "pydantic>=2.13.4",
+    "pyyaml>=6.0.3",
 ]
