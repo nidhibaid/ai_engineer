@@ -14,20 +14,30 @@ creek_gauge_bbox:             # approximate county extent; confirm against the v
 creek_gauge_allowlist: [GSJC1, GUDC1, CMIC1, CYEC1, CYTC1, CYYC1, CHJC1, BYSC1, CAAC1, ALVC1]
 utilities:
   - {name: PG&E, phone: "(800) 743-5000", url: null, verified: false}
-alert_system:
+alert_system:                   # URL moved from /sign-emergency-alerts (checked 2026-11-25)
   name: AlertSCC
-  url: https://oem.santaclaracounty.gov/sign-emergency-alerts
-  verified: false
+  url: https://oem.santaclaracounty.gov/sign-up-for-alerts
+  verified: true
+  verified_on: "2026-11-25"
 contacts:                       # from rag_ingestion/emergency_helplines.txt; confirm before launch
   - {name: Emergency (911), phone: "911", verified: true}
-  - {name: County Office of Emergency Management, phone: "(408) 808-7800", verified: false}
+  - {name: County Office of Emergency Management, phone: "(408) 808-7800", url: "https://oem.santaclaracounty.gov/", verified: true, verified_on: "2026-11-25"}
+  - {name: Valley Water Watershed Hotline (creek blockages), phone: "(408) 630-2378", url: "https://www.valleywater.org/flooding-safety/flood-ready/report-creek-blockages-local-flooding", verified: true, verified_on: "2026-11-25"}
   - {name: 211 Bay Area, phone: "211", verified: false}
   - {name: PG&E outages and safety, phone: "(800) 743-5000", verified: false}
 flood_zone_lookup_url: https://www.valleywater.org/floodzone
+resource_links:                 # link-outs for fast-changing info; not in the corpus
+  - {name: Free sandbags (Valley Water; 1 Nov - 15 Apr), url: "https://www.valleywater.org/flooding-safety/flood-ready/sandbags", verified: true, verified_on: "2026-11-25"}
+  - {name: Cooling and warming centers, url: "https://oem.santaclaracounty.gov/locations", verified: true, verified_on: "2026-11-25"}
+  - {name: Report creek blockages and local flooding, url: "https://www.valleywater.org/flooding-safety/flood-ready/report-creek-blockages-local-flooding", verified: true, verified_on: "2026-11-25"}
+  - {name: Check hazards at an address (Cal OES MyHazards), url: "https://myhazards.caloes.ca.gov/", verified: true, verified_on: "2026-11-25"}
+  - {name: PG&E outage map, url: "https://pgealerts.alerts.pge.com/outagecenter/", verified: false}
+  - {name: NWS San Francisco Bay Area forecasts and alerts, url: "https://www.weather.gov/mtr/", verified: true, verified_on: "2026-11-25"}
 corpus_manifest: rag_ingestion/sources.jsonl
 retrieval_scopes: [city, county, utility, state, federal]
 unverified:
   - boundary_file
   - cities
   - creek_gauge_bbox (approximate)
-  - utilities / contacts phone numbers and URLs
+  - utilities, 211 and PG&E phone numbers and URLs
+  - PG&E outage map URL (linked from county OEM pages, not opened directly)

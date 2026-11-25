@@ -12,6 +12,21 @@ class CountyPack(unittest.TestCase):
         self.assertEqual({s.id for s in p.tide_stations}, {"9414523", "9414290"})
         self.assertEqual(p.retrieval_scopes, ["city", "county", "utility", "state", "federal"])
 
+    def test_alert_system_uses_current_url(self):
+        p = load_county_pack("06085")
+        self.assertTrue(p.alert_system.url.endswith("/sign-up-for-alerts"))
+        self.assertTrue(p.alert_system.verified)
+
+    def test_resource_links_load_and_use_https(self):
+        p = load_county_pack("06085")
+        self.assertGreater(len(p.resource_links), 0)
+        links = p.resource_links + p.contacts + p.utilities + [p.alert_system]
+        for link in links:
+            if link.url:
+                self.assertTrue(link.url.startswith("https://"), link.url)
+            if link.verified and link.name != "Emergency (911)":
+                self.assertIsNotNone(link.verified_on, f"{link.name} verified without a date")
+
     def test_missing_pack_lists_available(self):
         with self.assertRaises(CountyPackError) as cm:
             load_county_pack("99999")

@@ -25,6 +25,7 @@ class Contact(BaseModel):
     phone: str | None = None
     url: str | None = None
     verified: bool = False  # spec: confirm each number before launch (WP-8)
+    verified_on: str | None = None  # ISO date the phone/URL was last checked by a person
 
 
 class CountyPack(BaseModel):
@@ -40,6 +41,9 @@ class CountyPack(BaseModel):
     alert_system: Contact
     contacts: list[Contact]
     flood_zone_lookup_url: str
+    # Link-outs for information that changes too often for the corpus (sandbag sites,
+    # warming centers, outage maps). Shown in the report; never retrieved or summarized.
+    resource_links: list[Contact] = []
     corpus_manifest: str
     retrieval_scopes: list[str]
     unverified: list[str] = []              # fields a human must still confirm; printed by the check script
